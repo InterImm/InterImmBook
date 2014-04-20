@@ -4,6 +4,6 @@
 
 本书托管在 GitHub 上，是由大家协作完成的。协作的方式和内容包括：
 
-1. 讨论：Bug 提交，建议等。（戳这里）
-2. Wiki：向 wiki 中添加新的条目。（戳这里）
+1. 讨论：Bug 提交，建议等。（戳[这里](https://github.com/InterImm/InterImmBook/issues)）
+2. Wiki：向 wiki 中添加新的条目。（戳[这里](https://github.com/InterImm/InterImmBook/wiki)）
 3. Pull request：Fork 本项目，然后修改，之后提交 pull request。
