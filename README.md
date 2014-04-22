@@ -11,7 +11,7 @@ InterImmBook
 gitbook build ./book --output=./output --title=星际移民之书
 ```
 
-来编辑此书。其他相关命令在此：
+来编译此书。其他相关命令在此：
 
 ```
 -t, --title <name> Name of the book to generate, defaults to repo name
