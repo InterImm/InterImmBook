@@ -11,6 +11,7 @@
 * [科技](tech/README.md)
     * [飞船科技](tech/spaceship.md)
     * [行星际运输](tech/transorbital.md)
+    * [恒星际运输](tech/interstellarTrans.md)
 * [历史](history/README.md)
     * [前移民时代](history/preImmigration.md)
     * [星际移民局/星际移民中小](history/interImmHist.md)
