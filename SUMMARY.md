@@ -8,6 +8,8 @@
 目录：
 
 * [星际移民中心](InterImm.md)
+* [地理](geo/README.md)
+    * [火星地理](geo/mars.md)
 * [科技](tech/README.md)
     * [飞船科技](tech/spaceship.md)
     * [行星际运输](tech/transorbital.md)
