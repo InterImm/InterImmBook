@@ -17,6 +17,7 @@
     * [行星际运输](tech/transorbital.md)
     * [恒星际运输](tech/interstellarTrans.md)
 * [历史](history/README.md)
+    * [火星编年史](history/chronicle.md)
     * [前移民时代](history/preImmigration.md)
     * [星际移民局/星际移民中心](history/interImmHist.md)
     * [星际孕妇](history/babies.md)
