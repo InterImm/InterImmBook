@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="en-US" manifest="./manifest.appcache">
     <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
         
         <meta charset="UTF-8">
-        <title>星际移民中心 | 星际移民之书</title>
+        <title>星际移民中心 | 关于</title>
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="robots" content="index, follow">
-        <meta name="author" content="InterImm">
+        <meta name="author" content="">
         <meta name="description" content="星际移民之书（[源代码](https://github.com/InterImm/InterImmBook)）是由[星际移民中心](http://interimm.github.io/)维护的一本开源书籍。这本书中主要包含了星际移民的历史和科技等相关信息。">
         <meta name="keywords" content="gitbook,github" >
         <meta name="generator" content="www.gitbook.io">
@@ -19,12 +19,12 @@
         <link rel="prev" href="./index.html" />
         
 
-        <meta property="og:title" content="星际移民中心 | 星际移民之书">
-        <meta property="og:site_name" content="星际移民之书">
+        <meta property="og:title" content="星际移民中心 | 关于">
+        <meta property="og:site_name" content="关于">
         <meta property="og:type" content="book">
         <meta property="og:locale" content="en_US">
 
-        <meta property="book:author" content="https://github.com/InterImm">
+        <meta property="book:author" content="https://github.com/">
         <meta property="book:tag" content="GitBook">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -36,14 +36,45 @@
     </head>
     <body>
         
-    <div class="book" data-github="InterImm/InterImmBook" data-level="1" data-basepath="." data-revision="1399603702499">
+
+        <link rel="stylesheet" href="gitbook/style.css">
+        
+
+
+        
+    <div class="book"  data-level="1" data-basepath="." data-revision="1399611067398">
     <div class="book-header">
     <!-- Actions Left -->
     
-    <a href="https://github.com/InterImm/InterImmBook" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
-    
     <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
     <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+	<div class="dropdown-caret">
+  <span class="caret-outer"></span>
+  <span class="caret-inner"></span>
+</div>
+
+	<div class="btn-group btn-block">
+		<button id="reduce-font-size" class="btn btn-default">A</button>
+		<button id="enlarge-font-size" class="btn btn-default">A</button>
+	</div>
+
+	<ul class="list-group font-family-list">
+		<li class="list-group-item" data-font="0">Serif</li>
+		<li class="list-group-item" data-font="1">Sans</li>
+	</ul>
+
+	<div class="btn-group btn-group-xs btn-block color-theme-list">
+	  <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+	</div>
+</div>
+
+    </span>
 
     <!-- Actions Right -->
     <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
@@ -51,12 +82,12 @@
     <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
 
     
-    <a href="https://github.com/InterImm/InterImmBook/stargazers" target="_blank" class="btn pull-right count-star"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
-    <a href="https://github.com/InterImm/InterImmBook/watchers" target="_blank" class="btn pull-right count-watch"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
-    
 
     <!-- Title -->
-    <h1><a href="./" >星际移民之书</a></h1>
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="./" >关于</a>
+    </h1>
 </div>
 
     <div class="book-summary">
@@ -64,17 +95,6 @@
         <input type="text" placeholder="Search" class="form-control" />
     </div>
     <ul class="summary">
-        
-        <li>
-            <a href="https://github.com/InterImm" target="blank">About the author</a>
-        </li>
-        <li>
-            <a href="https://github.com/InterImm/InterImmBook/issues" target="blank">Questions and Issues</a>
-        </li>
-        <li>
-            <a href="https://github.com/InterImm/InterImmBook/edit/master/InterImm.md" target="blank">Edit and Contribute</a>
-        </li>
-        <li class="divider"></li>
         
         <li data-level="0" data-path="index.html">
             <a href="./"><i class="fa fa-check"></i> Introduction</a>
@@ -255,12 +275,12 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_1">
+                    <section class="normal" id="section-gitbook_5">
                     
                         <h2 id="-">星际移民中心</h2>
 <p>星际移民中心的总部目前设置在火星。</p>
 <p>如果你目前在地球，需要乘坐运输船（星际移民中心也有自己的运输船，并且可以提供免费服务，不过需要提前申请），到达火星的第九区（S9，对应于<a href="http://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%A5%E5%B1%80" target="_blank">美国地质调查局</a>的 <a href="http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles" target="_blank">MC-14</a>，或者叫做<a href="http://zh.wikipedia.org/wiki/%E9%98%BF%E8%92%99%E8%92%82%E6%96%AF%E5%8C%BA" target="_blank">阿蒙蒂斯区</a>，<a href="http://en.wikipedia.org/wiki/Amenthes_quadrangle" target="_blank">Amenthes quadrangle</a>）。飞船一般会降落在一号湾（火星最漂亮的港口之一）。从一号湾可以经由快速通道直接到达星际移民中心。</p>
-<p><img src="resources/iimars.jpg" alt=""></p>
+<p><img src="resources\iimars.jpg" alt=""></p>
 <p>上图就是一号湾和 Harbor Crater，星际移民中心坐落在 Harbor Crater.</p>
 <p>从快速通道到达“星际移民中小站”，在出口处会看到大大的“星际移民中心”的标识。如果是在工作日，可以在出口处的咨询台询问，星际移民中心的工作人员会提供帮助。</p>
 <p>如果是非工作日，需要搭乘地面的快线列车，在目的地选择 “星际移民局一号港口” 即可。一号港有接待中心，并且有小型的车，告诉 AI 你的目的地即可。</p>
@@ -282,13 +302,31 @@
 </div>
 
         
-        <link rel="stylesheet" href="gitbook/style.css">
-        
-        
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
         <script src="gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
         <script src="gitbook/app.js"></script>
         
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mixpanel/plugin.js"></script>
+    
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
     </body>
 </html>
