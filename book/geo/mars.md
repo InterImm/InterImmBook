@@ -12,7 +12,7 @@
 
 [美国地质调查局](http://zh.wikipedia.org/zh-cn/%E7%BE%8E%E5%9C%8B%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%A5%E5%B1%80)（United States Geological Survey，即 USGS）把火星表面分成了 30 个区域，分区的方法是把 360 度的经线分为八份，并且以 0 度、30 度、65 度纬线为界。
 
-![](https://github.com/InterImm/InterImmBook/blob/master/book/geo/resources/USGSMarsSection.png?raw=true)
+![](../../resources/USGSMarsSection.png)
 
 （图片来自[维基百科](http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles)）
 
@@ -21,12 +21,12 @@
 
 火星的地形早在二十世纪末二十一世纪初的时候就被非常仔细的扫描过。火星全球探勘者号（Mars Global Surveyor, 简称 MGS）的数据被绘制成了火星的完整的地形图：
 
-![](https://github.com/InterImm/InterImmBook/blob/master/book/geo/resources/PIA02820.jpg?raw=true)
+![](../../resources/PIA02820.jpg)
 
 （来自[维基百科](http://zh.wikipedia.org/wiki/File:PIA02820.jpg)）
 
 
-![](https://github.com/InterImm/InterImmBook/blob/master/book/geo/resources/Mars_topography_(MOLA_dataset)_HiRes.jpg?raw=true)
+![](../../resources/1024px-Mars_topography_MOLA_dataset_HiRes.jpg)
 
 
 （来自[维基百科](http://zh.wikipedia.org/wiki/File:Mars_topography_(MOLA_dataset)_HiRes.jpg)）
@@ -37,4 +37,4 @@
 
 火星上的陨石坑的命名规则是，大陨石坑以重要的科学家和科幻作家命名；小陨石坑则以地球上的村镇命名。一些主要的地形以及火星探测器标示在了下图中（红线为海平面分界线）
 
-![](https://github.com/InterImm/InterImmBook/blob/master/book/resources/Mars24_1.png?raw=true)
+![](resources/Mars24_1.png)
