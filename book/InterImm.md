@@ -4,7 +4,7 @@
 
 如果你目前在地球，需要乘坐运输船（星际移民中心也有自己的运输船，并且可以提供免费服务，不过需要提前申请），到达火星的第九区（S9，对应于[美国地质调查局](http://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%A5%E5%B1%80)的 [MC-14](http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles)，或者叫做[阿蒙蒂斯区](http://zh.wikipedia.org/wiki/%E9%98%BF%E8%92%99%E8%92%82%E6%96%AF%E5%8C%BA)，[Amenthes quadrangle](http://en.wikipedia.org/wiki/Amenthes_quadrangle)）。飞船一般会降落在一号湾（火星最漂亮的港口之一）。从一号湾可以经由快速通道直接到达星际移民中心。
 
-![](https://github.com/InterImm/InterImmBook/blob/master/book/resources/iimars.jpg?raw=true)
+![](resources/iimars.jpg)
 
 上图就是一号湾和 Harbor Crater，星际移民中心坐落在 Harbor Crater.
 
