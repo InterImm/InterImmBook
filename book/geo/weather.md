@@ -10,7 +10,7 @@
 
 
 
-![](../../resources/duststorms.jpg)
+![](https://github.com/InterImm/InterImmBook/blob/master/book/geo/resources/duststorms.jpg?raw=true)
 
 > 图片来自 [University Today](http://www.universetoday.com/14892/mars-dust-storms/)。可以明显看到 2001 年的七月三十一号的时候，整个星球都被沙尘暴模糊了。
 
