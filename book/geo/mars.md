@@ -9,7 +9,7 @@
 
 ![](../../resources/USGSMarsSection.png)
 
-（图片来自[维基百科](http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles)。）
+（图片来自[维基百科](http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles)）
 
 
 ### 火星地形
