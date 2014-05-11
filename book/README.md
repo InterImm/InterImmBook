@@ -1,4 +1,4 @@
-# 关于
+# 星际移民之书
 
 星际移民之书（[源代码](https://github.com/InterImm/InterImmBook)）是由[星际移民中心](http://interimm.github.io/)维护的一本开源书籍。这本书中主要包含了星际移民的历史和科技等相关信息。
 
