@@ -29,7 +29,7 @@
 ![](resources/1024px-Mars_topography_MOLA_dataset_HiRes.jpg)
 
 
-（来自[维基百科](http://zh.wikipedia.org/wiki/File:Mars_topography_(MOLA_dataset)_HiRes.jpg)）
+（来自[维基百科](http://goo.gl/iyk68V)）
 
 火星表面没有海，海平面的高度是人为定义的，气压为610.5Pa处的高度定义为海平面高度。
 
