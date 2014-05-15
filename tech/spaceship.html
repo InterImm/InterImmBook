@@ -42,7 +42,7 @@
 
 
         
-    <div class="book" data-github="InterImm/InterImmBook" data-level="3.1" data-basepath=".." data-revision="1400114364416">
+    <div class="book" data-github="InterImm/InterImmBook" data-level="3.1" data-basepath=".." data-revision="1400128503849">
     <div class="book-header">
     <!-- Actions Left -->
     
@@ -291,46 +291,12 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_1047">
+                    <section class="normal" id="section-gitbook_141">
                     
                         <h2 id="-">星际飞船</h2>
 <p>在星际移民早期，主要使用的是化学火箭。后来由于核动力等离子火箭的大量使用，移民的成本大大降低，自由移民也开始大量出现。之后，曲率推进的大量生产，是的曲速飞船成为太阳系外移民的主要工具。</p>
 <h3 id="-">曲率飞船</h3>
 <p>目前大量使用的曲率引擎是 Markov-Alcubierre 引擎，是一种量子的 Alcubierre 引擎。曲率引擎（warp drive）的基本原理是通过弯曲时空来进行高速移动，因为要直接弯曲时空，所以所需要的能量非常大。Markov 在 Alcubierre 引擎基础上使用了量子的内禀对称转动与四维时空的耦合大大降低了能耗。</p>
-<p>Warp drive，其实就是通过操控<strong>空间</strong>来从一个地方移动到另一个地方的推进技术。</p>
-<p>如果把<strong>空间</strong>看作是橡皮膜，那么 warp drive 实际上就是在通过压缩前方的空间，拉伸后方的空间来「移动」的。就是说，我们想从 A 点出发到达 B 点，实际上我们只需要把飞船前方的空间压缩一下，全部拿到飞船的后方来，不就可以到达 B 点了么。有点像是，「我不过去，山会过来」。如果我们仅仅操控空间，而不影响时间，那么就太好了，我们可以从 A 以任意<strong>速度</strong>到达 B 地点，但是总会花费一点时间，因为我们把空间这块<strong>橡皮膜</strong>压缩起来或者伸展开去总需要一定的时间吧。</p>
-<p>这种推进有种很大的优势，那就是飞船里面的人不会察觉到飞船移动状况的改变，因为局域的来看，我们实际上根本没动嘛。</p>
-<h4 id="-warp-factor-"><strong>推进器的重要参数 —— warp factor</strong></h4>
-<p>在 Star Trek 中，速度一直是使用 warp N 来表示的，warp 1 表示一倍光速，其他的按照
-$$v=w^3c$$
-来计算，其中 $v$ 是闵氏时空中的测量速度，$c$ 是光速，$w$ 便是 warp factor（扭曲因子，wikipedia 上翻译为「曲率层级」，我觉得不够直观）。一开始的时候，开到 warp 5 就已经不得了了呢。</p>
-<p>后来的剧集中，Okuda 更改了 warp factor 的定义，新的定义为 warp factor 为 1-9 时
-$$v=w^{10/3}c$$
-而超过 9 就直接手绘了一条趋向无穷的曲线。到了 1995 年，有人给出了一个解析公式。下图是 <a href="http://en.wikipedia.org/wiki/File:Warptable.gif" target="_blank">wikipedia 中的新旧 warp factor 的对照表以及其能量需求等等量直接的关系</a>。</p>
-<p><img src="http://upload.wikimedia.org/wikipedia/en/4/4b/Warptable.gif" alt="Warp Factor"></p>
-<hr>
-<h3 id="-">曲率推进进阶</h3>
-<p>Warp drive 可以达到很多倍的光速，而且时间膨胀效应很小，所以 warp drive 就是我们理想的载人航行器！</p>
-<p>Miguel Alcubierre 提出了一种神秘的度规，这种度规恰好可以帮我们实现曲率推进，该度规就被称为 Alcubierre metric.</p>
-<p>Alcubierre 度规是像是一个可以将飞船包裹起来的时空泡泡，泡泡内部还是正常的闵氏时空，然而这个时空泡泡却有一个时空剧烈变动的外壳。</p>
-<p>Einstein 的场方程的两端可以分别是物质和时空，现在要做的只是设计一个合理的度规，然后按照上面的方程解出所需要的物质的分布和特性。</p>
-<h4 id="-alcubierre-"><strong>Alcubierre 度规</strong></h4>
-<p>Alcubierre 度规可以从 ADM 形式中猜出来，但是这个 Alcubierre 前辈已经写出来了，所以只需要把前辈的那个抄过来，
-$$\mathrm ds^2 = -\mathrm dt^2+(\mathrm dx - v_s f(r_s)\mathrm dt)^2 + \mathrm dy^2 + \mathrm dz^2$$
-其中，$$v_s=\mathrm dx_s/\mathrm dt$$
-$$r_s=((x -x_s)^2 + y^2 + z^2)^{1/2}$$
-$$f(r_s)=\frac{\tanh(\sigma(r_s + R))-\tanh(\sigma(r_s - R))}{2\tanh(\sigma R)}$$
-并且 $\sigma&gt;0$，$R&gt;0$。</p>
-<p>怎么看这个度规呢，其实我们可以把飞船看做一个点，放在 $x_s$并让飞船的轨迹沿着 x 轴，然后 $r_s$ 可以看做是离开飞船的距离。然后我们看一下 $f(r_s)$ 这个函数的渐进行为。这个函数里面的 $\sigma$ 这个参数是用来调节 $\tanh$ 函数的陡峭程度的，同时也可以调节 $f(r_s)$ 这个函数的陡峭程度。下面我们看一个极端情况</p>
-<p>\begin{equation}\lim_{\sigma\rightarrow\infty} f(r_s)=\begin{cases} 1 &amp; r_s\in [-R, R]\\0 &amp; \text{otherwise.} \end{cases}\end{equation}</p>
-<p>也就是说，这是一个帽子函数。$\sigma$ 越大，这个帽子就越陡，而且中心越平坦。
-实际上这保证了离飞船比较远的地方依然是闵氏时空。</p>
-<p>有了 metric ，你就可以依据这个 metric 来计算所需要的物质了，然后就是如何得到这种物质并且给出特定的分布。在这之前，你需要检验一下这个度规是否真的满足我们的需求，对不对？</p>
-<p>首先，检查一下飞船远处的时空状况。此时 $r_s$ 很大，度规退化成
-$$\mathrm ds^2 = -\mathrm dt^2+\mathrm dx ^2 + \mathrm dy^2 + \mathrm dz^2$$
-恰是闵氏度规。</p>
-<p>这样形象的来看，飞船就是被包裹在一个「时空蛋壳」里了。那么这个飞船可以行进多快呢？答案是想多快就多快。</p>
-<p>因为飞船的移动完全依赖于 $v_s$ 的大小，我们通过调节这个参数的大小，就可以调节飞船在无穷远的人看来的「移动速度」。而且，Alcubierre 证明，这种移动没有时间上的膨胀效应，也就是说，在无穷远的人看来，如果飞船花了一天从 A 地点到达了 B 地点，那么飞船上的人也是同样这么认为的。</p>
 <hr>
 <h3 id="-">扩展阅读</h3>
 <ol>
