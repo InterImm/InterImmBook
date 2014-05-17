@@ -16,11 +16,15 @@
 
 
 
+
+
 #### 扩展阅读
 
 1. [推进技术](propulsion.html)
 2. [Ion Propulson @ NASA](http://www.nasa.gov/centers/glenn/about/fs21grc.html)
 3. [Ion Thruster @ Wikipedia](https://en.wikipedia.org/wiki/Ion_thruster)
+4. 早在二十世纪初，NASA 曾经对整个离子推进做过评估
+   ![](http://www.grc.nasa.gov/WWW/ion/future/images/futureapps.jpg)
 
 
 ### 曲率飞船

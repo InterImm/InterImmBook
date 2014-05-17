@@ -5,7 +5,25 @@
 ## 简要介绍
 
 
-## 离子推进
+### 离子推进
+
+离子推进技术最早是由 Konstantin E. Tsiolkovsky 提出的。后来经过多人的发展（Robert H. Goddard, Ernst Stuhlinger, et al），成为一种实用的技术。
+
+
+离子推进是利用被电磁场加速的带电粒子来产生推力的，而离子的最终速度对离子所带的电荷非常敏感。理论上来讲，电推动的情况下，同样的电压下，两倍的电荷几乎可以产生两倍的最终速度，也就是两倍的最终推力。
+
+真正实用的离子推动有两大类：
+
+1. 电场推动；
+2. 电磁推动。
+
+
+#### 扩展阅读
+
+1. 早在二十世纪初，NASA 曾经对整个离子推进做过评估
+   ![](http://www.grc.nasa.gov/WWW/ion/future/images/futureapps.jpg)
+
+
 
 
 
@@ -25,7 +43,9 @@ Alcubierre 类推进的主要原理是产生一个时空泡泡，然后通过移
 这种推进有种很大的优势，那就是飞船里面的人不会察觉到飞船移动状况的改变，因为局域的来看，我们实际上根本没动。
 
 
-* 扩展阅读：[The warp drive: hyper-fast travel within general relativity](http://arxiv.org/abs/gr-qc/0009013) By Miguel Alcubierre.
+#### 扩展阅读
+
+1. [The warp drive: hyper-fast travel within general relativity](http://arxiv.org/abs/gr-qc/0009013) By Miguel Alcubierre.
 
 
 ### Krasnikov 通道
@@ -37,7 +57,9 @@ Krasnikov 通道是一种通过对时空进行修改从而达到一次修建多�
 Krasnikov 仔细分析了管道的修建和因果关系，所以这类通道叫做 Krasnikov 通道。
 
 
-* 扩展阅读：[The quantum inequalities do not forbid spacetime shortcuts](http://arxiv.org/abs/gr-qc/0207057) By S. Krasnikov.
+#### 扩展阅读
+
+1. [The quantum inequalities do not forbid spacetime shortcuts](http://arxiv.org/abs/gr-qc/0207057) By S. Krasnikov.
 
 
 
@@ -48,7 +70,9 @@ Krasnikov 仔细分析了管道的修建和因果关系，所以这类通道叫�
 Heim 的理论中，通过在不同的能量之间相互转换，既可以将飞船移动，不消耗推进剂也可以推进飞船。
 
 
-* 扩展阅读：[Physical principles of advanced space propulsion based on Heins' field theory](http://www.hpcc-space.com/publications/documents/PrinciplesOfAdvancedSpacePropulsionAIAA-paper-2002-4094.pdf)
+#### 扩展阅读
+
+1. [Physical principles of advanced space propulsion based on Heins' field theory](http://www.hpcc-space.com/publications/documents/PrinciplesOfAdvancedSpacePropulsionAIAA-paper-2002-4094.pdf)
 *
 
 -----
