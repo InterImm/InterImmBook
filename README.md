@@ -1,15 +1,27 @@
-InterImmBook
-============
+# 星际移民之书
 
-星际移民之书
-
-编译此书，先装  [gitbook](https://github.com/GitbookIO/gitbook).
-
-为了避免不自洽的文件目录，请使用 `gitbook` [客户端](https://github.com/GitbookIO/editor/releases)来编译此书。
-
-图书的源文件目录是 `master` 分支下面的 `book` 目录中的所有文件。使用 `gitbook` 来加载此目录，然后将图书编译至 `_book` 目录。
-
-`gh-pages` 分支是网页部分。
+星际移民之书（[源代码](https://github.com/InterImm/InterImmBook)）是由[星际移民中心](http://interimm.github.io/)维护的一本开源书籍。这本书中主要包含了星际移民的历史和科技等相关信息。
 
 
-本书使用了 [gitbook](https://github.com/GitbookIO/gitbook).
+
+## 共同协作
+
+本书托管在 GitHub 上，是由大家协作完成的。协作的方式和内容包括：
+
+1. 讨论：Bug 提交，建议等。（戳[这里](https://github.com/InterImm/InterImmBook/issues)）
+2. Wiki：向 wiki 中添加新的条目。（戳[这里](https://github.com/InterImm/InterImmBook/wiki)）
+3. Pull request：Fork 本项目，然后修改，之后提交 pull request。
+
+
+
+## 内容协议
+
+本书使用 CC BY-SA 协议共享。
+
+![](https://raw.github.com/opentf/GuokrBadge/master/cc/gs/cc_bysa.flat.guokr.32.png)
+
+
+
+## 其他
+
+本书使用 Gitbook 生成页面。
