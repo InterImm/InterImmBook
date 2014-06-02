@@ -14,6 +14,7 @@
 * [历史](history/README.md)
     * [火星编年史](history/chronicle.md)
     * [前移民时代](history/preImmigration.md)
+    * [火星基地建设阶段](history/marsBase.md)
     * [星际移民局/星际移民中心](history/interImmHist.md)
     * [星际孕妇](history/babies.md)
 * [科技](tech/README.md)
