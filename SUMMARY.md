@@ -1,9 +1,6 @@
 # Summary
 
 * [星际移民中心](InterImm.md)
-* [地理](geo/README.md)
-   * [火星地理](geo/mars.md)
-   * [火星气候与天气](geo/weather.md)
 * [历史](history/README.md)
    * [火星编年史](history/chronicle.md)
    * [前移民时代](history/preImmigration.md)
@@ -11,10 +8,14 @@
    * [火星基地建设阶段](history/marsBase.md)
    * [火星移民热潮](history/immHot.md)
    * [火星城市与火星地球化](history/cityMars.md)
-   * [星际孕妇](history/babies.md)
+* [火星](mars/README.md)
+   * [火星地理](mars/mars.md)
+   * [火星气候与天气](mars/weather.md)
+   * [火星历法](mars/calendar.md)
 * [科技](tech/README.md)
    * [飞船科技](tech/spaceship.md)
    * [推进技术](tech/propulsion.md)
    * [行星际运输](tech/transorbital.md)
    * [恒星际运输](tech/interstellarTrans.md)
-
+* [泛话题](misc/README.md)
+   * [星际孕妇](misc/babies.md)
