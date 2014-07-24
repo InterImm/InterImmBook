@@ -140,4 +140,4 @@ $$\mathrm ds^2 = -\mathrm dt^2+\mathrm dx ^2 + \mathrm dy^2 + \mathrm dz^2$$
 
 ## 文档下载
 
-[星际移民中心推进技术文档](../resources/propulsion.pdf)
+[星际移民中心推进技术文档](resources/propulsion.pdf)
