@@ -1,20 +1,20 @@
 CACHE MANIFEST
-# Revision 1403292140411
+# Revision 1406568712038
 
 CACHE:
-InterImm.html
 index.html
-geo/README.html
-geo/mars.html
-geo/weather.html
+InterImm.html
 history/README.html
-history/babies.html
 history/chronicle.html
 history/cityMars.html
 history/immHot.html
 history/interImmHist.html
 history/marsBase.html
 history/preImmigration.html
+mars/README.html
+mars/calendar.html
+mars/mars.html
+mars/weather.html
 tech/README.html
 tech/interstellarTrans.html
 tech/propulsion.html
