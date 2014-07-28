@@ -17,5 +17,3 @@
    * [推进技术](tech/propulsion.md)
    * [行星际运输](tech/transorbital.md)
    * [恒星际运输](tech/interstellarTrans.md)
-* [泛话题](misc/README.md)
-   * [星际孕妇](misc/babies.md)
