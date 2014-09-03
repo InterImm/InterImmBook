@@ -1,6 +1,9 @@
 InterImmBook
 ============
 
+链接：http://interimm.org/InterImmBook/ 或者 http://interimm.github.io/InterImmBook
+
+
 星际移民之书
 
 编译此书，先装  [gitbook](https://github.com/GitbookIO/gitbook).
