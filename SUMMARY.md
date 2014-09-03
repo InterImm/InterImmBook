@@ -4,7 +4,6 @@
 * [历史](history/README.md)
    * [火星编年史](history/chronicle.md)
    * [前移民时代](history/preImmigration.md)
-   * [星际移民局/星际移民中心](history/interImmHist.md)
    * [火星基地建设阶段](history/marsBase.md)
    * [火星移民热潮](history/immHot.md)
    * [火星城市与火星地球化](history/cityMars.md)
