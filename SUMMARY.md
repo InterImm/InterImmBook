@@ -2,10 +2,10 @@
 
 * [星际移民中心](InterImm.md)
 * [历史](history/README.md)
-   * [火星编年史](history/chronicle.md)
    * [首次载人登火](history/firstmanned.md)
    * [小行星开发热潮](history/asteroid.md)
    * [IIA成立](history/iia.md)
+   * [火星殖民地建设](history/colony.md)
    * [火星移民热潮](history/immigration.md)
 * [火星](mars/README.md)
    * [火星地理](mars/mars.md)
