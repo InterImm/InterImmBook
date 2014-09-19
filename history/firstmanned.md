@@ -35,7 +35,7 @@ ExoMars任务是由欧空局(ESA)与俄罗斯联邦航天局(Roscosmos)合作进
 
 7月23日，着陆舱突破火星的大气层，最终降落在火星乌托邦平原边缘的阿蒙蒂斯区（23.27°N 109.08°E），这一天，人类的脚印终于印在了这颗红色星球之上！
 
-![](https://github.com/InterImm/InterImmBook/blob/master/resources/landing_spot.png)
+![](https://raw.githubusercontent.com/InterImm/InterImmBook/master/resources/landing_spot.png)
 
 在为期300余天的火星探索活动中的大多数时间里，宇航员是在生命保障舱内度过的。他们在舱内完成了众多实验，包括测试了植物、微生物在火星环境下的生长情况，火星大气中二氧化碳转化成氧气的实验，火星土壤中的金属冶炼实验等等。由于宇航服储氧量的限制，舱外活动时，宇航员只能前往离着陆点较近的地方，一般的舱外活动时间在六小时左右，宇航员将选择并采集火星表面的岩石样品，并将其带回地球供科学家分析。
 
