@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        "mathjax"
+    ],
+    "pluginsConfig": {},
+    "links": {
+        "sidebar": {
+            "我们的网站": "http://interimm.org",
+            "我们的 GitHub": "https://github.com/InterImm",
+            "我们的微博": "http://weibo.com/iiaofficial"
+        },
+        "sharing": {
+            "weibo": "http://weibo.com/iiaofficial"
+        }
+    }
+}

@@ -7,7 +7,6 @@
    * [小行星开发热潮](history/asteroid.md)
    * [IIA成立](history/iia.md)
    * [火星移民热潮](history/immigration.md)
-   * [火星城市与火星地球化](history/peMars.md)
 * [火星](mars/README.md)
    * [火星地理](mars/mars.md)
    * [火星气候与天气](mars/weather.md)
