@@ -1,0 +1,24 @@
+{
+    "title": "星际移民之书",
+    "description": "星际移民历史、科技、人文",
+    "plugins": [
+        "mathjax"
+    ],
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "night",
+            "family": "serif"
+        }
+    },
+    "links": {
+        "sidebar": {
+            "我们的网站": "http://interimm.org",
+            "我们的微博": "http://www.weibo.com/iiaofficial"
+        },
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null
+        }
+    }
+}

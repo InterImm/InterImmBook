@@ -38,8 +38,4 @@
 #### 扩展阅读
 
 1. 中文维基百科词条： [曲率引擎](http://zh.wikipedia.org/wiki/%E6%9B%B2%E9%80%9F%E5%BC%95%E6%93%8E#.E6.9B.B2.E9.80.9F.E9.80.9F.E5.BA.A6)
-
-
-
 2. Alcubierre drive, wikipedia 词条： [Alcubierre Drive](http://en.wikipedia.org/wiki/Alcubierre_drive)
-
