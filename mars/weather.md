@@ -19,7 +19,7 @@
 ![](https://upload.wikimedia.org/wikipedia/en/d/da/Mars_climate_zones.jpg)
 
 
-> 图片来自[Wikipedia:Mars climate zones.jpg](https://en.wikipedia.org/wiki/File:Mars_climate_zones.jpg)。图片原来注释：Mars Global Climate Zones, based on temperature, modified by topography, albedo, actual solar radiation. A=Glacial (permanent ice cap); B=Polar (covered by frost during the winter which sublimates during the summer); C=North (mild) Transitional (Ca) and C South (extreme) Transitional (Cb); D= Tropical; E= Low albedo tropical; F= Subpolar Lowland (Basins); G=Tropical Lowland (Chasmata); H=Subtropical Highland (Mountain).
+> 图片来自[Wikipedia:Mars climate zones.jpg](https://en.wikipedia.org/wiki/File:Mars_climate_zones.jpg)。
 
 
 
@@ -35,8 +35,7 @@
 
 ![Wikipedia:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg](https://upload.wikimedia.org/wikipedia/commons/8/82/PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg)
 
-> 图片来自：[Wikipedia:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg](https://en.wikipedia.org/wiki/File:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg). 图片原来注释：This graph shows about one-fourth of a Martian year's pattern atmospheric pressure at the surface of Mars, as measured by the Rover Environmental Monitoring Station on NASA's Curiosity rover. The rover landed at about the time of the annual minimum in atmospheric pressure and documented a seasonal climb to a pressure peak. The maximum and minimum pressures for each Martian day, or sol, from mid-August 2012 to late February 2013 are plotted. Pressure is designated in pascals. For comparison, 1,000 pascals is about one percent of sea-level atmospheric pressure on Earth.
-The start of the curve is late winter in Mars' southern hemisphere. The end of the curve is at the end of southern spring. The overall increase is the signature of the entire Martian atmosphere growing in mass through the southern-hemisphere spring. This happens because the south pole receives more and more sunlight, and carbon dioxide vaporizes off of the winter south polar cap. Each year the atmosphere grows and shrinks by about 30 percent due to this effect. The pressure then begins to decline as carbon dioxide freezes out of the atmosphere in the north, forming the winter north polar cap.
+> 图片来自：[Wikipedia:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg](https://en.wikipedia.org/wiki/File:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg).
 
 
 

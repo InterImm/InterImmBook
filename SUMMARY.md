@@ -1,5 +1,6 @@
 # Summary
 
+* [本书简介](README.md)
 * [星际移民中心](InterImm.md)
 * [历史](history/README.md)
    * [首次载人登火](history/firstmanned.md)
@@ -11,11 +12,6 @@
    * [火星历法](mars/calendar.md)
    * [火星地理](mars/mars.md)
    * [火星气候与天气](mars/weather.md)
-* [科技](tech/README.md)
-   * [飞船科技](tech/spaceship.md)
-   * [推进技术](tech/propulsion.md)
-   * [行星际运输](tech/transorbital.md)
-   * [恒星际运输](tech/interstellarTrans.md)
 * [职业](profession/README.md)
    * [太空工程师](profession/space_engineer.md)
    * [太空科研](profession/space_research.md)
@@ -30,4 +26,9 @@
    * [太空农业](profession/space_agriculture.md)
    * [太空犯罪](profession/space_crime.md)
    * [其他](profession/space_other.md)
+* [科技](tech/README.md)
+   * [飞船科技](tech/spaceship.md)
+   * [推进技术](tech/propulsion.md)
+   * [行星际运输](tech/transorbital.md)
+   * [恒星际运输](tech/interstellarTrans.md)
 
