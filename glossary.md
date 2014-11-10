@@ -42,3 +42,13 @@ Space Express, UPI 旗下公司。拥有数量众多的飞船驾驶员，还提�
 
 # 太空综合格斗
 即 SMMA (Space Mixed Martial Arts)，是最热门的太空格斗赛事。每年的 SMMA 都会吸引大量的观众，各大企业也争相投资或投放广告。
+
+# Space Sphere
+
+或称太空之圆，是一家从事太空物件拍卖的公司。
+
+# 太空天堂
+提供太空丧葬服务，运营了多家坟场，他们分布在太空轨道、火星、行星卫星和小行星上。
+
+# Space Prostitution Information Office
+联合国管理星际卖淫管理办公室。
