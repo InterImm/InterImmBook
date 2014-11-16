@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Exoplanets'
+project = u'星际移民之书'
 copyright = u'2014, Interplanetary Immigration Center'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -186,7 +186,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Exoplanetsdoc'
+htmlhelp_basename = 'InterImm'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -206,7 +206,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Exoplanets.tex', u'Exoplanets Documentation',
+  ('index', 'InterImmBook.tex', u'星际移民之书',
    u'Interplanetary Immigration Center', 'manual'),
 ]
 
@@ -236,7 +236,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'exoplanets', u'Exoplanets Documentation',
+    ('index', '星际移民之书', u'星际移民之书',
      [u'Interplanetary Immigration Center'], 1)
 ]
 
@@ -250,8 +250,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Exoplanets', u'Exoplanets Documentation',
-   u'Interplanetary Immigration Center', 'Exoplanets', 'One line description of project.',
+  ('index', 'InterImm', u'星际移民之书',
+   u'Interplanetary Immigration Center', '星际移民之书', '星际移民史',
    'Miscellaneous'),
 ]
 
@@ -271,7 +271,7 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Exoplanets'
+epub_title = u'星际移民之书'
 epub_author = u'Interplanetary Immigration Center'
 epub_publisher = u'Interplanetary Immigration Center'
 epub_copyright = u'2014, Interplanetary Immigration Center'
