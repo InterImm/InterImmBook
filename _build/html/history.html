@@ -30,7 +30,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
@@ -47,7 +47,7 @@
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
   </head>
-  <body role="document">
+  <body>
 
 <!-- Nav Bar at top -->
 <div class="navbar navbar-black" style="font-size:14px;">
@@ -63,8 +63,8 @@
         <ul class="nav navbar-nav navbar-nav-black">
         <li class="divider-vertical divider-white"></li>
             <li><a href="http://interimm.org/magazine"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
-            <li><a href="http://interimm.org/InterImmBook"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
-            <li class="active"><a href="http://interimm.org/exoplanets"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
+            <li class="active"><a href="http://interimm.org/InterImmBook"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
+            <li><a href="http://interimm.org/exoplanets"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
 
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-nav-black">
@@ -91,9 +91,17 @@
       <div class="col-md-3">
         <div id="sidebar" class="bs-sidenav well" role="complementary"><ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="InterImm.html">星际移民中心</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">星际移民历史</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">星际移民历史</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">2027 首次载人登火</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">2030-2060 小行星开发热潮</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">2060-2070 星际移民局成立</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id19">2070-2100 火星殖民地建设</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id30">2100-2120 火星移民热潮</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="mars.html">火星</a></li>
 <li class="toctree-l1"><a class="reference internal" href="profession.html">职业</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tech.html">科技</a></li>
 </ul>
 
         </div>
@@ -151,7 +159,7 @@
 <p>一切活动都按着当初的计划有序开展。2027 年 7 月 22 日，经过多次变轨，飞船最终进入 500km 绕火轨道。不久，3 名宇航员进入着陆舱，并与飞船分离，剩下一名宇航员留在飞船内部工作。</p>
 <p>7 月 23 日，着陆舱突破火星的大气层，最终降落在火星乌托邦平原边缘的阿蒙蒂斯区（23.27°N 109.08°E），这一天，人类的脚印终于印在了这颗红色星球之上！</p>
 <div class="figure align-center">
-<img alt="首次登火着陆点" src="_images/landing_spot.png" />
+<img alt="首次登火着陆点" src="resources\landing_spot.png" />
 </div>
 <p>在为期 300 余天的火星探索活动中的大多数时间里，宇航员是在生命保障舱内度过的。他们在舱内完成了众多实验，包括测试了植物、微生物在火星环境下的生长情况，火星大气中二氧化碳转化成氧气的实验，火星土壤中的金属冶炼实验等等。由于宇航服储氧量的限制，舱外活动时，宇航员只能前往离着陆点较近的地方，一般的舱外活动时间在六小时左右，宇航员将选择并采集火星表面的岩石样品，并将其带回地球供科学家分析。</p>
 <p>2028 年 5 月 19 日，在完成所有预定任务后，宇航员乘坐上升器离开火星表面，与停泊在绕火轨道上的飞船进行对接。航天员进入飞船后，抛掉上升器，飞船再次点火飞向地球。2029 年 2 月 8 日，载有宇航员的着陆舱成功降落在地球表面，“赤风”载人登火计划取得成功。</p>
@@ -319,7 +327,7 @@
 <span id="id22"></span><h4>太空拖车<a class="headerlink" href="#index-38" title="Permalink to this headline">¶</a></h4>
 <p>在第一个火星前哨站建立之后，UPI就建立了第一个大规模运输系统。此系统建立在霍曼转移轨道上的，因为运转周期长但是可以进行大宗货物运输的特点，后来被称为太空拖车系统。</p>
 <div class="figure align-center">
-<a class="reference internal image-reference" href="_images/hohmannSystem.png"><img alt="霍曼转移轨道" src="_images/hohmannSystem.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="resources\hohmannSystem.png"><img alt="霍曼转移轨道" src="resources\hohmannSystem.png" style="width: 400px;" /></a>
 </div>
 <p>运输器轨道的长轴两端点并不是完全与火星和地球轨道重合的，而是故意错开一段距离。物资的装载是在运输器飞行过程中完成的，因此运输器本身并不会消耗大量燃料来加减速，而而仅仅用来轨道维持。而运输器本身是个拖车系统，太空集装箱可以方便的挂载在拖车上。在 ULA 加入到火星殖民地建设中来之后，这部分逐渐完全转交给 ULA 负责。</p>
 <p>因为燃料消耗极少，这种运输就变成了“太空海运”——低成本的重型运输。</p>
@@ -416,7 +424,7 @@
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-       <a href="http://sphinx.pocoo.org/" target="_blank"><span class="btn btn-flat btn-xs">使用Sphinx 1.3b1. 生成</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Nov 18, 2014</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
 </footer>

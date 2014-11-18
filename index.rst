@@ -38,3 +38,4 @@
    history.rst
    mars.rst
    profession.rst
+   tech.rst
