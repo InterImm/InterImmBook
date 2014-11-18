@@ -26,6 +26,7 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
+
   {# OPENSEARCH #}
   {% if not embedded %}
     {% if use_opensearch %}
@@ -74,16 +75,20 @@
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
+
+
 </head>
 
 <body class="wy-body-for-nav" role="document">
+
+
 {% if not READTHEDOCS %}
 <div id='cssmenu' class='align-left' style="min-height:50px;">
 <ul>
 <li style="border-right:1px solid #3F3B3B;"><a href='http://interimm.org'><span style="font-size:18px;"><i class="fa fa-home"></i> &nbsp; 星际移民中心</span></a></li>
 <li><a href='http://interimm.org/magazine'><span><i class="fa fa-compass"></i>&nbsp; 星海航纪</span></a></li>
-<li style="background-color:rgba(255, 255, 255, 0.2);"><a href='#'><span><i class="fa fa-archive"></i>&nbsp; 星际移民之书</span></a></li>
-<li><a href="http://interimm.org/exoplanets"><span><i class="fa fa-globe"></i>&nbsp; 系外行星档案</span></a></li>
+<li><a href='http://interimm.org/InterImmBook'><span><i class="fa fa-archive"></i>&nbsp; 星际移民之书</span></a></li>
+<li style="background-color:rgba(255, 255, 255, 0.2);"><a href="#"><span><i class="fa fa-globe"></i>&nbsp; 系外行星档案</span></a></li>
 </ul>
 <ul style="position:absolute;top:0;right:0;display:inline-block;">
  <li><a href="http://interimm.org/institutes.html"><span><i class="fa fa-sitemap"></i>&nbsp;星际机构</span></a></li>
@@ -104,8 +109,9 @@
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
+
         {% block sidebartitle %}
-          <a href="{{ pathto(master_doc) }}" class="fa fa-home"> {{ project }}</a>
+          <a href="{{ pathto(master_doc) }}" class="fa fa-globe"> {{ project }} </a>
         {% endblock %}
         {% include "searchbox.html" %}
       </div>
@@ -168,6 +174,9 @@
   {% if not READTHEDOCS %}
     <script type="text/javascript" src="{{ pathto('_static/js/theme.js', 1) }}"></script>
   {% endif %}
+
+  {# TOP MENU #}
+  <script type="text/javascript" src="{{ pathto('_static/js/menu-script.js', 1) }}"></script>
 
   {# STICKY NAVIGATION #}
   {% if theme_sticky_navigation %}
