@@ -53,7 +53,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 7 月 23 日，着陆舱突破火星的大气层，最终降落在火星乌托邦平原边缘的阿蒙蒂斯区（23.27°N 109.08°E），这一天，人类的脚印终于印在了这颗红色星球之上！
 
-.. figure:: https://raw.githubusercontent.com/InterImm/InterImmBook/master/resources/landing_spot.png
+.. figure:: resources\landing_spot.png
    :align: center
    :alt: 首次登火着陆点
 
@@ -127,6 +127,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
    :alt: 太空制造业
 
 .. index:: 太空商业联合会
+.. index:: Space Business Federation
 
 太空商业联合会的建成
 ~~~~~~~~~~~~~~~~~
@@ -295,6 +296,7 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 .. index::推进技术发展组织
 .. index::Promotion of New Propulsion Technology
 .. index::PNPT
+
 次年，其他商业联合会包括联合发射同盟（ULA）、宇宙通信卫星组织（Unisat）以及新兴的推进技术发展组织（Promotion of New Propulsion Technology，简称PNPT）也迅速加入到火星殖民地的建设中来。到 2075 年，ULA、Unisat 和 PNPT 提供的围绕火星的大型飞船及空间设施曾经一度达到十二艘。这些空间设施有着各自的使命，从能源供给到太空运输，从机械维修到生命保障，他们组成了整个火星殖民地坚实的后备保障。随着火星殖民地逐渐完善，很多大型设施从轨道转移到了火星表面。
 
 值得一提的是，Unisat 提供的包括气象卫星、定位系统和遥感卫星等在内的卫星系统为火星表面殖民地的建设提供了各种便利。
@@ -311,7 +313,7 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 
 在第一个火星前哨站建立之后，UPI就建立了第一个大规模运输系统。此系统建立在霍曼转移轨道上的，因为运转周期长但是可以进行大宗货物运输的特点，后来被称为太空拖车系统。
 
-.. figure:: https://raw.githubusercontent.com/InterImm/InterImmBook/master/resources/hohmannSystem.png
+.. figure:: resources\hohmannSystem.png
    :align: center
    :width: 400
    :alt: 霍曼转移轨道
@@ -373,8 +375,9 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 绕火轨道上的空间站也逐步扩展为研究人员基地。由于很多推进器测试都选择了地球到火星的轨道，部分推进器研究机构都往火星空间站派驻了研究人员。UPI 的推进技术研究中心甚至在绕火轨道设立了单独的空间站，为其研究人员提供生活和研究的空间。
 
 .. index:: 星际通信公司
+.. index:: Interplanetary Communication Company
 
-Unisat 的重要成员 **星际通信公司** 也在火星表面和绕火轨道设立研究中心。
+Unisat 的重要成员 **星际通信公司（Interplanetary Communication Company）** 也在火星表面和绕火轨道设立研究中心。
 
 .. figure:: http://www.space4case.inhetweb.nl/mmw/media/mars2005/vallesmarineris7500_20051014_18final1024.jpg
    :align: center
@@ -420,8 +423,6 @@ Unisat 的重要成员 **星际通信公司** 也在火星表面和绕火轨道�
 部分高利润的行业吸引来了很多商业公司，创造了一些高薪水的职位。商业公司的进入，曾一度造成了部分生活区完全由单一公司工作人员组成的情况。这种情况随着殖民地的扩建逐步消失。
 
 轨道交通最初只是用于工业运输，然而随着火星人口的增加和多个大型生态圈的建立，轨道交通成为人们往返于大型生态圈之间的主要交通方式。空中运输方面，飞艇占据了非常重要的地位。
-
-.. index:: 星际通信公司
 
 在通信业，**星际通信公司** 成为火星最大的提供商，从火星地面通信到星际通信，从硬件设施到软件设施，从简单的民用通信到机构的保密通信，该公司提供了几乎所有类型的通信服务。在移民热潮中，星际通信公司也在火星设立了第二总部。
 
