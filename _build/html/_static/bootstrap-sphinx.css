@@ -92,8 +92,10 @@ table.field-list {
 .bs-sidenav .nav > li > a:hover,
 .bs-sidenav .nav > li > a:focus {
   text-decoration: none;
-  background-color: #e5e3e9;
+  background-color: #428BCA;
   border-right: 1px solid #dbd8e0;
+  color:white;
+  text-shadow: none;
 }
 .bs-sidenav .nav > .active > a,
 .bs-sidenav .nav > .active:hover > a,

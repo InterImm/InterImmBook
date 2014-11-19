@@ -53,7 +53,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 7 月 23 日，着陆舱突破火星的大气层，最终降落在火星乌托邦平原边缘的阿蒙蒂斯区（23.27°N 109.08°E），这一天，人类的脚印终于印在了这颗红色星球之上！
 
-.. figure:: resources\landing_spot.png
+.. figure:: resources/landing_spot.png
    :align: center
    :alt: 首次登火着陆点
 
@@ -90,9 +90,9 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **太空通信业（Space Communication Industry）**：从早期的卫星产业发展起来，逐步发展为地球通信（地球→卫星→地球）、地月通信（地球→卫星→月球）、行星际通信（地球→卫星→小行星/火星）等；
 
-.. figure:: http://deepspaceindustries.com/images/public/DSI-Firefly-concept_BV-21-01-13.jpg
-   :align: center
-   :alt: 太空通信业
+  .. figure:: http://deepspaceindustries.com/images/public/DSI-Firefly-concept_BV-21-01-13.jpg
+     :align: center
+     :alt: 太空通信业
 
 .. index:: 太空旅游业
 .. index:: Space Tourist Industry
@@ -104,27 +104,27 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **太空能源业（Space Energy Industry）**：21 世纪 20 年代发展起来的新兴产业，早期主要为在轨卫星、探测器提供燃料补给，后来扩展到小行星燃料生产；
 
-.. figure:: http://deepspaceindustries.com/images/public/DSI-Fuel%20Processor_BV-20-01-13.jpg
-   :align: center
-   :alt: 太空能源业
+  .. figure:: http://deepspaceindustries.com/images/public/DSI-Fuel%20Processor_BV-20-01-13.jpg
+     :align: center
+     :alt: 太空能源业
 
 .. index:: 太空采矿业
 .. index:: Space Mining Industry
 
 * **太空采矿业（Space Mining Industry）**：和太空能源业同时建立起来的新兴产业，以小行星开发为基础，主要包括矿石的开采、冶炼，涵盖了铁、镍、钴、铂族金属、半导体元素等等；
 
-.. figure:: http://deepspaceindustries.com/images/public/DSI-settlement-concept_BV-21-01-13.jpg
-   :align: center
-   :alt: 太空采矿业
+  .. figure:: http://deepspaceindustries.com/images/public/DSI-settlement-concept_BV-21-01-13.jpg
+     :align: center
+     :alt: 太空采矿业
 
 .. index:: 太空制造业
 .. index:: Space Manufacturing Industry
 
 * **太空制造业（Space Manufacturing Industry）**：以太空能源业和太空采矿业为基础，主要进行微重力条件下的产品制造。小行星表面、地球轨道、月球表面均建有太空工厂，生产的产品大多用于太空中基础设施的建立，少量产品将被运回地球。
 
-.. figure:: http://deepspaceindustries.com/images/public/DSI-MGF-concept_BV-21-01-13.jpg
-   :align: center
-   :alt: 太空制造业
+  .. figure:: http://deepspaceindustries.com/images/public/DSI-MGF-concept_BV-21-01-13.jpg
+     :align: center
+     :alt: 太空制造业
 
 .. index:: 太空商业联合会
 .. index:: Space Business Federation
@@ -140,10 +140,10 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **联合发射同盟（United Launch Alliance，简称 ULA）**：最初是 2006 年由洛克希德马丁公司和波音公司创立的合资企业，太空产业化浪潮到来之际，又有一些新成立的太空运输业公司加入了 `ULA <http://en.wikipedia.org/wiki/United_Launch_Alliance>`_ ，主要业务集中在天地运输、地球轨道运输。
 
-.. figure:: http://www.tscc.org/images/ULA%20Logo_Full%20Color_Text_withR.jpg
-   :align: center
-   :width: 500
-   :alt: ULA_LOGO
+  .. figure:: http://www.tscc.org/images/ULA%20Logo_Full%20Color_Text_withR.jpg
+     :align: center
+     :width: 500
+     :alt: ULA_LOGO
 
 .. index:: 宇宙通信卫星组织
 .. index:: Universal Telecommunications Satellite Organization
@@ -313,7 +313,7 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 
 在第一个火星前哨站建立之后，UPI就建立了第一个大规模运输系统。此系统建立在霍曼转移轨道上的，因为运转周期长但是可以进行大宗货物运输的特点，后来被称为太空拖车系统。
 
-.. figure:: resources\hohmannSystem.png
+.. figure:: resources/hohmannSystem.png
    :align: center
    :width: 400
    :alt: 霍曼转移轨道
