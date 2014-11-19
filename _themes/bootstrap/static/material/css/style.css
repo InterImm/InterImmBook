@@ -1,7 +1,9 @@
+/*** Typography****/
+
 body {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 1.6rem;
-  line-height: 1.6;
+  line-height: 1.8em;
   background-color: #FFF !important; 
 }
 body,
@@ -15,14 +17,45 @@ h6,
 .h2,
 .h3,
 .h4 {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei",
-             "WenQuanYi Micro Hei", sans-serif !important;
-             }
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+}
+
 h5,
 h6 {
   font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei",
              "WenQuanYi Micro Hei", sans-serif !important;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4 {
+margin:1.4em 0 0.8em;
+}
+
+p, pre, ul, ol, dl, form, hr {
+    margin:1em 0 0.6em;
+}
+
+img {
+  margin: 1em auto 1em auto;
+}
+
+.alert-info {
+  background-color: #DCF2F9 !important;
+}
+
+.admonition {
+  font-size: 85%;
+}
+
+/***  Typography END ***/
+
 
 .navbar-black {
   background-color: black;
@@ -63,6 +96,7 @@ h6 {
 }
 .black-bg li a:hover {
   background-color: rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
   color: white;
 }
 
