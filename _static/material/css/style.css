@@ -44,6 +44,7 @@ p, pre, ul, ol, dl, form, hr {
 
 img {
   margin: 1em auto 1em auto;
+  max-width: 100% !important;
 }
 
 .alert-info {
