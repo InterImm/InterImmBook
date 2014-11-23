@@ -47,6 +47,14 @@
 
 火星表面没有海，海平面的高度是人为定义的，气压为 610.5Pa 处的高度定义为海平面高度。
 
+一份来自 2014 年的综合地质图显示了火星地质的很多特色。
+
+.. figure:: resources/GeneralisedGeologicalMapofMars.png
+   :align: center
+
+   翻译自 `Wikipedia <https://commons.wikimedia.org/wiki/File:Generalised_Geological_Map_of_Mars.jpg>`_ 。按照原图片的要求，翻译之后图片使用 `Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`_ 协议共享。原作者为 Patrick Zasada 。
+
+
 陨石坑
 ~~~~~~~~~~~~~~~~~
 
