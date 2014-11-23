@@ -7,11 +7,12 @@
 火星地理
 -----------------
 
-火星的轨道半径大约 1.5 个天文单位（大约是地球轨道半径的 1.5 倍），是一颗跟地球很像的行星，也是人类最早大规模殖民的行星。
+火星的轨道半径大约 1.5 个天文单位（大约是地球轨道半径的 1.5 倍），等价于在火星轨道上，接收到的太阳能的功率密度不及地球轨道的一半。火星的平均半径为 3389.5 千米，是地球半径的 53.2%，质量只有地球质量的 10.7%。火星的表面重力不到地球表面重力加速的的一半，仅仅为 0.376 g。火星是人类最早大规模殖民的行星。
 
 .. figure:: http://upload.wikimedia.org/wikipedia/commons/5/55/Mars_earth_orbit.png
    :align: center
    :alt: 火星轨道
+
 
 火星经纬度划分
 ~~~~~~~~~~~~~~~~~
@@ -103,10 +104,10 @@
    来自 `维基百科 <Wikipedia:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg](https://en.wikipedia.org/wiki/File:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg>`_
 
 
-扩展阅读
-^^^^^^^^^^^^^^^^^
+.. admonition:: 扩展阅读
+   :class: note
 
-* `Hargitai Henrik (2009). "Climate Zones of Mars". Lunar and Planetary Institute. Retrieved 2010-05-18. <http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1199.pdf>`_ 
+   * `Hargitai Henrik (2009). "Climate Zones of Mars". Lunar and Planetary Institute. Retrieved 2010-05-18. <http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1199.pdf>`_ 
 
 
 火星历法
