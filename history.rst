@@ -90,9 +90,9 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **太空通信业（Space Communication Industry）**：从早期的卫星产业发展起来，逐步发展为地球通信（地球→卫星→地球）、地月通信（地球→卫星→月球）、行星际通信（地球→卫星→小行星/火星）等；
 
-  .. figure:: http://deepspaceindustries.com/images/public/DSI-Firefly-concept_BV-21-01-13.jpg
+  .. figure:: ./resources/DSI-Firefly-concept_BV-21-01-13.jpg
      :align: center
-     :alt: 太空通信业
+     :alt: 太空通信业, Source DSI
 
 .. index:: 太空旅游业
 .. index:: Space Tourist Industry
@@ -104,27 +104,27 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **太空能源业（Space Energy Industry）**：21 世纪 20 年代发展起来的新兴产业，早期主要为在轨卫星、探测器提供燃料补给，后来扩展到小行星燃料生产；
 
-  .. figure:: http://deepspaceindustries.com/images/public/DSI-Fuel%20Processor_BV-20-01-13.jpg
+  .. figure:: ./resources/DSI-Fuel%20Processor_BV-20-01-13.jpg
      :align: center
-     :alt: 太空能源业
+     :alt: 太空能源业, Source DSI
 
 .. index:: 太空采矿业
 .. index:: Space Mining Industry
 
 * **太空采矿业（Space Mining Industry）**：和太空能源业同时建立起来的新兴产业，以小行星开发为基础，主要包括矿石的开采、冶炼，涵盖了铁、镍、钴、铂族金属、半导体元素等等；
 
-  .. figure:: http://deepspaceindustries.com/images/public/DSI-settlement-concept_BV-21-01-13.jpg
+  .. figure:: ./resources/DSI-settlement-concept_BV-21-01-13.jpg
      :align: center
-     :alt: 太空采矿业
+     :alt: 太空采矿业, Source DSI
 
 .. index:: 太空制造业
 .. index:: Space Manufacturing Industry
 
 * **太空制造业（Space Manufacturing Industry）**：以太空能源业和太空采矿业为基础，主要进行微重力条件下的产品制造。小行星表面、地球轨道、月球表面均建有太空工厂，生产的产品大多用于太空中基础设施的建立，少量产品将被运回地球。
 
-  .. figure:: http://deepspaceindustries.com/images/public/DSI-MGF-concept_BV-21-01-13.jpg
+  .. figure:: ./assets/future-asteroid-mining-2030s.jpg
      :align: center
-     :alt: 太空制造业
+     :alt: 太空制造业, Source DSI
 
 .. index:: 太空商业联合会
 .. index:: Space Business Federation
@@ -405,7 +405,7 @@ Unisat 的重要成员 **星际通信公司（Interplanetary Communication Compa
 .. index:: 四大商会合并
 .. index:: 星际移民中心
 
-2102 年 6 月，Unisat、ULA、OrbiTA 与 UPI 合并，保留 UPI 的名称。四大商会合并，一时间成为人人皆知的热门话题。借着合并的春风，火星殖民地的建设投入大大增加，吸引了大量的地球企业前来投资。尤为突出的是 **行星生态公司** 。这原本是一家地球的环保公司，但是投入了大量的科研经费，其中小型的生态循环的研究非常出色。该公司为火星殖民地开发了多种生态圈，公司股票一时间也是炙手可热。2113 年，该公司被 IIA 收编，但是保留了原来的公司形态。次年，IIA 将部分非盈利的部门拆分重组为 **星际移民中心** ，研发和服务部门大多成为星际移民中心的一部分。而剩余的部分大多由盈利的公司构成，逐渐成为星际移民中心的经济来源。火星移民热潮中，IIA 由原来的 UPI 提供经济支持，逐渐发展成为经济独立的机构，
+2102 年 6 月，Unisat、ULA、OrbiTA 与 UPI 合并，保留 UPI 的名称。四大商会合并，一时间成为人人皆知的热门话题。借着合并的春风，火星殖民地的建设投入大大增加，吸引了大量的地球企业前来投资。尤为突出的是 **行星生态公司** 。这原本是一家地球的环保公司，但是投入了大量的科研经费，其中小型的生态循环的研究非常出色。该公司为火星殖民地开发了多种生态圈，公司股票一时间也是炙手可热。2113 年，该公司被 IIA 收编，但是保留了原来的公司形态。次年，IIA 将部分非盈利的部门拆分重组为 **星际移民中心** ，研发和服务部门大多成为星际移民中心的一部分。而剩余的部分大多由盈利的公司构成，逐渐成为星际移民中心的经济来源。火星移民热潮中，IIA 由原来的 UPI 提供经济支持，逐渐发展成为经济独立的机构。
 
 火星殖民地更加完善
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
