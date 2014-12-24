@@ -82,7 +82,7 @@
    :align: center
    :alt: 火星沙尘暴
 
-   图片来自 `University Today <http://www.universetoday.com/14892/mars-dust-storms>`_ 。可以明显看到 2001 年 7 月 31 号的时候，整个星球都被沙尘暴覆盖了。
+   图片来自 `Universe Today <http://www.universetoday.com/14892/mars-dust-storms>`_ 。可以明显看到 2001 年 7 月 31 号的时候，整个星球都被沙尘暴覆盖了。
 
 .. figure:: https://upload.wikimedia.org/wikipedia/en/d/da/Mars_climate_zones.jpg
    :align: center
