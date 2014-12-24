@@ -10,7 +10,7 @@
 .. figure:: http://interimm.org/assets/images/marsCities.png
    :align: center
 
-   这是火星的地图。如有以为请咨询本中心。
+   这是火星的地图。如有疑问请咨询本中心。
 
 
 抵达星际移民局总部之后，在任意一个自动问询处都可以叫到自动导航车，自动导航车会将您带到目的地。

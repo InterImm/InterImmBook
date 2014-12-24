@@ -104,7 +104,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **太空能源业（Space Energy Industry）**：21 世纪 20 年代发展起来的新兴产业，早期主要为在轨卫星、探测器提供燃料补给，后来扩展到小行星燃料生产；
 
-  .. figure:: ./resources/DSI-Fuel%20Processor_BV-20-01-13.jpg
+  .. figure:: ./resources/DSI-FuelProcessor_BV-20-01-13.jpg
      :align: center
      :alt: 太空能源业, Source DSI
 
@@ -122,7 +122,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **太空制造业（Space Manufacturing Industry）**：以太空能源业和太空采矿业为基础，主要进行微重力条件下的产品制造。小行星表面、地球轨道、月球表面均建有太空工厂，生产的产品大多用于太空中基础设施的建立，少量产品将被运回地球。
 
-  .. figure:: ./assets/future-asteroid-mining-2030s.jpg
+  .. figure:: ./resources/future-asteroid-mining-2030s.jpg
      :align: center
      :alt: 太空制造业, Source DSI
 
