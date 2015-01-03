@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>移民产业 &mdash; 星际移民之书 3.14 文档</title>
+    <title>城市 &mdash; 星际移民之书 3.14 文档</title>
     
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -109,10 +109,10 @@
   <ul  class="breadcrumb" style="margin-bottom: 5px;margin-top:30px;">
     <li><a href="index.html">星际移民之书</a> &raquo;</li>
       
-    <li>移民产业</li>
+    <li>城市</li>
       <li class="breadcrumb-aside" style="float:right;">
         
-          <a href="_sources/exoplanets.txt" rel="nofollow"><span class="label label-info"> 本页源代码</span></a>
+          <a href="_sources/cities.txt" rel="nofollow"><span class="label label-info"> 本页源代码</span></a>
         
       </li>
   </ul>
@@ -120,210 +120,31 @@
 </div>
       
   <div class="section" id="id1">
-<h1>移民产业<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<h1>城市<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
 <div class="section" id="id2">
-<h2>系外行星分级<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>系外行星分级制度是为了方便将行星或卫星按照其人类生活移民的价值归类而设定的，主要考虑人在行星上生活的舒适程度。首先将行星在不同项目中进行分类，例如行星 X 在温度一项中，获得了 A 的评级；然后按照不同评级所对应的分数，计算 Planet GPA，并且采用四舍五入，例如在五分制中 4.5 分为 A 类（5 分），而 4.4 分却只能归到 B 类（4 分）。这是一种便于扩展的分类方法。</p>
-<p>作为一个简单的例子，我们考虑天体的表面温度、大气、水、表面重力和是否有固态表面几项，并且按照下表分级。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="23%" />
-<col width="9%" />
-<col width="22%" />
-<col width="12%" />
-<col width="16%" />
-<col width="3%" />
-<col width="7%" />
-<col width="7%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>分类标准</td>
-<td>级别（得分）</td>
-<td>温度</td>
-<td>大气压</td>
-<td>大气成分</td>
-<td>水</td>
-<td>表面重力</td>
-<td>固态表面</td>
-</tr>
-<tr class="row-even"><td>不需要维生设备，就能舒适地生活</td>
-<td>A(5)</td>
-<td>-10~30℃</td>
-<td>0.8atm~10atm</td>
-<td>氧分压&gt;0.16atm &amp;&amp; 无毒</td>
-<td>有</td>
-<td>0.5g~1.2g</td>
-<td>有</td>
-</tr>
-<tr class="row-odd"><td>不需要维生设备，能艰难地生活</td>
-<td>B(4)</td>
-<td>-50-50℃</td>
-<td>0.7atm~50atm</td>
-<td>氧分压&gt;0.13atm&amp;&amp;无毒</td>
-<td>无</td>
-<td>0g~1.5g</td>
-<td>无</td>
-</tr>
-<tr class="row-even"><td>需要维生设施，才能正常生活</td>
-<td>C(3)</td>
-<td>-80-70℃</td>
-<td>0.4atm~70atm</td>
-<td>氧分压&gt;0.001atm&amp;&amp;无毒</td>
-<td>无</td>
-<td>0g~3g</td>
-<td>无</td>
-</tr>
-<tr class="row-odd"><td>需要复杂的维生设施，才能正常生活</td>
-<td>D(2)</td>
-<td>-80-100℃</td>
-<td>0.001atm~1000atm</td>
-<td>无氧气&amp;&amp;有其他无毒气体</td>
-<td>无</td>
-<td>0g~5g</td>
-<td>无</td>
-</tr>
-<tr class="row-even"><td>无论如何都不能生活</td>
-<td>E(1)</td>
-<td>(-273.15, -80]℃ 或 [100, 无穷)℃</td>
-<td>0~+Infinity</td>
-<td>有有害气体</td>
-<td>无</td>
-<td>&gt;5g</td>
-<td>无</td>
-</tr>
-</tbody>
-</table>
-<p>有几点注意事项：</p>
-<ol class="arabic simple">
-<li>上表中，大气的最终归类，取大气压和大气成分两项中的最低分的分类，例如某行星获得大气压分类 B，大气成分分类为 D，那么大气的最终归类为 D，即取最低分类 D。</li>
-<li>在归类时，从 A 类开始考虑，如果不满足 A 类，便考虑是否满足 B 类，如果满足了归类为 B，如果不满足，继续考虑 C 类。</li>
-</ol>
-<p>下面我们可以按照这个分类标准类计算几个天体的归类。为了说明计算方法，我们使用火星的情况作为一个例子。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="11%" />
-<col width="11%" />
-<col width="33%" />
-<col width="7%" />
-<col width="19%" />
-<col width="19%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>天体</td>
-<td>温度</td>
-<td>大气压&amp;&amp;大气成分</td>
-<td>水</td>
-<td>表面重力</td>
-<td>固态表面</td>
-</tr>
-<tr class="row-even"><td>火星</td>
-<td>A</td>
-<td>D</td>
-<td>A</td>
-<td>B</td>
-<td>A</td>
-</tr>
-</tbody>
-</table>
-<p>那么对应的火星的最终评分为</p>
-<div class="math">
-\[\frac{5+2+5+4+5}{5} = 4.2 .\]</div>
-<p>按照约定，四舍五入，火星只能归类为 B 类。</p>
-<p>按照这种方法来计算，我们可以得到如下表格。</p>
-<table border="1" class="docutils">
-<colgroup>
-<col width="32%" />
-<col width="10%" />
-<col width="7%" />
-<col width="22%" />
-<col width="5%" />
-<col width="12%" />
-<col width="12%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>天体</td>
-<td>级别</td>
-<td>温度</td>
-<td>大气压&amp;&amp;大气成分</td>
-<td>水</td>
-<td>表面重力</td>
-<td>固态表面</td>
-</tr>
-<tr class="row-even"><td>地球</td>
-<td>A(5.0)</td>
-<td>A</td>
-<td>A</td>
-<td>A</td>
-<td>A</td>
-<td>A</td>
-</tr>
-<tr class="row-odd"><td>火星</td>
-<td>B(4.2)</td>
-<td>A</td>
-<td>D</td>
-<td>A</td>
-<td>B</td>
-<td>A</td>
-</tr>
-<tr class="row-even"><td>金星</td>
-<td>C(2.6)</td>
-<td>E</td>
-<td>E</td>
-<td>E</td>
-<td>A</td>
-<td>A</td>
-</tr>
-<tr class="row-odd"><td>水星</td>
-<td>D(2.4)</td>
-<td>E</td>
-<td>E</td>
-<td>E</td>
-<td>B</td>
-<td>A</td>
-</tr>
-<tr class="row-even"><td>泰坦</td>
-<td>C(3.4)</td>
-<td>E</td>
-<td>D</td>
-<td>A</td>
-<td>B</td>
-<td>A</td>
-</tr>
-<tr class="row-odd"><td>Gliese_667_Cc</td>
-<td>A*</td>
-<td>B</td>
-<td>?</td>
-<td>A</td>
-<td>B</td>
-<td>A</td>
-</tr>
-<tr class="row-even"><td>Kepler-186f</td>
-<td>A**</td>
-<td>A</td>
-<td>?</td>
-<td>?</td>
-<td>A</td>
-<td>A</td>
-</tr>
-<tr class="row-odd"><td>Kepler-62e</td>
-<td>A*</td>
-<td>A</td>
-<td>?</td>
-<td>A</td>
-<td>C</td>
-<td>A</td>
-</tr>
-<tr class="row-even"><td>Tau Ceti e (unconfirmed)</td>
-<td>B**</td>
-<td>C</td>
-<td>?</td>
-<td>?</td>
-<td>B</td>
-<td>A</td>
-</tr>
-</tbody>
-</table>
-<p>其中星花（<tt class="docutils literal"><span class="pre">*</span></tt>）的个数表示未知项目的个数。</p>
+<h2>火星城市发展历史<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id3">
+<h3>伊希地城市圈<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<p>自2070年第一个火星殖民地在伊希地平原建立后，随着殖民地规模的不断扩大，到22世纪初年逐渐发展到了地球上一座中等城市的规模，并被火星和地球上的人们称为“伊希地一号城”，简称一号城。</p>
+<p>相比 IIA 当初提出的火星移民规划，一号城的建成速度和建成规模都远超预期。不过，在22世纪初的火星移民热潮时期，地球上的移民需求逐渐攀升，一号城已经无法继续应对逐渐涌入的移民人潮。因此，二号城、三号城的建设计划呼之欲出。</p>
+<p>考虑到资源运输的便捷性，二号城和三号城的选址均位于伊希地平原。这两座城市建设过程中所使用的资源和源几乎全部来自于一号城。在两座新的城市建成后，新的移民和许多一号城的殖民者纷纷涌入，三座城市之间的交流与联系十分密切。22世纪20年代，火星上第一个繁荣的城市圈在伊希地逐渐形成。</p>
+<p>2123年2月17日，经过三地殖民者的全民公决，一、二、三号城以冬季大三角三颗星的名字命名，分别称为“南河城（Procyon City）”、“参宿城（Betelgeuse City）”、“天狼城（Sirius City）”。</p>
+</div>
+<div class="section" id="id4">
+<h3>亚马逊城市圈<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+<p>在参宿和天狼的建设时期，IIA 就已经开始酝酿开发火星上的各类资源。随着火星人口的快速攀升，许多年轻的探险者不满足仅仅居住于伊希地平原的三尺之地中，他们宁愿穷尽自己的青春岁月也想要览尽红色星球的奇观异貌，即便是离开条件优越的火星城市，踏向未有人涉足过的生命禁区。</p>
+<p>除此之外，火星考古及地质考察工作也在整个火星陆续展开，这些勘探者们实地采集了很多重要的数据，为资源勘探、火星远古生态的研究提供了宝贵的资料。</p>
+<p>为了给探险者和勘探者提供支持，IIA 在火星的一些主要地点周围和前往这些地点的必经之路上设立了很多小型的补给站。这些补给站通常由三四个生活舱和几个存储舱构成，能够在这荒凉的火星上为过往的人提供休憩的场所，以及水、食物、能源和燃料的补给。截止22世纪中叶，这类补给站的数量已经达到了数百个之多。</p>
+<p>埃律西昂山和奥林帕斯山是火星上最为热门的旅游及勘探地点之一。由于距伊希地较近，且路途十分平坦，往来于这两山一地的人较多，这一带补给站的规模也随之扩大。四号城和五号城正是由两个亚马逊平原的补给站慢慢发展起来的。</p>
+<p>七号城的发展历史较四、五号城更晚。这里的地势较为复杂，并不平坦，不过由于富集的铁矿石资源和低纬度优势，这里发展成为了能源与矿业重镇，很多机械制造公司也将厂址选在七号城，不过也因此，七号城的居住环境和生活条件并不理想。</p>
+<p>21世纪50年代，以四、五、七号城为核心的亚马逊城市圈初步建立，当地殖民者用地球古代的城邦为自己的城市命名，分别称为“楼兰城（Kroran City）”、“庞贝城（Pompeii City）”和“亚特兰蒂斯城（Atlantis City）”。</p>
+</div>
+<div class="section" id="id5">
+<h3>子午线城市圈<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+</div>
+<div class="section" id="id6">
+<h3>希腊城市圈<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h3>
+</div>
 </div>
 </div>
 
