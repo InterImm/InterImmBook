@@ -155,7 +155,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 .. index:: United Asteroid Institution
 .. index:: UAI
 
-* **联合小行星（United Asteroid Institution，简称 UAI）**：由行星资源公司（ `Planetary Resourses <www.planetaryresources.com>`_ ）、SpaceX小行星公司（SpaceX Asteroid）、深空工业公司（ `Deep Space Industry <http://deepspaceindustries.com>`_ ）、近地小行星矿业公司（NEAs Mining）组合而成，后来又合并了一些新成立的太空采矿公司，基本垄断了小行星采矿、小行星燃料生产、小行星产品制造市场。
+* **联合小行星（United Asteroid Institution，简称 UAI）**：由行星资源公司（ `Planetary Resourses <http://www.planetaryresources.com>`_ ）、SpaceX小行星公司（SpaceX Asteroid）、深空工业公司（ `Deep Space Industry <http://deepspaceindustries.com>`_ ）、近地小行星矿业公司（NEAs Mining）组合而成，后来又合并了一些新成立的太空采矿公司，基本垄断了小行星采矿、小行星燃料生产、小行星产品制造市场。
 
 .. index:: 轨道旅游局
 .. index:: Orbital Travel Agency
@@ -301,80 +301,20 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 
 值得一提的是，Unisat 提供的包括气象卫星、定位系统和遥感卫星等在内的卫星系统为火星表面殖民地的建设提供了各种便利。
 
+.. index:: 地火运输
+
 地火运输
 ~~~~~~~~~~~~~~~~~
 
 地球和火星之间的物资运输曾经一度成为整个火星开放计划中耗资最大的部分，这也曾经是 IIA 的研发部门投入精力最多的一个问题。2075 年，PNPT 正式并入 IIA，之后的 20 年内，太空运输业的发展达到巅峰时期。
 
-.. index:: 太空拖车
+在经历了短暂的传统化学火箭推进之后，热核火箭和离子推进迅速崛起，地球-火星航线变得更加快捷安全。
 
-太空拖车
-^^^^^^^^^^^^^^^^^
+.. admonition::
+   :class: note
 
-在第一个火星前哨站建立之后，UPI 的大宗货物运输是通过霍曼转移轨道进行的。由于当时在这种运输方式上的经验比较丰富，此方式被使用了多年。后来被称为“太空海运”，由于运输周期长，被人戏称为“太空拖车”。
+   关于地火运输的技术知识，请参阅 `科技-地火运输 <http://interimm.org/InterImmBook/tech.html#earth2mars-foldin>`_ 。
 
-.. figure:: resources/hohmannSystem.png
-   :align: center
-   :width: 400
-   :alt: 霍曼转移轨道
-
-运输器采用了大量的太空集装箱式的货仓设计，扩展方便。在 ULA 加入到火星殖民地建设中来之后，这部分逐渐完全转交给 ULA 负责。
-
-
-
-星际弹道捕获
-^^^^^^^^^^^^^^^^^^^
-
-弹道捕获的最早使用可以追溯到二十世纪人类发射的月球探测器 `Hiten <https://en.wikipedia.org/wiki/Low-energy_transfer#History>`_ 。通过这种方式到达环绕火星的轨道所需要的能量要比霍曼转移轨道的能量要低，然而也需要更长的时间。这种运输方式更加节省燃料，也就意味着同样的燃料可以运送更多的货物。在传统化学火箭时代，这种轨道是一种比霍曼转移轨道还要价格低廉，因此也长期存在。甚至在热核火箭和离子推进技术兴起的时代，这种运输轨道也被许多不知名的小机构继续使用。
-
-轨道在前期与霍曼转移类似，然而通过霍曼转移并非直接到达火星，而是到达火星轨道之内的某处，然后采用一个弹道捕获的轨道慢慢地与火星会和。
-
-.. figure:: resources/history/BallisticCaptureTransferStructure0.png
-   :align: center
-   :alt: 弹道捕获的星际转移轨道
-
-   弹道捕获的星际转移轨道。从地球出发，到达火星轨道之内的某处 :math:`x_c` 。参考 `arXiv:1410.8856 <http://arxiv.org/abs/1410.8856>`_ 。
-
-
-.. figure:: resources/history/BallisticCaptureTransferStructure.png
-   :align: center
-   :alt: 弹道捕获过程
-
-   从 :math:`x_c` 处到达火星的过程。参考 `arXiv:1410.8856 <http://arxiv.org/abs/1410.8856>`_ 。
-
-
-
-
-快速合点运输
-^^^^^^^^^^^^^^^^^
-
-飞船采用快速的合点轨道前往目的地。虽然这需要更多的燃料，但是对于一些需要快速运输而且贵重的货物来说，这是最佳选择。UPI 还在很多小行星设立中转站，负责从地球出发的飞船的安全和紧急补给。
-
-
-.. index:: 星际弹射系统
-
-星际弹射系统
-^^^^^^^^^^^^^^^^^
-
-小型物资的交换，需要比两年更小的周期。IIA 的研发部不得不考虑更加快捷的物质传输方式——星际弹射系统。
-
-星际弹射系统的前身就是在 21 世纪 60 年代的电磁投射系统。在火星殖民开始前的准备中，IIA 已经将一个电磁投射器发射到了火星。在大规模的地面建设开始之后，工程船将绕火星轨道上的电磁投射器进行了改造和更新，建立了更加复杂精确的弹射系统，用来接收地球轨道或者小行星矿场直接弹射过来的物资。经过严密的计算之后，地球轨道上或者位于小行星矿场的的弹射系统会将物资弹出，经由一条较快的路径到达火星，轨道修正由货仓上的离子引擎完成。物资到达火星轨道后，位于火星轨道的弹射系统将为物资减速，进一步空降到地面殖民地。为了全程追踪，每个包裹都会装有唯一标识的无线电信号源。
-
-.. index:: 星际快车
-
-这类弹射系统后来演化为轨道加速器，也就是火星大规模移民的主要交通方式，被称为 **星际快车** 。
-
-
-持续推进轨道
-^^^^^^^^^^^^^^^^^^^
-
-在离子推进兴起之后，地球-火星之间有了快速安全的航线。得益于新的推进技术的发展，这种轨道采用了更加直接的方案飞往目标行星。
-
-.. figure:: resources/history/ionThrustTrajectory.png
-   :align: center
-   :alt: 地球火星快速航线
-
-   地球和火星之间的快速航线。整个过程中发动机几乎全程开机，直接飞往目标行星。参考： `VASIMR Human Mission to Mars  <http://www.adastrarocket.com/Andrew-SPESIF-2011.pdf>`_ 。
 
 
 
@@ -480,12 +420,20 @@ IIA 研发部下属的 PNPT 对推进技术的发展做出了巨大的贡献。�
 
    火星城市及旅游图。基于 `NASA MOLA <http://mola.gsfc.nasa.gov/images.html>`_ 地图制作。在 Google Mars 中导入 `此 KMZ 文件 <./resources/marsCities/marsCities.kmz>`_ ，可以观察火星城市具体位置。
 
-第一项大型行星工程
-~~~~~~~~~~~~~~~~~~~~
 
-火星殖民地的建设过程中，有一颗彗星（非周期）近距离飞过火星。UPI 经过建模计算，发现可以将彗星拆解，并使其坠入火星大气层，以此来作为火星生态改造的起点。幸运的是，彗星轨道与一颗小行星的轨道交叉，并且只需要对这颗小行星的轨道进行稍许调节，便可以是的彗星与小行星相撞。按照计划，小行星的轨道被逐渐改变，最终与彗星相撞，彗星解体，并由运输船投放至火星表面，形成许多湖泊。这是第一次大型行星工程的尝试。
+.. admonition:: 火星城市历史
+   :class: note
+   :name: mars-city-history
 
-多年之后，长期的改造建立起了火星初步的生态循环。此次改造的数据成为之后行星生态改造的一个重要参考。
+   火星城市发展历史请参阅 `城市 <http://interimm.org/InterImmBook/cities.html>`_ 。
 
-.. figure:: http://newswatch.nationalgeographic.com/files/2013/09/mars-comet-NASA.jpg
-   :align: center
+
+.. 第一项大型行星工程
+.. ~~~~~~~~~~~~~~~~~~~~
+
+.. 火星殖民地的建设过程中，有一颗彗星（非周期）近距离飞过火星。UPI 经过建模计算，发现可以将彗星拆解，并使其坠入火星大气层，以此来作为火星生态改造的起点。幸运的是，彗星轨道与一颗小行星的轨道交叉，并且只需要对这颗小行星的轨道进行稍许调节，便可以是的彗星与小行星相撞。按照计划，小行星的轨道被逐渐改变，最终与彗星相撞，彗星解体，并由运输船投放至火星表面，形成许多湖泊。这是第一次大型行星工程的尝试。
+
+.. 多年之后，长期的改造建立起了火星初步的生态循环。此次改造的数据成为之后行星生态改造的一个重要参考。
+
+.. .. figure:: http://newswatch.nationalgeographic.com/files/2013/09/mars-comet-NASA.jpg
+..   :align: center

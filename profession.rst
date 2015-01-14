@@ -73,6 +73,7 @@
 
 .. admonition:: Made in Space
    :class: note
+   :name: made-in-space
 
    Made in Space 是成立于载人登火之前（2010）的一家公司，他们是第一家在太空中直接制造产品的公司。在之后的登火热潮中，该公司的业务急剧增长，经济实力也越来越强大，开始赶超许多大型的地球上的 IT 公司。
 
