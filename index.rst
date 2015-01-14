@@ -23,8 +23,9 @@
    :maxdepth: 2
 
    InterImm.rst
-   history.rst
    mars.rst
+   history.rst
+   cities.rst
    profession.rst
    tech.rst
 

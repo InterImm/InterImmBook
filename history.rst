@@ -310,8 +310,9 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 
 在经历了短暂的传统化学火箭推进之后，热核火箭和离子推进迅速崛起，地球-火星航线变得更加快捷安全。
 
-.. admonition::
+.. admonition:: 地火运输
    :class: note
+   :name: earth-mars-inter
 
    关于地火运输的技术知识，请参阅 `科技-地火运输 <http://interimm.org/InterImmBook/tech.html#earth2mars-foldin>`_ 。
 
