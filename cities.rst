@@ -12,6 +12,13 @@
    火星前哨战是人数大于100人的聚集区，火星基地的要求为人数大于1000人，而火星城市是人数多于10000人的聚集区。
 
 
+.. figure:: ./resources/marsCities/marsCities.png
+   :align: center
+
+   火星城市及旅游图。基于 `NASA MOLA <http://mola.gsfc.nasa.gov/images.html>`_ 地图制作。在 Google Mars 中导入 `此 KMZ 文件 <./resources/marsCities/marsCities.kmz>`_ ，可以观察火星城市具体位置。
+
+
+
 .. index:: 伊希地城市圈
 .. index:: Isidis Metropolitan Area
 
@@ -121,6 +128,9 @@
 
 
 .. [#avamars] 艾娃火星公司是一家火星矿业公司。其前身天穹资源（Arc Resources Inc.）原本从事小行星采矿行业，在激烈的市场竞争中，当时的公司总裁 Ava 说服大家将重心从小行星采矿转移到火星采矿业，产业主要为火星表面建设服务。此后公司经历了高速发展时期，在并购了几家小型的火星矿业公司之后，改名为艾娃火星（Ava Mars），用来纪念英年早逝的 Ava。
+
+
+
 
 
 
