@@ -23,11 +23,11 @@
    :maxdepth: 2
 
    InterImm.rst
-   mars.rst
-   history.rst
-   cities.rst
-   profession.rst
-   tech.rst
+   navigator/index.rst
+   history/index.rst
+   profession/index.rst
+   tech/index.rst
+   guide/index.rst
 
 
 
