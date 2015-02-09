@@ -40,7 +40,7 @@
 .. figure:: ./resources/olympusC.jpg
    :align: center
 
-   （来自 `Wikipedia:File:Olympus Mons aureole MOLA zoom 64.jpg <http://en.wikipedia.org/wiki/File:Olympus_Mons_aureole_MOLA_zoom_64.jpg>`_ ，公共领域作品）
+   来自 `Wikipedia:File:Olympus Mons aureole MOLA zoom 64.jpg <http://en.wikipedia.org/wiki/File:Olympus_Mons_aureole_MOLA_zoom_64.jpg>`_ ，公共领域作品
 
 
 奥林帕斯山是一座火山，面积非常大，山峰非常高。
@@ -48,7 +48,7 @@
 .. figure:: ./resources/olympus3D.jpg
    :align: center
 
-   （来自 `HiRISE Mars Digital Elevation Models: Difficult to Build, Easy on the Eye <http://astroengine.com/2008/12/31/hirise-digital-elevation-models-difficult-to-build-easy-on-the-eye/#jp-carousel-2874>`_ ）
+   来自 `HiRISE Mars Digital Elevation Models: Difficult to Build, Easy on the Eye <http://astroengine.com/2008/12/31/hirise-digital-elevation-models-difficult-to-build-easy-on-the-eye/#jp-carousel-2874>`_ 
 
 这样一座壮观宏伟的山，在早上的太阳的照耀下，让人叹为观止：
 
@@ -80,7 +80,7 @@
 .. figure:: ./resources/marineS.jpg
    :align: center
 
-   （来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ ） 
+   来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ 
 
 
 朝阳升起，站在峡谷中，仰望远处的风光。
@@ -89,7 +89,9 @@
 .. figure:: ./resources/marineI.jpg
    :align: center
 
-   （来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ ） 
+   来自：`Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ 
+
+
 
 
 
@@ -101,7 +103,7 @@
 .. figure:: ./resources/gale.jpg
    :align: center
 
-   （来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ ） 
+   来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ 
 
 
 盖尔撞击坑中有着非常神奇的景观：山顶上的山峰。同时也是 `火星科学实验室 <http://zh.wikipedia.org/wiki/%E7%81%AB%E6%98%9F%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4>`_ 的着陆地点，也就是好奇号的着陆的地方。由于流水侵蚀，撞击坑内有很多的侵蚀河道，地形复杂。
@@ -127,7 +129,7 @@
 .. figure:: ./resources/tharsis.jpg
    :align: center
 
-   （ `Wikipedia File:Tharsis Montes MOLA zoom 64.jpg <http://commons.wikimedia.org/wiki/File:Tharsis_Montes_MOLA_zoom_64.jpg>`_ 公共领域作品） 
+   来自 `Wikipedia File:Tharsis Montes MOLA zoom 64.jpg <http://commons.wikimedia.org/wiki/File:Tharsis_Montes_MOLA_zoom_64.jpg>`_ 公共领域作品
 
 
 
@@ -142,7 +144,7 @@
 .. figure:: ./resources/elysiumD.jpg
    :align: center
 
-   （来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ ） 
+   来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ 
 
 
 

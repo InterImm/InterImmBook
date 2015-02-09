@@ -10,4 +10,6 @@
    :maxdepth: 2
 
    mars.rst
+   titan.rst
+   saturnsys.rst
 
