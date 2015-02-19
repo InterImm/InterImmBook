@@ -25,4 +25,4 @@
 
 ## 其他
 
-本书使用 [Gitbook](http://gitbook.io) 生成页面。
+本书使用 [sphinx](http://sphinx-doc.org/) 生成页面。
