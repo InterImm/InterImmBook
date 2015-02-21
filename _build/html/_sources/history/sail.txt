@@ -152,13 +152,13 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 .. index:: United Asteroid Institution
 .. index:: UAI
 
-* **联合小行星（United Asteroid Institution，简称 UAI）**：由行星资源公司（ `Planetary Resourses <http://www.planetaryresources.com>`_ ）、SpaceX小行星公司（SpaceX Asteroid）、深空工业公司（ `Deep Space Industry <http://deepspaceindustries.com>`_ ）、近地小行星矿业公司（NEAs Mining）组合而成，后来又合并了一些新成立的太空采矿公司，基本垄断了小行星采矿、小行星燃料生产、小行星产品制造市场。
+* **联合小行星（United Asteroid Institution，简称 UAI）**：由行星资源公司（ `Planetary Resourses <http://www.planetaryresources.com>`_ ）、SpaceX小行星公司（SpaceX Asteroids）、深空工业公司（ `Deep Space Industry <http://deepspaceindustries.com>`_ ）、近地小行星矿业公司（NEAs Mining）组合而成，后来又合并了一些新成立的太空采矿公司，基本垄断了小行星采矿、小行星燃料生产、小行星产品制造市场。
 
 .. index:: 轨道旅游局
 .. index:: Orbital Travel Agency
 .. index:: OrbiTA
 
-* **轨道旅游局（Orbital Travel Agency，简称 OrbiTA）**：由维珍银河公司（ `Virgin Galactic <http://en.wikipedia.org/wiki/Virgin_Galactic>`_ ）、宇宙探险公司（宇宙探険株式会社）、SpaceX旅游（SpaceX Tourist）合并而成，主要开发亚轨道、近地轨道旅游、近地空间站旅游等等。
+* **轨道旅游局（Orbital Travel Agency，简称 OrbiTA）**：由维珍银河公司（ `Virgin Galactic <http://en.wikipedia.org/wiki/Virgin_Galactic>`_ ）、宇宙探险公司（宇宙探険株式会社）、SpaceX旅游（SpaceX Tourists）合并而成，主要开发亚轨道、近地轨道旅游、近地空间站旅游等等。
 
 载人火星探索的冷落
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
