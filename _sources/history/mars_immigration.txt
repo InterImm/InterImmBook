@@ -68,9 +68,9 @@
 绕火轨道上的空间站也逐步扩展为研究人员基地。由于很多推进器测试都选择了地球到火星的轨道，部分推进器研究机构都往火星空间站派驻了研究人员。UPI 的推进技术研究中心甚至在绕火轨道设立了单独的空间站，为其研究人员提供生活和研究的空间。
 
 .. index:: 星际通信公司
-.. index:: Interplanetary Communication Company
+.. index:: Interplanetary Communications Company
 
-Unisat 的重要成员 **星际通信公司（Interplanetary Communication Company）** 也在火星表面和绕火轨道设立研究中心。
+Unisat 的重要成员 **星际通信公司（Interplanetary Communications Company）** 也在火星表面和绕火轨道设立研究中心。
 
 .. figure:: http://www.space4case.inhetweb.nl/mmw/media/mars2005/vallesmarineris7500_20051014_18final1024.jpg
    :align: center
