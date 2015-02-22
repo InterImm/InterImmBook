@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>公司列表 &mdash; 星际移民之书 3.14 文档</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/material-wfont.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/material.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/ripples.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/snackbar.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/style.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '3.14',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/material/js/material.min.js"></script>
+    <script type="text/javascript" src="../_static/material/js/ripples.min.js"></script>
+    <link rel="top" title="星际移民之书 3.14 文档" href="../index.html" />
+    <link rel="up" title="行业" href="index.html" />
+    <link rel="next" title="科技" href="../tech/index.html" />
+    <link rel="prev" title="行业介绍" href="profession.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<!-- Nav Bar at top -->
+<div class="navbar navbar-black" style="font-size:14px;">
+    <div class="navbar-header navbar-border-r">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav navbar-nav-black">
+        <li class="divider-vertical divider-white"></li>
+            <li><a href="http://interimm.org/magazine"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+            <li class="active"><a href="http://interimm.org/InterImmBook"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
+            <li><a href="http://interimm.org/exoplanets"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-nav-black">
+        <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+            <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
+            
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i>&nbsp; 更多 <b class="caret"></b></a>
+                <ul class="dropdown-menu black-bg">
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--  Nav Bar Top END -->
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav well" role="complementary"><div class="nav nav-pills nav-stacked">
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../InterImm.html">星际移民中心</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../navigator/index.html">导览</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../history/index.html">历史</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">行业</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="profession.html">行业介绍</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">公司列表</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tech/index.html">科技</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/index.html">指南</a></li>
+</ul>
+
+<ul class="current nav nav-list" style="border-top:1px solid grey;margin-top:1em;padding-top:1em;">
+	<li><a href="http://interimm.org/InterImmBook/genindex.html">重要词条索引</a></li>
+	<li><a href="https://github.com/InterImm/InterImmBook/issues" target="_blank">提交 BUG</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    <div class="col-md-9">
+      <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul  class="breadcrumb" style="margin-bottom: 5px;margin-top:30px;">
+    <li><a href="../index.html">星际移民之书</a> &raquo;</li>
+      
+          <li><a href="index.html">行业</a> &raquo;</li>
+      
+    <li>公司列表</li>
+      <li class="breadcrumb-aside" style="float:right;">
+        
+          <a href="../_sources/profession/companies.txt" rel="nofollow"><span class="label label-info"> 本页源代码</span></a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+      
+  <div class="section" id="id1">
+<h1>公司列表<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>这里记录了2200年以前太阳系内成立的主要公司列表。</p>
+<div class="section" id="space-exploration-technologies-corporation-spacex">
+<h2>太空探索技术公司 - Space Exploration Technologies Corporation (SpaceX)<a class="headerlink" href="#space-exploration-technologies-corporation-spacex" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2002 年</li>
+<li>公司总部：美国加利福利亚州霍桑（2002 ～ 2039）- 近地轨道 X 空间站（2039 ～ 2041）</li>
+<li>主要业务：航天发射、载人飞船</li>
+</ul>
+<p>由 Elon Musk 创立的私人航天公司，以猎鹰系列火箭起家，后因研制出成熟的可重复使用火箭技术，在国际发射市场上占据了一席之地。载人登火“赤风”计划中，其研制的“红龙”飞船作为乘员舱使用。2037年，为了开拓小行星和太空旅游业务，公司总裁 Musk 决定将公司的名义总部移至位于近地轨道的大型空间站—— X 空间站中，这也使 SpaceX 成为首个真正意义上的“太空公司”。</p>
+<p>2041 年，由于公司内部关于发展方向的矛盾分歧越发严重，SpaceX 最终拆分成 “SpaceX 旅游”和“SpaceX 小行星”两家公司，Musk 也在一夜间离开公众视野。</p>
+</div>
+<div class="section" id="space-exploration-tourists-corporation-spacex-tourists">
+<h2>太空探索旅游公司 - Space Exploration Tourists Corporation (SpaceX Tourists)<a class="headerlink" href="#space-exploration-tourists-corporation-spacex-tourists" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2041 年</li>
+<li>公司总部：美国新墨西哥州太空港</li>
+<li>主要业务：太空旅游</li>
+</ul>
+<p>由原先 SpaceX 公司拆分而来。</p>
+</div>
+<div class="section" id="space-exploration-asteroids-corporation-spacex-asteroids">
+<h2>太空探索小行星公司 - Space Exploration Asteroids Corporation (SpaceX Asteroids)<a class="headerlink" href="#space-exploration-asteroids-corporation-spacex-asteroids" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2041 年</li>
+<li>公司总部：近地轨道 X 空间站</li>
+<li>主要业务：小行星开发</li>
+</ul>
+<p>由原先 SpaceX 公司拆分而来。</p>
+</div>
+<div class="section" id="united-launch-alliance-ula">
+<h2>联合发射同盟 - United Launch Alliance (ULA)<a class="headerlink" href="#united-launch-alliance-ula" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2006 年</li>
+<li>公司总部：美国科罗拉多州森特尼尔</li>
+<li>主要业务：航天发射</li>
+</ul>
+<p>由波音公司和洛克希德马丁公司共同组建的合资企业。在 2020 年以前一直是 NASA 最大的航天发射提供商，后来由于 SpaceX 可重复使用猎鹰火箭的竞争在发射市场中逐渐趋于不利地位。在 20 世纪 30 年代，ULA 并购了轨道科学公司与太空捷运公司，并凭借着研制出的新一代可重复使用火箭，重新占据了地球航天发射市场的大多数份额。</p>
+</div>
+<div class="section" id="orbital-sciences-corporation">
+<h2>轨道科学公司 - Orbital Sciences Corporation<a class="headerlink" href="#orbital-sciences-corporation" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：1982 年</li>
+<li>公司总部：美国弗吉尼亚州杜勒斯</li>
+<li>主要业务：航天发射、人造卫星、载人飞船</li>
+</ul>
+<p>以人造卫星的制造与发射业务起家，后来将业务重点放在了载人航天发射和空间站补给任务上。2032 年与 ULA 合并。</p>
+</div>
+<div class="section" id="space-rapid-transit-corporation">
+<h2>太空捷运公司 - Space Rapid Transit Corporation<a class="headerlink" href="#space-rapid-transit-corporation" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2022 年</li>
+<li>公司总部：？？？</li>
+<li>主要业务：航天发射、载人飞船、亚轨道旅游</li>
+</ul>
+<p>公司成立之初以当时正火热的亚轨道旅游为主要业务，后来拓展到近地轨道发射。2034 年被 ULA 收购。</p>
+</div>
+<div class="section" id="international-telecommunications-satellite-organization-intelsat">
+<h2>国际通信卫星组织 -  International Telecommunications Satellite Organization (Intelsat)<a class="headerlink" href="#international-telecommunications-satellite-organization-intelsat" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：1964 年</li>
+<li>公司总部：卢森堡卢森堡市</li>
+<li>主要业务：人造卫星</li>
+</ul>
+</div>
+<div class="section" id="international-maritime-satellite-organization-inmarsat">
+<h2>国际海事卫星组织 -  International Maritime Satellite Organization (Inmarsat)<a class="headerlink" href="#international-maritime-satellite-organization-inmarsat" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：1979 年</li>
+<li>公司总部：英国英格兰伦敦市</li>
+<li>主要业务：人造卫星</li>
+</ul>
+</div>
+<div class="section" id="european-telecommunications-satellite-organization-eutelsat">
+<h2>欧洲通信卫星组织 -  European Telecommunications Satellite Organization (Eutelsat)<a class="headerlink" href="#european-telecommunications-satellite-organization-eutelsat" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：1977 年</li>
+<li>公司总部：法国巴黎市</li>
+<li>主要业务：人造卫星</li>
+</ul>
+</div>
+<div class="section" id="asia-satellite-telecommunications-co-ltd-asiasat">
+<h2>亚洲卫星公司 -  Asia Satellite Telecommunications Co. Ltd. (AsiaSat)<a class="headerlink" href="#asia-satellite-telecommunications-co-ltd-asiasat" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：1977 年</li>
+<li>公司总部：中国香港特别行政区</li>
+<li>主要业务：人造卫星</li>
+</ul>
+</div>
+<div class="section" id="virgin-galactic">
+<h2>维珍银河公司 - Virgin Galactic<a class="headerlink" href="#virgin-galactic" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2004 年</li>
+<li>公司总部：美国加利福利亚州帕萨迪纳</li>
+<li>主要业务：亚轨道旅游</li>
+</ul>
+<p>时属维珍集团子公司，其开发的太空船系列亚轨道飞船在 20 世纪 20 年代的亚轨道旅游热潮中占据了大部分市场份额。后并入轨道旅游局。</p>
+</div>
+<div class="section" id="id2">
+<h2>宇宙探险公司 - 宇宙探検株式会社<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2025 年</li>
+<li>公司总部：日本京都府京都市</li>
+<li>主要业务：亚轨道旅游</li>
+</ul>
+</div>
+<div class="section" id="orbital-travel-agency-orbita">
+<h2>轨道旅游局 - Orbital Travel Agency (OrbiTA)<a class="headerlink" href="#orbital-travel-agency-orbita" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2036 年</li>
+<li>公司总部：美国加利福利亚州帕萨迪纳（2036 ～ 2047）－ 近地轨道“曙光号”空间站</li>
+<li>主要业务：太空旅游</li>
+</ul>
+<p>为了共同开发亚轨道以外的太空旅游市场，当时亚轨道旅游市场的两大巨头——宇宙探险公司与维珍银河公司决定合并组成轨道旅游局。2046 年，SpaceX 旅游也宣布加入轨道旅游局。次年，轨道旅游局将总部搬至近地轨道的大型空间站。</p>
+</div>
+<div class="section" id="deep-space-industries-dsi">
+<h2>深空工业公司 - Deep Space Industries (DSI)<a class="headerlink" href="#deep-space-industries-dsi" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2013 年</li>
+<li>公司总部：美国加利福利亚州山景城</li>
+<li>主要业务：小行星采矿</li>
+</ul>
+</div>
+<div class="section" id="planetary-resources">
+<h2>行星资源公司 - Planetary Resources<a class="headerlink" href="#planetary-resources" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2010 年</li>
+<li>公司总部：美国华盛顿州西雅图</li>
+<li>主要业务：小行星采矿、载人空间站</li>
+</ul>
+</div>
+<div class="section" id="near-earth-asteroids-mining-neas-mining">
+<h2>近地小行星矿业公司 － Near Earth Asteroids Mining (NEAs Mining)<a class="headerlink" href="#near-earth-asteroids-mining-neas-mining" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2026 年</li>
+<li>公司总部：中国江苏省徐州市</li>
+<li>主要业务：小行星采矿</li>
+</ul>
+<p>联合小行星 － United Asteroid Institution (UAI) →
+联合行星 － United Planet Institution (UPI)
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<ul class="simple">
+<li>成立时间：2047 年 → 2060 年</li>
+<li>公司总部：近地轨道“？？？号”空间站（2047 ～ 2060）－ 地月拉格朗日 L2 点“？？？号”空间站</li>
+<li>主要业务：小行星采矿、太空能源、无重力制造、载人空间站</li>
+</ul>
+</div>
+<div class="section" id="made-in-space">
+<h2>太空制造公司 － Made In Space<a class="headerlink" href="#made-in-space" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2010 年</li>
+<li>公司总部：美国加利福利亚州山景城（2010 ～ 2043）－ 近地轨道“？？？号”空间站</li>
+<li>主要业务：无重力制造</li>
+</ul>
+</div>
+<div class="section" id="home-range">
+<h2>鸿雁通信 - Home Range<a class="headerlink" href="#home-range" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li>成立时间：2023 年</li>
+<li>公司总部：中国上海</li>
+<li>主要业务：行星际通信</li>
+</ul>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer" style="margin-top:1em">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#"><span class="btn btn-primary btn-flat btn-xs"> 回顶部</span></a>
+      
+    </p>
+    <p>
+        <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Feb 21, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+    </p>
+  </div>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50146153-3', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+  </script>
+</footer>
+  </body>
+</html>

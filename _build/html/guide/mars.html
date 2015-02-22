@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>火星指南 &mdash; 星际移民之书 3.14 文档</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/material-wfont.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/material.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/ripples.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/snackbar.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/style.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '3.14',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/material/js/material.min.js"></script>
+    <script type="text/javascript" src="../_static/material/js/ripples.min.js"></script>
+    <link rel="top" title="星际移民之书 3.14 文档" href="../index.html" />
+    <link rel="up" title="指南" href="index.html" />
+    <link rel="next" title="泰坦指南" href="titan.html" />
+    <link rel="prev" title="指南" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<!-- Nav Bar at top -->
+<div class="navbar navbar-black" style="font-size:14px;">
+    <div class="navbar-header navbar-border-r">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav navbar-nav-black">
+        <li class="divider-vertical divider-white"></li>
+            <li><a href="http://interimm.org/magazine"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+            <li class="active"><a href="http://interimm.org/InterImmBook"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
+            <li><a href="http://interimm.org/exoplanets"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-nav-black">
+        <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+            <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
+            
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i>&nbsp; 更多 <b class="caret"></b></a>
+                <ul class="dropdown-menu black-bg">
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--  Nav Bar Top END -->
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav well" role="complementary"><div class="nav nav-pills nav-stacked">
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../InterImm.html">星际移民中心</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../navigator/index.html">导览</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../history/index.html">历史</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../profession/index.html">行业</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tech/index.html">科技</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">指南</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">火星指南</a></li>
+<li class="toctree-l2"><a class="reference internal" href="titan.html">泰坦指南</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saturnsys.html">土星系统其他指南</a></li>
+</ul>
+</li>
+</ul>
+
+<ul class="current nav nav-list" style="border-top:1px solid grey;margin-top:1em;padding-top:1em;">
+	<li><a href="http://interimm.org/InterImmBook/genindex.html">重要词条索引</a></li>
+	<li><a href="https://github.com/InterImm/InterImmBook/issues" target="_blank">提交 BUG</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    <div class="col-md-9">
+      <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul  class="breadcrumb" style="margin-bottom: 5px;margin-top:30px;">
+    <li><a href="../index.html">星际移民之书</a> &raquo;</li>
+      
+          <li><a href="index.html">指南</a> &raquo;</li>
+      
+    <li>火星指南</li>
+      <li class="breadcrumb-aside" style="float:right;">
+        
+          <a href="../_sources/guide/mars.txt" rel="nofollow"><span class="label label-info"> 本页源代码</span></a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+      
+  <div class="section" id="id1">
+<h1>火星指南<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>火星的旅游景点非常多，除了奇特的自然景观，被保护起来的人类探测器的遗址、散布在火星各处的前哨战和基地以及壮观的火星城市也都是火星表面旅游的好去处。除此之外，火星的轨道旅游项目中，游客可以乘坐环绕火星的轨道和亚轨道飞行器对火星鸟瞰。</p>
+<div class="note admonition">
+<p class="first admonition-title">指南小助手</p>
+<p>这是一些火星的简要资料索引。</p>
+<ol class="last arabic simple">
+<li>火星地质图可以参考导览一章的火星地形。<a class="reference internal" href="../navigator/mars.html#marsgeo"><em>火星地形</em></a> 。</li>
+<li>火星历法可以参考导览一章的火星历法。 <a class="reference internal" href="../navigator/mars.html#marscal"><em>火星历法</em></a> 。</li>
+<li>火星时间可以参考导览一章的火星计时。 <a class="reference internal" href="../navigator/mars.html#marstimekeeping"><em>火星时区</em></a> 。</li>
+</ol>
+</div>
+<div class="figure align-center">
+<img alt="../_images/marsCities.png" src="../_images/marsCities.png" />
+<p class="caption">这是一份截止 2200 年的火星一些重要的探测器遗址和火星城市的地图。</p>
+</div>
+<div class="section" id="id2">
+<h2>火星自然景观<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>火星美丽的自然景观数不胜数，高山、陨坑、河道、高原，千百种姿态，千百种美丽。</p>
+<div class="section" id="id3">
+<h3>高山，峡谷，陨石坑<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<div class="section" id="id4">
+<h4>奥林帕斯山——火星最高的山，太阳系第二高峰<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h4>
+<div class="figure align-center">
+<img alt="../_images/olympusC.jpg" src="../_images/olympusC.jpg" />
+<p class="caption">来自 <a class="reference external" href="http://en.wikipedia.org/wiki/File:Olympus_Mons_aureole_MOLA_zoom_64.jpg">Wikipedia:File:Olympus Mons aureole MOLA zoom 64.jpg</a> ，公共领域作品</p>
+</div>
+<p>奥林帕斯山是一座火山，面积非常大，山峰非常高。</p>
+<div class="figure align-center">
+<img alt="../_images/olympus3D.jpg" src="../_images/olympus3D.jpg" />
+<p class="caption">来自 <a class="reference external" href="http://astroengine.com/2008/12/31/hirise-digital-elevation-models-difficult-to-build-easy-on-the-eye/#jp-carousel-2874">HiRISE Mars Digital Elevation Models: Difficult to Build, Easy on the Eye</a></p>
+</div>
+<p>这样一座壮观宏伟的山，在早上的太阳的照耀下，让人叹为观止：</p>
+<div class="figure align-center">
+<img alt="../_images/olympusT.jpg" src="../_images/olympusT.jpg" />
+<p class="caption">奥林帕斯山和远处的塔尔西斯山，太阳已经升起，照亮了这四座山峰。（Credit: NASA，JPL）</p>
+</div>
+</div>
+<div class="section" id="id5">
+<h4>水手峡谷——火星的伤疤<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h4>
+<div class="figure align-center">
+<img alt="../_images/marineO.jpg" src="../_images/marineO.jpg" />
+<p class="caption">在太空中看到火星，水手峡谷如同火星巨大的伤疤。（来自 <a class="reference external" href="http://zh.wikipedia.org/wiki/File:Mars_Valles_Marineris.jpeg">File:Mars Valles Marineris.jpeg</a> ，公共领域作品）</p>
+</div>
+<p>水手峡谷如同火星巨大的伤疤。万籁俱寂的时刻，阳光洒下。</p>
+<div class="figure align-center">
+<img alt="../_images/marineS.jpg" src="../_images/marineS.jpg" />
+<p class="caption">来自： <a class="reference external" href="http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php">Kees Veenenbos</a></p>
+</div>
+<p>朝阳升起，站在峡谷中，仰望远处的风光。</p>
+<div class="figure align-center">
+<img alt="../_images/marineI.jpg" src="../_images/marineI.jpg" />
+</div>
+</div>
+<div class="section" id="gale-crater">
+<h4>盖尔撞击坑（Gale Crater）——山上的山<a class="headerlink" href="#gale-crater" title="永久链接至标题">¶</a></h4>
+<div class="figure align-center">
+<img alt="../_images/gale.jpg" src="../_images/gale.jpg" />
+</div>
+<p>盖尔撞击坑中有着非常神奇的景观：山顶上的山峰。同时也是 <a class="reference external" href="http://zh.wikipedia.org/wiki/%E7%81%AB%E6%98%9F%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C%E5%AE%A4">火星科学实验室</a> 的着陆地点，也就是好奇号的着陆的地方。由于流水侵蚀，撞击坑内有很多的侵蚀河道，地形复杂。</p>
+<p>即便在太空中，也可以轻松辨认出盖尔撞击坑。在漫漫的火星表面，它就像碗里的托着一块小蛋糕。</p>
+<div class="figure align-center">
+<img alt="../_images/galeO.jpg" src="../_images/galeO.jpg" />
+<p class="caption">盖尔撞击坑正要开始一个新的白天。（ <a class="reference external" href="http://zh.wikipedia.org/wiki/File:Daybreak_at_Gale_Crater.jpg">File:Daybreak at Gale Crater.jpg</a> 公共领域作品）</p>
+</div>
+</div>
+<div class="section" id="id9">
+<h4>塔尔西斯山——三颗纽扣<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h4>
+<p>塔尔西斯山由三座盾状火山组成，像三颗纽扣一样装饰在奥林帕斯山一侧。许多旅游者会站在这里，如果遥望女神一样，遥望远处的奥林帕斯山。</p>
+<div class="figure align-center">
+<img alt="../_images/tharsis.jpg" src="../_images/tharsis.jpg" />
+<p class="caption">来自 <a class="reference external" href="http://commons.wikimedia.org/wiki/File:Tharsis_Montes_MOLA_zoom_64.jpg">Wikipedia File:Tharsis Montes MOLA zoom 64.jpg</a> 公共领域作品</p>
+</div>
+</div>
+<div class="section" id="id10">
+<h4>埃律西昂山<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h4>
+<p>埃律西昂山在平坦的火星亚马逊平原上，是非常突兀的一座高山。</p>
+<div class="figure align-center">
+<img alt="../_images/elysiumD.jpg" src="../_images/elysiumD.jpg" />
+</div>
+<div class="figure align-center">
+<img alt="../_images/elysiumT.jpg" src="../_images/elysiumT.jpg" />
+</div>
+</div>
+</div>
+<div class="section" id="id13">
+<h3>日出，日落，日食<a class="headerlink" href="#id13" title="永久链接至标题">¶</a></h3>
+<p>火星上的日出日落，有时候会出现一些奇特景象。</p>
+<div class="figure align-center">
+<img alt="../_images/bluesun.jpg" src="../_images/bluesun.jpg" />
+<p class="caption">火星的蓝色日落。由于火星大气中颗粒的作用，火星的日落会出现不同的颜色，例如上面的蓝色。不同的天气状况会出现不同的日落，除了蓝太阳，也会有红色的日落。</p>
+</div>
+<p>地球上的日食，是个奇观。然而火星上的日食，也有其特别之处。</p>
+<div class="figure align-center">
+<img alt="../_images/PIA17356-MarsCuriosityRover-EclipseOfSunByPhobos.jpg" src="../_images/PIA17356-MarsCuriosityRover-EclipseOfSunByPhobos.jpg" />
+<p class="caption">好奇号拍摄到的火星上的“日食”。（ 来自 <a class="reference external" href="http://commons.wikimedia.org/wiki/File:PIA17356-MarsCuriosityRover-EclipseOfSunByPhobos.jpg">Wikipedia File:PIA17356-MarsCuriosityRover-EclipseOfSunByPhobos.jpg</a> ）</p>
+</div>
+<div class="note admonition">
+<p class="first admonition-title">补充知识</p>
+<p class="last">火星有两颗卫星，火卫一 Phobos 和火卫二 Deimos，他们都很小，半径分别有 11 千米多点和不到 7 千米。两颗卫星公转周期都非常短，Phobos 只要 7 个半小时多点就绕火星一圈，而 Deimos 也只要 30 小时。所以火星上日食是经常发生的。只是由于两颗卫星比较小，形状不规则，不会像地球这样发生完美的日全食，发生日食的地点也有限。</p>
+</div>
+<div class="figure align-center">
+<img alt="../_images/marsEclipse.gif" src="../_images/marsEclipse.gif" />
+<p class="caption">火星上的卫星 Phobos 遮挡太阳的场景。（来自 <a class="reference external" href="http://photojournal.jpl.nasa.gov/catalog/PIA05553">NASA: Martian Moon Blocks Sun</a> ）</p>
+</div>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer" style="margin-top:1em">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#"><span class="btn btn-primary btn-flat btn-xs"> 回顶部</span></a>
+      
+    </p>
+    <p>
+        <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Feb 21, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+    </p>
+  </div>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50146153-3', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+  </script>
+</footer>
+  </body>
+</html>
