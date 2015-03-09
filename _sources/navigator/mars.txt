@@ -4,6 +4,11 @@
 火星，是我们星际移民的第一站。那是一个幸运的时代，人们见证了星际移民的辉煌历史。然而，那也是一个不幸的时代，许多人为此付出了自己的自由甚至生命。
 
 
+
+.. index:: 火星地理
+
+.. _marsgeology:
+
 火星地理
 -----------------
 
@@ -26,12 +31,15 @@
 .. [1] 火星没有海洋，所以不采用海平面的说法，而是使用一个重力平均出来的基准高度作为基准面。
 .. [2] 来自 `维基百科的历史-火星地理 <http://zh.wikipedia.org/wiki/%E7%81%AB%E6%98%9F%E5%9C%B0%E7%90%86#.E7.B6.93.E7.B7.AF.E5.9D.90.E6.A8.99>`_ ：“1830-32年，德国天文学家Wilhelm Beer和Johann Heinrich Mädler选择一个小圆形特征作参考点以制作火星的第一张系统地图，1877年被意大利天文学家乔范尼·夏帕雷利采用作本初子午线。在1972年，水手9号测绘火星地貌后，沿着Beer和Mädler的线，兰德公司的Merton Davies在他建立一个地理控点网络后提出火星精确的0.0°经线定义：是一个位于子午湾（Sinus Meridiani，或子午线高原（Meridiani Planum））的小陨石坑（稍后被称为艾里-0）。” 
 
+.. _marslanlong:
 
 火星经纬度划分
 ~~~~~~~~~~~~~~~~~
 
 火星的经纬度划分采用了 `地心纬度（Planetocentric Latitude）与东经 <http://en.wikipedia.org/wiki/Longitude#Longitude_on_bodies_other_than_Earth>`_ ，从东经0°一直延续到东经360°，
 本初子午线为穿过 `艾里-0陨石坑 <http://en.wikipedia.org/wiki/Airy-0>`_ 的经线。
+
+.. _marsdiv:
 
 火星分区表
 ~~~~~~~~~~~~~~~~~
@@ -45,7 +53,7 @@
    来自 `维基百科 <http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles>`_ 
 
 
-.. _marsGeo:
+.. _marsgeo:
 
 火星地形
 ~~~~~~~~~~~~~~~~~
@@ -72,17 +80,20 @@
    翻译自 `Wikipedia <https://commons.wikimedia.org/wiki/File:Generalised_Geological_Map_of_Mars.jpg>`_ 。按照原图片的要求，翻译之后图片使用 `Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`_ 协议共享。原作者为 Patrick Zasada 。
 
 
+.. _marscrater:
+
 陨石坑
 ~~~~~~~~~~~~~~~~~
 
 火星上的陨石坑的命名规则是，大陨石坑以重要的科学家和科幻作家命名；小陨石坑则以地球上的村镇命名。一些主要的地形以及火星探测器标示在了下图中（红线为海平面分界线）
 
-.. figure:: resources/Mars24_1.png
+.. image:: resources/Mars24_1.png
    :align: center
 
 
 
 
+.. _marsweather:
 
 火星气候与天气
 -----------------
@@ -90,6 +101,8 @@
 在进行行星生态改造前，火星的天气一直不是特别好，沙尘暴特别严重。
 
 火星轨道的偏心率是 0.09，要比地球轨道的偏心率的 0.02 大得多。这导致火星的气候的更加复杂。
+
+.. _duststorm:
 
 火星沙尘暴
 ~~~~~~~~~~~~~~~~~
@@ -105,12 +118,14 @@
 
    来自 `维基百科 <https://en.wikipedia.org/wiki/File:Mars_climate_zones.jpg>`_
 
+.. _weatherreport:
 
 火星天气预报
 ~~~~~~~~~~~~~~~~~
 
 在移民火星之前，NASA 就开始对火星进行天气预报了：`Mars Weather Reports <http://www.msss.com/msss_images/subject/weather_reports.html>`_ 。
 
+.. _atompressure:
 
 火星气压
 ~~~~~~~~~~~~~~~~~
@@ -128,26 +143,18 @@
 
    * `Hargitai Henrik (2009). "Climate Zones of Mars". Lunar and Planetary Institute. Retrieved 2010-05-18. <http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1199.pdf>`_ 
 
+.. _marscalendar:
 
 火星历法
 -----------------
 
 为了火星上的生活方便，火星上的计时与历法都与地球有所不同。
 
-.. index:: 火星计时
-
-火星计时
-~~~~~~~~~~~~~~~~~
-
-火星沿用了地球上秒、分钟以及小时，但是由于火星上一个太阳日的时间要比地球上的太阳日要长，因此火星上一天除了二十四个小时，还有一段的扩展时间，长度为 39 分 35.24409 秒。
-
-文字记录方法在每天的二十四小时内与地球的记录方法相同，超出二十四小时的部分采用“+时间”来记录，例如二十四小时后十三分钟二十六秒记作：+13:26.
-
 
 
 .. index:: 火星历法
 
-.. _marsCal:
+.. _marscal:
 
 火星历法
 ~~~~~~~~~~~~~~~~~
@@ -241,9 +248,27 @@
    +-------------+------------+
 
 
+
+
+
+
+.. index:: 火星计时
+
+.. _marstime:
+
+火星计时
+~~~~~~~~~~~~~~~~~
+
+火星沿用了地球上秒、分钟以及小时，但是由于火星上一个太阳日的时间要比地球上的太阳日要长，因此火星上一天除了二十四个小时，还有一段的扩展时间，长度为 39 分 35.24409 秒。
+
+文字记录方法在每天的二十四小时内与地球的记录方法相同，超出二十四小时的部分采用“+时间”来记录，例如二十四小时后十三分钟二十六秒记作：+13:26.
+
+
+
+
 .. index:: 火星时区
 
-.. _marsTimeKeeping:
+.. _marstimezone:
 
 火星时区
 ~~~~~~~~~~~~~~~~~

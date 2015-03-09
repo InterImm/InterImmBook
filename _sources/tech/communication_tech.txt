@@ -1,11 +1,14 @@
 通信技术
 ==================
 
+.. _interCom:
+
 行星际通信
 ------------------------
 
 行星际通信在人类探索太阳系一开始的时候就是极为重要的一个分支。在火星移民开始之后，更加需要可靠高效的行星际通信系统。
 
+.. _globalCom:
 
 全球通信卫星网络
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,6 +21,7 @@ SpaceX 从 2018 年正式开始用微型卫星搭建地球的卫星网络，2019
 几乎与此同时，星际通信公司开始设计和搭建火星的全球卫星网络。他们与 SpaceX 合作，星际通信公司初步的火星卫星网络与 SpaceX 的地球卫星网建立了连接。
 
 
+.. _interRelay:
 
 行星际通信中继
 ~~~~~~~~~~~~~~~~~~~~~
@@ -41,6 +45,8 @@ SpaceX 从 2018 年正式开始用微型卫星搭建地球的卫星网络，2019
 
    地球-火星非开普勒轨道中继卫星。来源：`A Novel Interplanetary Communications Relay <http://strathprints.strath.ac.uk/25836/2/Macdonald_M_-_strathprints_-_A_novel_interplanetary_communications_relay_Aug_2010.pdf>`_
 
+
+.. _interNetwork:
 
 行星际通信网络
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
