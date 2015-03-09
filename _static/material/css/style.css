@@ -89,6 +89,7 @@ img {
   color: rgba(255, 255, 255, 1);
 }
 
+
 .black-bg {
   background-color: black;
 }
@@ -219,9 +220,20 @@ content: "|" !important;
 .alert-warning,
 .alert-success {
   color: black !important;
+  border-left: 5px solid #CCC !important;
 }
 
 .alert .alert-link, .alert a {
   color: black !important;
   text-decoration: underline;
 }
+
+div.note {
+  background-image: -webkit-linear-gradient(top,#FFFFE0 0,#FFFFE0 100%) !important;
+  background-image: -o-linear-gradient(top,#FFFFE0 0,#FFFFE0 100%) !important;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFFFE0),to(#FFFFE0)) !important;
+  background-image: linear-gradient(to bottom,#FFFFE0 0,#FFFFE0 100%) !important;
+  border-left: 5px solid #CCC !important;
+}
+
+

@@ -9,9 +9,9 @@
 
    这是一些火星的简要资料索引。
 
-   1. 火星地质图可以参考导览一章的火星地形。:ref:`marsGeo` 。
-   2. 火星历法可以参考导览一章的火星历法。 :ref:`marsCal` 。
-   3. 火星时间可以参考导览一章的火星计时。 :ref:`marsTimeKeeping` 。
+   1. 火星地质图可以参考导览一章的火星地形。 :ref:`marsgeology` 。
+   2. 火星历法可以参考导览一章的火星历法。 :ref:`marscal` 。
+   3. 火星时间可以参考导览一章的火星计时。 :ref:`marstime`  :ref:`marstimezone` 。
 
 
 .. figure:: ./resources/marsCities.png
