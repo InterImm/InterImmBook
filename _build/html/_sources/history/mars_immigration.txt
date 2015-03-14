@@ -224,7 +224,7 @@ IIA 研发部下属的 PNPT 对推进技术的发展做出了巨大的贡献。�
 .. index:: 星坠城
 .. index:: Bolide City
 
-2065 年，行星地质大学（Planetary Geology University）在地质研究所的基础上落成，九号城也已经初具规模。2067年，经过全民公决，这座以教育、科研为主的城市被命名为星坠城（Bolide City）。子午线城市圈也就此形成。
+2165 年，行星地质大学（Planetary Geology University）在地质研究所的基础上落成，九号城也已经初具规模。2167年，经过全民公决，这座以教育、科研为主的城市被命名为星坠城（Bolide City）。子午线城市圈也就此形成。
 
 .. index:: 希腊城市圈
 .. index:: Hellas Metropolitan Area

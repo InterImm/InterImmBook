@@ -7,7 +7,7 @@
 .. _spacex:
 
 .. admonition:: 太空探索技术公司 - Space Exploration Technologies Corporation (SpaceX)
-   :class: note
+   :class: list
 
    * 成立时间：2002 年
    * 公司总部：美国加利福利亚州霍桑（2002 ～ 2039）- 近地轨道 X 空间站（2039 ～ 2041）
@@ -20,7 +20,7 @@
 .. _spacexTourists:
 
 .. admonition:: 太空探索旅游公司 - Space Exploration Tourists Corporation (SpaceX Tourists)
-   :class: note
+   :class: list
 
    * 成立时间：2041 年
    * 公司总部：美国新墨西哥州太空港
@@ -31,7 +31,7 @@
 .. _spacexAsteroids:
 
 .. admonition:: 太空探索小行星公司 - Space Exploration Asteroids Corporation (SpaceX Asteroids)
-   :class: note
+   :class: list
 
    * 成立时间：2041 年
    * 公司总部：近地轨道 X 空间站
@@ -42,7 +42,7 @@
 .. _ula:
 
 .. admonition:: 联合发射同盟 - United Launch Alliance (ULA)
-   :class: note
+   :class: list
 
    * 成立时间：2006 年
    * 公司总部：美国科罗拉多州森特尼尔
@@ -53,7 +53,7 @@
 .. _osc:
 
 .. admonition:: 轨道科学公司 - Orbital Sciences Corporation
-   :class: note
+   :class: list
 
    * 成立时间：1982 年
    * 公司总部：美国弗吉尼亚州杜勒斯
@@ -64,18 +64,18 @@
 .. _spaceRapid:
 
 .. admonition:: 太空捷运公司 - Space Rapid Transit Corporation
-   :class: note
+   :class: list
 
    * 成立时间：2022 年
-   * 公司总部：？？？
+   * 公司总部：台湾
    * 主要业务：航天发射、载人飞船、亚轨道旅游
 
    公司成立之初以当时正火热的亚轨道旅游为主要业务，后来拓展到近地轨道发射。2034 年被 ULA 收购。
 
 .. _intelsat:
 
-.. admonition:: 国际通信卫星组织 -  International Telecommunications Satellite Organization (Intelsat)
-   :class: note
+.. admonition:: 国际通信卫星组织 - International Telecommunications Satellite Organization (Intelsat)
+   :class: list
 
    * 成立时间：1964 年
    * 公司总部：卢森堡卢森堡市
@@ -85,8 +85,8 @@
 
 .. _inmarsat:
 
-.. admonition:: 国际海事卫星组织 -  International Maritime Satellite Organization (Inmarsat)
-   :class: note
+.. admonition:: 国际海事卫星组织 - International Maritime Satellite Organization (Inmarsat)
+   :class: list
 
    * 成立时间：1979 年
    * 公司总部：英国英格兰伦敦市
@@ -96,8 +96,8 @@
 
 .. _eutelsat:
 
-.. admonition:: 欧洲通信卫星组织 -  European Telecommunications Satellite Organization (Eutelsat)
-   :class: note
+.. admonition:: 欧洲通信卫星组织 - European Telecommunications Satellite Organization (Eutelsat)
+   :class: list
 
    * 成立时间：1977 年
    * 公司总部：法国巴黎市
@@ -107,8 +107,8 @@
 
 .. _asiasat:
 
-.. admonition:: 亚洲卫星公司 -  Asia Satellite Telecommunications Co. Ltd. (AsiaSat)
-   :class: note
+.. admonition:: 亚洲卫星公司 - Asia Satellite Telecommunications Co. Ltd. (AsiaSat)
+   :class: list
 
    * 成立时间：1977 年
    * 公司总部：中国香港特别行政区
@@ -119,7 +119,7 @@
 .. _virgin:
 
 .. admonition:: 维珍银河公司 - Virgin Galactic
-   :class: note
+   :class: list
 
    * 成立时间：2004 年
    * 公司总部：美国加利福利亚州帕萨迪纳
@@ -129,8 +129,8 @@
 
 .. _cosmos:
 
-.. admonition:: 宇宙探险公司 - 宇宙探検株式会社
-   :class: note
+.. admonition:: 宇宙探险公司 - Cosmos Exploration Company
+   :class: list
 
    * 成立时间：2025 年
    * 公司总部：日本京都府京都市
@@ -141,10 +141,10 @@
 .. _orbital:
 
 .. admonition:: 轨道旅游局 - Orbital Travel Agency (OrbiTA)
-   :class: note
+   :class: list
 
    * 成立时间：2036 年
-   * 公司总部：美国加利福利亚州帕萨迪纳（2036 ～ 2047）－ 近地轨道“曙光号”空间站
+   * 公司总部：美国加利福利亚州帕萨迪纳（2036 ～ 2047）- 近地轨道“曙光号”空间站
    * 主要业务：太空旅游
 
    为了共同开发亚轨道以外的太空旅游市场，当时亚轨道旅游市场的两大巨头——宇宙探险公司与维珍银河公司决定合并组成轨道旅游局。2046 年，SpaceX 旅游也宣布加入轨道旅游局。次年，轨道旅游局将总部搬至近地轨道的大型空间站。
@@ -152,7 +152,7 @@
 .. _dsi:
 
 .. admonition:: 深空工业公司 - Deep Space Industries (DSI)
-   :class: note
+   :class: list
 
    * 成立时间：2013 年
    * 公司总部：美国加利福利亚州山景城
@@ -163,7 +163,7 @@
 .. _planetaryResources:
 
 .. admonition:: 行星资源公司 - Planetary Resources
-   :class: note
+   :class: list
 
    * 成立时间：2010 年
    * 公司总部：美国华盛顿州西雅图
@@ -173,8 +173,8 @@
 
 .. _neasMining:
 
-.. admonition:: 近地小行星矿业公司 － Near Earth Asteroids Mining (NEAs Mining)
-   :class: note
+.. admonition:: 近地小行星矿业公司 - Near Earth Asteroids Mining (NEAs Mining)
+   :class: list
 
    * 成立时间：2026 年
    * 公司总部：中国江苏省徐州市
@@ -184,22 +184,22 @@
 
 .. _upi:
 
-.. admonition:: 联合小行星 － United Asteroid Institution (UAI) → 联合行星 － United Planet Institution (UPI)
-   :class: note
+.. admonition:: 联合小行星 - United Asteroid Institution (UAI) → 联合行星 - United Planet Institution (UPI)
+   :class: list
 
    * 成立时间：2047 年 → 2060 年
-   * 公司总部：近地轨道“？？？号”空间站（2047 ～ 2060）－ 地月拉格朗日 L2 点“？？？号”空间站
+   * 公司总部：近地轨道“？？？号”空间站（2047 ～ 2060）- 地月拉格朗日 L2 点“？？？号”空间站
    * 主要业务：小行星采矿、太空能源、无重力制造、载人空间站
 
    ？？？
 
 .. _madeinspace:
 
-.. admonition:: 太空制造公司 － Made In Space
-   :class: note
+.. admonition:: 太空制造公司 - Made In Space
+   :class: list
 
    * 成立时间：2010 年
-   * 公司总部：美国加利福利亚州山景城（2010 ～ 2043）－ 近地轨道“？？？号”空间站
+   * 公司总部：美国加利福利亚州山景城（2010 ～ 2043）- 近地轨道“？？？号”空间站
    * 主要业务：无重力制造
 
    太空制造公司开发了第一个太空使用的 3D 打印机。在之后的空间站建设时期中，他们利用自己的太空 3D 打印技术建造了第一个完全打印的大型空间站。
@@ -207,7 +207,7 @@
 .. _interplanetaryCom:
 
 .. admonition:: 星际通信公司 - Interplanetary Communications
-   :class: note
+   :class: list
 
    * 成立时间：2019 年
    * 公司总部：美国加利福尼亚州
@@ -218,7 +218,7 @@
 .. _homeRange:
 
 .. admonition:: 鸿雁通信 - Home Range
-   :class: note
+   :class: list
 
    * 成立时间：2021 年
    * 公司总部：中国上海
@@ -229,7 +229,7 @@
 .. _solinfo:
 
 .. admonition:: 太阳信息架构 - Solinfo Information Infrastructure
-   :class: note
+   :class: list
 
    * 成立时间：2023 年
    * 公司总部：未知
