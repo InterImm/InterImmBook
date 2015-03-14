@@ -257,3 +257,9 @@ background: none !important;
   font-size: 140% !important;
 
 }
+
+
+.toctree-l1 ul {
+  margin-bottom: 1em !important;
+  margin-top:0.5em !important;
+}
