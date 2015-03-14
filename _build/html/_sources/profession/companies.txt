@@ -1,7 +1,7 @@
 公司列表
 =================
 
-这里记录了2200年以前太阳系内成立的主要公司列表。
+这里记录了 2200 年以前太阳系内成立的主要公司列表，也包括了商业联合会及商业组织。
 
 
 .. _spacex:
@@ -116,6 +116,17 @@
 
    通信卫星的发射和地面设施的建设。
 
+.. _unisat:
+
+.. admonition:: 宇宙通信卫星组织 - Asia Satellite Telecommunications Co. Ltd. (AsiaSat)
+   :class: list
+
+   * 成立时间：2033 年
+   * 公司总部：英国英格兰伦敦市
+   * 主要业务：人造卫星、行星际通信
+
+   由国际通信卫星组织（Intelsat）、国际海事卫星组织（Inmarsat）、欧洲通信卫星组织（Eutelsat）、亚洲卫星公司（AsiaSat）合并而成，旨在巩固其地球卫星通信市场并拓展新的太空通信业务。
+
 .. _virgin:
 
 .. admonition:: 维珍银河公司 - Virgin Galactic
@@ -191,7 +202,7 @@
    * 公司总部：近地轨道“曙光号”空间站（2047 ～ 2060）- 地月拉格朗日 L2 点“月影号”空间站
    * 主要业务：小行星采矿、太空能源、无重力制造、载人空间站
 
-   由行星资源公司（ Planetary Resourses ）、SpaceX小行星公司（SpaceX Asteroids）、深空工业公司（ Deep Space Industry ）、近地小行星矿业公司（NEAs Mining）组合而成了联合小行星。联合小行星后来并入了联合行星（UPI）。
+   由行星资源公司（ Planetary Resourses ）、SpaceX小行星公司（SpaceX Asteroids）、深空工业公司（ Deep Space Industry ）、近地小行星矿业公司（NEAs Mining）组合而成了联合小行星。联合小行星后来改名为了联合行星（UPI）。
 
 .. _madeinspace:
 
@@ -236,3 +247,18 @@
    * 主要业务：网络基础设施建设
 
    太阳信息架构是一家很少登上媒体的神秘的公司，然而这家公司却是行星际网络基础设施的建造者。在火星上，几乎每一个网络基础设备都有一个小小的 Solinfo 标识。公司有很多分部，而注册信息中并没有公司总部的地址。
+
+.. _pnpt:
+
+.. admonition:: 推进技术发展组织 - Promotion of New Propulsion Technology (PNPT)
+   :class: list
+
+   * 成立时间：2063 年
+   * 公司总部：近地轨道“曙光号”空间站
+   * 主要业务：行星际运输
+
+   原本是旨在研发更为先进的行星际运输推进技术而成立的研究机构，后来在火星前哨站建设过程中接受了一大批地火运输订单，研究机构发展壮大为商业化组织。2075 年并入了星际移民局。
+
+
+
+
