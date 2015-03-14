@@ -252,7 +252,7 @@ border-radius: 4px !important;
 background: none !important;
 }
 
-.list .first p {
+.list .first {
   color: rgb(12,102,14) !important;
   font-size: 140% !important;
 
