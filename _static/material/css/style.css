@@ -247,13 +247,13 @@ background: none !important;
 
 div.list {
 padding: 10px 15px 10px 50px !important;
-border: solid 2px rgb(202,220,255) !important;
+border: solid 2px rgb(202,229,255) !important;
 border-radius: 4px !important;
 background: none !important;
 }
 
 .list .first {
-  color: rgb(12,102,14) !important;
+  color: rgb(12,102,140) !important;
   font-size: 140% !important;
 
 }
