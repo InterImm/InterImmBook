@@ -228,6 +228,7 @@ content: "|" !important;
   text-decoration: underline;
 }
 
+/*
 div.note {
   background-image: -webkit-linear-gradient(top,#FFFFE0 0,#FFFFE0 100%) !important;
   background-image: -o-linear-gradient(top,#FFFFE0 0,#FFFFE0 100%) !important;
@@ -235,5 +236,12 @@ div.note {
   background-image: linear-gradient(to bottom,#FFFFE0 0,#FFFFE0 100%) !important;
   border-left: 5px solid #CCC !important;
 }
+*/
 
+div.note {
+padding: 10px 15px 10px 50px !important;
+border: solid 2px lightgrey !important;
+border-radius: 4px !important;
+background: none !important;
+}
 
