@@ -8,3 +8,4 @@
    sail.rst
    mars_immigration.rst
    space_cities.rst
+   lunar.rst
