@@ -9,4 +9,5 @@
 
    propulsion_tech.rst
    communication_tech.rst
+   exoplanets.rst
 
