@@ -200,7 +200,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 所谓近地太空，并不是指近地轨道（Low Earth Orbit）的太空。狭义的近地太空指的是地球影响球以内的空间，包括了近地轨道、地球同步轨道以及月球在内的空间；广义的近地太空还囊括了近地小行星、地日拉格朗日 L1、L2、L4、L5 点附近的空间。虽然近地太空中的资源数不胜数，但是真正有商业开发价值的还是很少。
 
-.. figure:: http://wallpaperest.com/wallpapers/planet-night-moon-stars-and-nebula-wide_079230.jpg
+.. figure:: resources/planet-night-moon-stars-and-nebula-wide_079230.jpg
    :align: center
 
 首先说月球，虽然月球表面有丰富的氦-3 资源，但是由于氦-3 均匀分布在表层的月壤之中，开采、提取难度很大，况且人类尚未掌握成熟的核聚变技术，因此月球的氦-3 资源暂且是可望而不可即。
