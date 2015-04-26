@@ -7,6 +7,7 @@
 
    sail.rst
    mars_immigration.rst
-   terraformingmars.rst
-   space_cities.rst
    lunar.rst
+   space_elevator.rst
+   space_cities.rst
+   terraformingmars.rst
