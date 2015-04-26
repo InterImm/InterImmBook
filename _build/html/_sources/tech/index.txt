@@ -8,6 +8,8 @@
    :maxdepth: 2
 
    propulsion_tech.rst
+   space_elevator.rst
    communication_tech.rst
    exoplanets.rst
+
 
