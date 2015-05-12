@@ -242,6 +242,7 @@
 .. _outerheaven:
 
 .. admonition:: 世外天堂公司 － Outer Heaven
+   :class: list
 
    * 成立时间：2026 年
    * 公司总部：中国深圳市
@@ -252,6 +253,7 @@
 .. _silkroad:
 
 .. admonition:: 丝路新科技 - Silk Road Technology
+   :class: list
 
    * 成立时间：2026 年
    * 公司总部：中国海南
@@ -263,16 +265,13 @@
 .. _symplecticholding:
 
 .. admonition:: 对偶投资 - Symplectic Holding Inc.
+   :class: list
 
    * 成立时间：2027 年
    * 公司总部：中国上海
    * 主要业务：基础建设投资
 
    对偶投资起步时仅仅是一家天使投资公司，在投资的过程中，该公司渐渐将重点放在了太空行业。由于正好赶上了一小波太空公司热潮，对偶投资发展成为最大的投资公司，并且在空间站建设投资方面中起到了重要的作用。
-
-
-
-
 
 .. _cac:
 
@@ -327,6 +326,7 @@
 .. _umbrella:
 
 .. admonition:: 净伞科技 － Clear Umbrella Technology
+   :class: list
 
    * 成立时间：2044 年
    * 公司总部：加拿大蒙特利尔
@@ -350,6 +350,7 @@
 .. _benny:
 
 .. admonition:: 本尼公司 － The Benny Company
+   :class: list
 
    * 成立时间：2068 年
    * 公司总部：月球风暴洋
@@ -361,6 +362,7 @@
 .. _heavengarden:
 
 .. admonition:: 天际园公司 － Heaven Garden
+   :class: list
 
    * 成立时间：2077 年
    * 公司总部：近地轨道“曙光号”空间站
@@ -372,6 +374,7 @@
 .. _cryptomeriawood:
 
 .. admonition:: 柳杉木业 － Cryptomeria Wood
+   :class: list
 
    * 成立时间：2084 年
    * 公司总部：芬兰赫尔辛基
@@ -383,6 +386,7 @@
 .. _spacesphere:
 
 .. admonition:: 天圆地方公司 － Space Sphere
+   :class: list
 
    * 成立时间：2089 年
    * 公司总部：火星南河城
@@ -394,6 +398,7 @@
 .. _blackwhirlpool:
 
 .. admonition:: 黑色漩涡 － Black Whirlpool
+   :class: list
 
    * 成立时间：未知
    * 公司总部：未知
