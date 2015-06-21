@@ -11,3 +11,4 @@
    space_elevator.rst
    space_cities.rst
    terraformingmars.rst
+   titan.rst

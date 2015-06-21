@@ -242,6 +242,7 @@
 .. _outerheaven:
 
 .. admonition:: 世外天堂公司 － Outer Heaven
+   :class: list
 
    * 成立时间：2026 年
    * 公司总部：中国深圳市
@@ -249,6 +250,29 @@
 
    太空丧葬起源很早，在 21 世纪 20 年代就有富人将自己的骨灰通过商业运载火箭送到地球轨道之外。而世外天堂公司看准了这个商机，承担了客户与太空发射提供商之间代理人的角色。到了 21 世纪中叶，更多的人选择将自己安葬在小行星或月球，第四、第五拉格朗日点也建立了两个巨大的坟场。
 
+
+.. _silkroad:
+
+.. admonition:: 丝路新科技 - Silk Road Technology
+   :class: list
+
+   * 成立时间：2026 年
+   * 公司总部：中国海南
+   * 主要业务：结构材料、太空电梯
+
+   第一家成功研发出了长达百米量级的由碳纳米管生产的高强度抗拉材料的公司。由于性价比钢材更高，这些纤维主要用来替代传统钢索结构。例如在建设“南海17”钻井平台的过程中，使用了丝路公司研制的碳纳米管材料。2037 年，丝路公司开始在地球上进行了第一次太空电梯测试，利用高空气球进行了太空电梯悬吊实验。2115 年，丝路新科技成为建设地球太空电梯的主导公司。
+
+
+.. _symplecticholding:
+
+.. admonition:: 对偶投资 - Symplectic Holding Inc.
+   :class: list
+
+   * 成立时间：2027 年
+   * 公司总部：中国上海
+   * 主要业务：基础建设投资
+
+   对偶投资起步时仅仅是一家天使投资公司，在投资的过程中，该公司渐渐将重点放在了太空行业。由于正好赶上了一小波太空公司热潮，对偶投资发展成为最大的投资公司，并且在空间站建设投资方面中起到了重要的作用。
 
 .. _cac:
 
@@ -303,6 +327,7 @@
 .. _umbrella:
 
 .. admonition:: 净伞科技 － Clear Umbrella Technology
+   :class: list
 
    * 成立时间：2044 年
    * 公司总部：加拿大蒙特利尔
@@ -326,6 +351,7 @@
 .. _benny:
 
 .. admonition:: 本尼公司 － The Benny Company
+   :class: list
 
    * 成立时间：2068 年
    * 公司总部：月球风暴洋
@@ -337,6 +363,7 @@
 .. _heavengarden:
 
 .. admonition:: 天际园公司 － Heaven Garden
+   :class: list
 
    * 成立时间：2077 年
    * 公司总部：近地轨道“曙光号”空间站
@@ -348,6 +375,7 @@
 .. _cryptomeriawood:
 
 .. admonition:: 柳杉木业 － Cryptomeria Wood
+   :class: list
 
    * 成立时间：2084 年
    * 公司总部：芬兰赫尔辛基
@@ -359,6 +387,7 @@
 .. _spacesphere:
 
 .. admonition:: 天圆地方公司 － Space Sphere
+   :class: list
 
    * 成立时间：2089 年
    * 公司总部：火星南河城
@@ -370,6 +399,7 @@
 .. _blackwhirlpool:
 
 .. admonition:: 黑色漩涡 － Black Whirlpool
+   :class: list
 
    * 成立时间：未知
    * 公司总部：未知
