@@ -13,9 +13,9 @@
 
 2070 年 4 月，联合行星（UPI，前联合小行星，即 UAI）的首个火星表面前哨站在伊希地建立之后，基础设施并不完善，地面的生活基本上只能满足最低生活需求。这些先驱们在恶劣的环境中努力建设着殖民地，他们的壮举，成就了之后火星的繁荣。
 
-.. index::推进技术发展组织
-.. index::Promotion of New Propulsion Technology
-.. index::PNPT
+.. index:: 推进技术发展组织
+.. index:: Promotion of New Propulsion Technology
+.. index:: PNPT
 
 次年，其他商业联合会包括联合发射同盟（ULA）、宇宙通信卫星组织（Unisat）以及新兴的推进技术发展组织（Promotion of New Propulsion Technology，简称PNPT）也迅速加入到火星殖民地的建设中来。到 2075 年，ULA、Unisat 和 PNPT 提供的围绕火星的大型飞船及空间设施曾经一度达到十二艘。这些空间设施有着各自的使命，从能源供给到太空运输，从机械维修到生命保障，他们组成了整个火星殖民地坚实的后备保障。随着火星殖民地逐渐完善，很多大型设施从轨道转移到了火星表面。
 
