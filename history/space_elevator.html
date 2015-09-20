@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>太空电梯 &mdash; 星际移民之书 3.14 文档</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/material-wfont.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/material.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/ripples.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/snackbar.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/material/css/style.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '3.14',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/material/js/material.min.js"></script>
+    <script type="text/javascript" src="../_static/material/js/ripples.min.js"></script>
+    <link rel="top" title="星际移民之书 3.14 文档" href="../index.html" />
+    <link rel="up" title="历史" href="index.html" />
+    <link rel="next" title="太空城市" href="space_cities.html" />
+    <link rel="prev" title="月球开发" href="lunar.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <body role="document">
+
+<!-- Nav Bar at top -->
+<div class="navbar navbar-black" style="font-size:14px;">
+    <div class="navbar-header navbar-border-r">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-inverse-collapse">
+        <ul class="nav navbar-nav navbar-nav-black">
+        <li class="divider-vertical divider-white"></li>
+            <li><a href="http://interimm.org/magazine"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+            <li class="active"><a href="http://interimm.org/InterImmBook"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
+            <li><a href="http://interimm.org/exoplanets"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right navbar-nav-black">
+        <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+            <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
+            
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i>&nbsp; 更多 <b class="caret"></b></a>
+                <ul class="dropdown-menu black-bg">
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--  Nav Bar Top END -->
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav well" role="complementary"><div class="nav nav-pills nav-stacked">
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../InterImm.html">星际移民中心</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../navigator/index.html">导览</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">历史</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="sail.html">起航</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mars_immigration.html">火星移民</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lunar.html">月球开发</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">太空电梯</a></li>
+<li class="toctree-l2"><a class="reference internal" href="space_cities.html">太空城市</a></li>
+<li class="toctree-l2"><a class="reference internal" href="terraformingmars.html">火星地球化</a></li>
+<li class="toctree-l2"><a class="reference internal" href="outer_solar.html">太阳系外围开发</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../profession/index.html">行业</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tech/index.html">科技</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/index.html">指南</a></li>
+</ul>
+
+<ul class="current nav nav-list" style="border-top:1px solid grey;margin-top:1em;padding-top:1em;">
+	<li><a href="http://interimm.org/InterImmBook/genindex.html">重要词条索引</a></li>
+	<li><a href="https://github.com/InterImm/InterImmBook/issues" target="_blank">提交 BUG</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    <div class="col-md-9">
+      <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul  class="breadcrumb" style="margin-bottom: 5px;margin-top:30px;">
+    <li><a href="../index.html">星际移民之书</a> &raquo;</li>
+      
+          <li><a href="index.html">历史</a> &raquo;</li>
+      
+    <li>太空电梯</li>
+      <li class="breadcrumb-aside" style="float:right;">
+        
+          <a href="lunar.html" title=月球开发><span class="label label-info"><i class="fa fa-angle-left">&nbsp;</i></span></a>
+        
+        
+          <a href="space_cities.html" title=太空城市><span class="label label-info"><i class="fa fa-angle-right">&nbsp;</i></span></a>
+        
+        
+          <a href="../_sources/history/space_elevator.txt" rel="nofollow" title="本页面的源代码"><span class="label label-default">&nbsp;<i class="fa fa-code"></i>&nbsp;</span></a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+      
+  <div class="section" id="id1">
+<h1>太空电梯<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>太空电梯的建设可谓一波三折。早在二十世纪中期，就已经了有各种各样的太空电梯设计，甚至有比较完善的月球太空电梯的设计和可行性研究。然而由于材料的限制，太空电梯的建设一直没有启动，直到火星城市圈的完善，火星上的太空电梯才得以成为现实。</p>
+<p>2158 年伊希地、子午线和希腊几大城市圈已经建成，而希腊城市圈也有了初步规模，此时大家意识到了火星和太空之间的运输出现的瓶颈，第一架火星太空电梯就在这个大背景下应运而生。电梯方案在 2156 年提出，经过两年的规划和研究才开始施工。经过五年的时间，工程才缓慢完成，电梯于 2163 年投入运营。火星太空电梯成功缓解了火星表面和太空运输之间的压力，并且大大降低了运输成本。地面站选在了 2148 年开始建造的视界城旁边。在这架太空电梯的建设过程中，视界城的很多生产设施为太空电梯提供了建设资源，起到了关键的作用。</p>
+<div class="figure align-center" id="id2">
+<img alt="../_images/coelestis_mars_elevator.jpg" src="../_images/coelestis_mars_elevator.jpg" />
+<p class="caption"><span class="caption-text">火星太空电梯的地面站。来源 <a class="reference external" href="http://www.peterelson.co.uk/gallery/image.php?cat=5&amp;id=34">Peter Elson</a> 。</span></p>
+</div>
+<p>之后有四期大型的针对第一架太空电梯的扩建和维护工程，大大增加了运输载荷。这架太空电梯运行开始之后，使得原本就是空天运输为主要业务的视界城完全变成了一个大型的太空港口城市，被称作“视界星港”。</p>
+<p>有了第一架火星太空电梯的经验，第二架太空电梯只花了三年时间就建成了，此架太空电梯是为了方便伊希地城市圈而建立的，因此地面站位于伊希地城市圈南方不远处。2213 年星际移民局提出了地球协助火星进行地球化的工作，然而并没有得到热烈的回应。2214 年开工的这架太空电梯是星际移民局极力发展火星和进行火星地球化工作进一步工作。而火星地球化计划开始之后，于 2223 年到 2225 年期间，火星第三架太空电梯的建设进一步促进了火星的建设速度，也促使了很多势力加入到了火星地球化的工作中来。</p>
+<p>由于火星的发展和火星地球化一期工程的启动，火星表面和太空之间的运输能力不能完全满足火星建设需要。因此在 2230 年到 2234 年期间，有两架太空电梯建立起来。地面站分别位于伊希地城市圈和子午线城市圈之间，以及在伊希地城市圈和亚马逊城市圈之间。</p>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer" style="margin-top:1em">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#"><span class="btn btn-primary btn-flat btn-xs"> 回顶部</span></a>
+      
+    </p>
+    <p>
+        <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Sep 20, 2015</span>  <a href="http://interimm.org/InterImmBook/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+    </p>
+  </div>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50146153-3', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+  </script>
+</footer>
+  </body>
+</html>
