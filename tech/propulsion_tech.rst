@@ -112,20 +112,19 @@
 
 .. _interShip:
 
-星际飞船
+行星际飞船
 -----------
 
 在星际移民早期，主要使用的是化学火箭。后来由于核动力等离子火箭的大量使用，移民的成本大大降低，自由移民也开始大量出现。之后，曲率推进的大量生产，是的曲速飞船成为太阳系外移民的主要工具。
 
 
 
+.. index:: 离子火箭
 
 .. _ionThrust:
 
 离子火箭
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 
 离子火箭是利用高压电场将电离后的物质加速并高速喷出来产生推动力的。
@@ -140,6 +139,20 @@
 带电的离子在高压电场作用下，可以达到非常高是速度，从而将火箭推向相反的方向。由于离子火箭可以稳定的持续加速，所以适合远距离航行。
 
 
+.. admonition:: 离子推进历史
+   :class: note
+
+
+   离子推进技术最早是由 Konstantin E. Tsiolkovsky 提出的。后来经过多人的发展（Robert H. Goddard, Ernst Stuhlinger, et al），成为一种实用的技术。
+
+   离子推进是利用被电磁场加速的带电粒子来产生推力的，而离子的最终速度对离子所带的电荷非常敏感。理论上来讲，电推动的情况下，同样的电压下，两倍的电荷几乎可以产生两倍的最终速度，也就是两倍的最终推力。
+
+   把燃料电离，其中的带电的粒子在电场作用下会被加速，如果电场足够强，带电粒子可以很快被加速到一个很高的速度，这个速度可以远远高于化学反应所产生的燃料喷射速度，这样一来燃料的利用率大大提高，也就意味着不用携带很的燃料了。这就是离子电推的原理。
+
+   然而离子电推在二十一世纪初期一直没有解决推力太小的问题。当时的发动机包括测试在内，只有几十豪牛顿到几十牛顿的推力。（一牛顿大约是一个小苹果在地表所受到的重力。）
+
+   除了离子电推，二十一世纪初期很有前景的另一种电磁推进，除了用到了电场，还需要磁场和电磁波。
+
 
 
 
@@ -153,7 +166,12 @@
       .. figure:: http://www.grc.nasa.gov/WWW/ion/future/images/futureapps.jpg
          :align: center
 
+         NASA 对推进技术的评估
 
+
+
+
+.. index:: 核爆火箭
 
 .. _nuclearBombRocket:
 
@@ -164,18 +182,24 @@
 爆炸用来提供推力，基本的原理与化学火箭并无不同，只不过由原来的连续的推力变成了断断续续的推力。
 
 
-.. figure:: resources/tech/projectOrionArtist.jpg
-   :align: center
-
-   猎户座飞船的艺术家想象图。图片为公有领域作品。来自 `维基百科 <https://en.wikipedia.org/wiki/File:NASA-project-orion-artist.jpg>`_ 。
+.. admonition:: 核爆火箭历史
+   :class: note
 
 
-特德・泰勒和弗里曼・戴森主持的猎户座计划，就是试图利核爆来把飞船推向太空。由于单位质量的核弹释放的能量很大，所以这种方式要比传统的化学火箭效率要高得多。
+   .. figure:: resources/tech/projectOrionArtist.jpg
+      :align: center
 
-在设计和实验的过程中，飞船需要将炸弹一颗一颗排出并引爆，这个过程与可口可乐公司的自动贩售机取可乐的过程类似，实际上这个机制的设计也咨询了可口可乐公司。
+      猎户座飞船的艺术家想象图。图片为公有领域作品。来自 `维基百科 <https://en.wikipedia.org/wiki/File:NASA-project-orion-artist.jpg>`_ 。
+
+
+   特德・泰勒和弗里曼・戴森主持的猎户座计划，就是试图利核爆来把飞船推向太空。由于单位质量的核弹释放的能量很大，所以这种方式要比传统的化学火箭效率要高得多。
+
+   在设计和实验的过程中，飞船需要将炸弹一颗一颗排出并引爆，这个过程与可口可乐公司的自动贩售机取可乐的过程类似，实际上这个机制的设计也咨询了可口可乐公司。
 
 
 
+
+.. index:: 热核火箭
 
 .. _nuclearThermalRocket:
 
@@ -189,98 +213,8 @@
 
    热核火箭基本原理，燃料经过核反应堆被加热，从发动机高速喷出。图片为 CC BY-SA 协议作品。来源： `维基百科 <https://commons.wikimedia.org/wiki/File:Nuclear_thermal_rocket_en.svg>`_ 。
 
-
-火箭飞行器用核引擎（NERVA，美国原子能委员会和 NASA 的项目）就是一个利用核裂变来产生高温，加热氢气，从而产生动力。
-
-
-
-
-.. _warpDrive:
-
-曲率飞船
-~~~~~~~~~~~~~~~
-
-
-在恒星际移民的发展阶段大量使用的曲率引擎是 Markov-Alcubierre 引擎，是一种量子的 Alcubierre 引擎。曲率引擎（warp drive）的基本原理是通过弯曲时空来进行高速移动，因为要直接弯曲时空，所以所需要的能量非常大。Markov 在 Alcubierre 引擎基础上使用了量子的内禀对称转动与四维时空的耦合大大降低了能耗。
-
-
-
-
-.. admonition:: 扩展阅读
+.. admonition:: 热核火箭历史
    :class: note
 
-   1. 中文维基百科词条： `曲率引擎 <http://zh.wikipedia.org/wiki/%E6%9B%B2%E9%80%9F%E5%BC%95%E6%93%8E#.E6.9B.B2.E9.80.9F.E9.80.9F.E5.BA.A6>`_
-   2. Alcubierre drive, wikipedia 词条： `Alcubierre Drive <http://en.wikipedia.org/wiki/Alcubierre_drive>`_
 
-
-.. _interstellar:
-
-恒星际运输
-------------------
-
-.. index:: Krasnikov Tube
-
-恒星际运输的主要工具是 Krasnikov Tube，是一种时空的扭曲，可以通过管道来进行几乎瞬间的移动。但是管道的建造是需要通过飞船来“铺设”（扭曲时空），所以不想 Markov-Alcubierre 引擎的飞船一样可以飞往任意地方。不过 Krasnikov Tube 的优点是，只需要一次建造，之后多次重复使用，可以运送大量货物而不需要消耗很多能量，所以这种管道成为了恒星际运输的一种主要手段。
-
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/6/62/Krasnikov.PNG
-   :align: center
-
-   Krasnikov
-
-
-
-.. admonition:: 扩展阅读
-   :class: note
-
-   `Wikipedia: Krasnikov Tube <https://en.wikipedia.org/wiki/Krasnikov_tube>`_
-
-
-
-
-
-.. _propulsion:
-
-推进技术
-----------------------
-
-
-
-
-
-相关的推进技术除了现在常用的曲率推进之外，还有另外一些可以使用的推进技术。
-
-
-.. _ionProp:
-
-离子推进
-~~~~~~~~~~~~~~~
-
-离子推进技术最早是由 Konstantin E. Tsiolkovsky 提出的。后来经过多人的发展（Robert H. Goddard, Ernst Stuhlinger, et al），成为一种实用的技术。
-
-
-离子推进是利用被电磁场加速的带电粒子来产生推力的，而离子的最终速度对离子所带的电荷非常敏感。理论上来讲，电推动的情况下，同样的电压下，两倍的电荷几乎可以产生两倍的最终速度，也就是两倍的最终推力。
-
-
-把燃料电离，其中的带电的粒子在电场作用下会被加速，如果电场足够强，带电粒子可以很快被加速到一个很高的速度，这个速度可以远远高于化学反应所产生的燃料喷射速度，这样一来燃料的利用率大大提高，也就意味着不用携带很的燃料了。这就是离子电推的原理。
-
-然而目前的电推有一个非常大的缺点：推力太小。目前的发动机包括测试在内，只有几十豪牛顿到几十牛顿的推力。（作为复习，一牛顿大约是一个小苹果在地表所受到的重力。）
-
-除了电推，目前很有前景的另一种电磁推进，除了用到了电场，还需要磁场和电磁波。
-
-真正实用的离子推动有两大类：
-
-1. 电场推动；
-2. 电磁推动。
-
-
-
-
-.. admonition:: 扩展阅读
-   :class: note
-
-   1. 早在二十世纪初，NASA 曾经对整个离子推进做过评估
-
-      .. figure:: http://www.grc.nasa.gov/WWW/ion/future/images/futureapps.jpg
-         :align: center
-
-         NASA 对推进技术的评估
+   火箭飞行器用核引擎（NERVA，美国原子能委员会和 NASA 的项目）就是一个利用核裂变来产生高温，加热氢气，从而产生动力。
