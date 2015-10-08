@@ -100,7 +100,11 @@
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+{%- if theme_canonical_url %}
+<link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html"/>
+{%- endif %}
 {% endblock %}
 
 {# Silence the sidebar's, relbar's #}
@@ -142,7 +146,7 @@
       {%- endif %}
     {%- endif %}
     {%- if last_updated %}
-      {% trans last_updated=last_updated|e %}<span class="btn btn-flat btn-xs disabled">最近更新 {{ last_updated }}</span>{% endtrans %}  <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      {% trans last_updated=last_updated|e %}<span class="btn btn-flat btn-xs disabled">最近更新 {{ last_updated }}</span>{% endtrans %}  <a href="{{ theme_canonical_url }}genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     {%- endif %}
     {%- if show_sphinx %}
       {% trans sphinx_version=sphinx_version|e %} <a href="http://sphinx.pocoo.org/" target="_blank"><span class="btn btn-flat btn-xs">使用Sphinx {{ sphinx_version }}.{% endtrans %} 生成</span></a>
