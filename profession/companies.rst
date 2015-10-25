@@ -381,7 +381,7 @@
 
 .. _hermesData:
 
-.. adominition:: 赫尔墨斯数据 - Hermes Data
+.. admonition:: 赫尔墨斯数据 - Hermes Data
    :class: list
 
    * 成立时间：2023 年

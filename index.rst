@@ -22,7 +22,7 @@
 .. toctree::
    :maxdepth: 2
 
-   InterImm.rst
+   interimm.rst
    navigator/index.rst
    history/index.rst
    profession/index.rst
@@ -40,6 +40,5 @@
 
 本书使用 CC BY-SA 协议共享。
 
-.. image:: https://raw.github.com/opentf/GuokrBadge/master/cc/gs/cc_bysa.flat.guokr.32.png
+.. image:: resources/cc_bysa.flat.guokr.32.png
    :align: center
-
