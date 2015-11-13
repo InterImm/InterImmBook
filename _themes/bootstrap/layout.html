@@ -121,13 +121,43 @@
     <div class="{{ bs_span_prefix }}{{ bs_content_width }}">
       {% include "breadcrumbs.html" %}
       {% block body %}{% endblock %}
+
+
+<hr style="border: 0;height: 1px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
+
+      <!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="{{ pagename }}" data-title="{{ title|striptags|e }}{{ titlesuffix }}" data-url="http://book.interimm.org/{{ pagename }}.html"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"interimm"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0]
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
+
     </div>
     {% block sidebar2 %} {# possible location for sidebar #} {% endblock %}
   </div>
+
+
+
+
+
 </div>
 {%- endblock %}
 
 {%- block footer %}
+
+
+
 <footer class="footer" style="margin-top:1em">
   <div class="container">
     <p class="pull-right">
