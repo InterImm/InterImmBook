@@ -14,9 +14,11 @@
 
 火星的轨道半径大约 1.5 个天文单位（大约是地球轨道半径的 1.5 倍），等价于在火星轨道上，接收到的太阳能的功率密度不及地球轨道的一半。火星的平均半径为 3389.5 千米，是地球半径的 53.2%，质量只有地球质量的 10.7%。火星的表面重力不到地球表面重力加速的的一半，仅仅为 0.376 g。火星是人类最早大规模殖民的行星。
 
-.. figure:: http://upload.wikimedia.org/wikipedia/commons/5/55/Mars_earth_orbit.png
+.. figure:: ../resources/mars/mars_earth_orbit.png
    :align: center
    :alt: 火星轨道
+
+   火星轨道图
 
 
 火星有很多特色：
@@ -29,7 +31,7 @@
 
 
 .. [1] 火星没有海洋，所以不采用海平面的说法，而是使用一个重力平均出来的基准高度作为基准面。
-.. [2] 来自 `维基百科的历史-火星地理 <http://zh.wikipedia.org/wiki/%E7%81%AB%E6%98%9F%E5%9C%B0%E7%90%86#.E7.B6.93.E7.B7.AF.E5.9D.90.E6.A8.99>`_ ：“1830-32年，德国天文学家Wilhelm Beer和Johann Heinrich Mädler选择一个小圆形特征作参考点以制作火星的第一张系统地图，1877年被意大利天文学家乔范尼·夏帕雷利采用作本初子午线。在1972年，水手9号测绘火星地貌后，沿着Beer和Mädler的线，兰德公司的Merton Davies在他建立一个地理控点网络后提出火星精确的0.0°经线定义：是一个位于子午湾（Sinus Meridiani，或子午线高原（Meridiani Planum））的小陨石坑（稍后被称为艾里-0）。” 
+.. [2] 来自 `维基百科的历史-火星地理 <http://zh.wikipedia.org/wiki/%E7%81%AB%E6%98%9F%E5%9C%B0%E7%90%86#.E7.B6.93.E7.B7.AF.E5.9D.90.E6.A8.99>`_ ：“1830-32年，德国天文学家Wilhelm Beer和Johann Heinrich Mädler选择一个小圆形特征作参考点以制作火星的第一张系统地图，1877年被意大利天文学家乔范尼·夏帕雷利采用作本初子午线。在1972年，水手9号测绘火星地貌后，沿着Beer和Mädler的线，兰德公司的Merton Davies在他建立一个地理控点网络后提出火星精确的0.0°经线定义：是一个位于子午湾（Sinus Meridiani，或子午线高原（Meridiani Planum））的小陨石坑（稍后被称为艾里-0）。”
 
 .. _marslanlong:
 
@@ -50,7 +52,7 @@
    :align: center
    :alt: 火星分区
 
-   来自 `维基百科 <http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles>`_ 
+   来自 `维基百科 <http://en.wikipedia.org/wiki/Geography_of_Mars#Map_of_quadrangles>`_
 
 
 .. _marsgeo:
@@ -63,12 +65,12 @@
 .. figure:: resources/PIA02820.jpg
    :align: center
 
-   来自 `维基百科 <http://zh.wikipedia.org/wiki/File:PIA02820.jpg>`_ 
+   来自 `Wikipedia <http://zh.wikipedia.org/wiki/File:PIA02820.jpg>`_
 
 .. figure:: resources/1024px-Mars_topography_MOLA_dataset_HiRes.jpg
    :align: center
 
-   来自 `维基百科 <http://zh.wikipedia.org/wiki/File:Mars_topography_(MOLA_dataset)_HiRes.jpg>`_ 
+   来自 Wikipedia@File:Mars_topography_(MOLA_dataset)_HiRes.jpg
 
 火星表面没有海，海平面的高度是人为定义的，气压为 610.5Pa 处的高度定义为海平面高度。
 
@@ -77,7 +79,7 @@
 .. figure:: resources/GeneralisedGeologicalMapofMars.png
    :align: center
 
-   翻译自 `Wikipedia <https://commons.wikimedia.org/wiki/File:Generalised_Geological_Map_of_Mars.jpg>`_ 。按照原图片的要求，翻译之后图片使用 `Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`_ 协议共享。原作者为 Patrick Zasada 。
+   翻译自 Wikipedia@File:Generalised_Geological_Map_of_Mars.jpg 。按照原图片的要求，翻译之后图片使用 `Creative Commons Attribution-Share Alike 3.0 Unported <https://creativecommons.org/licenses/by-sa/3.0/deed.en>`_ 协议共享。原作者为 Patrick Zasada 。
 
 
 .. _marscrater:
@@ -113,10 +115,10 @@
 
    图片来自 `Universe Today <http://www.universetoday.com/14892/mars-dust-storms>`_ 。可以明显看到 2001 年 7 月 31 号的时候，整个星球都被沙尘暴覆盖了。
 
-.. figure:: https://upload.wikimedia.org/wikipedia/en/d/da/Mars_climate_zones.jpg
+.. figure:: ../resources/mars/mars_climate_zones.jpg
    :align: center
 
-   来自 `维基百科 <https://en.wikipedia.org/wiki/File:Mars_climate_zones.jpg>`_
+   来自 Wikipedia@File:Mars_climate_zones.jpg
 
 .. _weatherreport:
 
@@ -132,16 +134,16 @@
 
 火星的原来的气压也比较低，基本上在 1000Pa 左右，不适合人类居住。
 
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/8/82/PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg
+.. figure:: ../resources/mars/PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg
    :align: center
 
-   来自 `维基百科 <Wikipedia:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg](https://en.wikipedia.org/wiki/File:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg>`_
+   来自 Wikipedia:PIA16912-MarsCuriosityRover-SeasonalPressure-GaleCrater.jpg
 
 
 .. admonition:: 扩展阅读
    :class: note
 
-   * `Hargitai Henrik (2009). "Climate Zones of Mars". Lunar and Planetary Institute. Retrieved 2010-05-18. <http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1199.pdf>`_ 
+   * `Hargitai Henrik (2009). "Climate Zones of Mars". Lunar and Planetary Institute. Retrieved 2010-05-18. <http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1199.pdf>`_
 
 .. _marscalendar:
 
@@ -283,7 +285,7 @@
    :class: classic
 
    +------+-----------+-----------+-----------+
-   | 时区 | 起始经度  | 终止经度  | 与0区时差 |
+   | 时区 | 起始经度  |  终止经度 | 与0区时差 |
    +======+===========+===========+===========+
    | 0区  | 0°        | 14.5987°  | 0         |
    +------+-----------+-----------+-----------+
@@ -333,7 +335,7 @@
    +------+-----------+-----------+-----------+
    | 23区 | 335.7702° | 350.3689° | +23       |
    +------+-----------+-----------+-----------+
-   | 24区 | 350.3689° | 360°      | +36:35       |
+   | 24区 | 350.3689° | 360°      | +36:35    |
    +------+-----------+-----------+-----------+
 
 必须注意的是，24 区所横跨的经度并不是 14.5987°，而是 9.6311°。第二十四时区为附加时区，即为负责调整火星上比 24 小时多出来的 39 分 35.24409 秒的时区。
