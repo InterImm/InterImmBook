@@ -11,7 +11,7 @@
 
 ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）合作进行的火星探索任务，它的主要目标在于寻找可能存在的火星生命。2019 年，ExoMars 在火星表面的 `马沃斯谷 <http://en.wikipedia.org/wiki/Mawrth_Vallis>`_ 附近着陆，开始巡视探索。和好奇号火星车一样，ExoMars 也能采集火星表面的岩石样品，并对其中可能存在的有机物分子进行分析。
 
-.. figure:: http://exploration.esa.int/science-e-media/img/dc/Exomars2010.jpg
+.. figure:: ./resources/Exomars2010.jpg
    :align: center
    :alt: Exomars任务
 
@@ -39,7 +39,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 2027 年 1 月 6 日，装载着 4 名宇航员和生活舱的最后一枚 SLS 火箭发射升空，与近地轨道上的飞船完成对接。在完成最后的调试工作后，飞船点火离开了蓝色星球，向着远方的红色星球飞去。
 
-.. figure:: http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/14-2290-SpaceLaunchSystem-AfterLaunch-20140827.jpg/1280px-14-2290-SpaceLaunchSystem-AfterLaunch-20140827.jpg
+.. figure:: ./resources/14-2290-SpaceLaunchSystem-AfterLaunch-20140827.jpg
    :align: center
    :alt: 太空发射系统
 
@@ -137,7 +137,7 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 * **联合发射同盟（United Launch Alliance，简称 ULA）**：最初是 2006 年由洛克希德马丁公司和波音公司创立的合资企业，太空产业化浪潮到来之际，又有一些新成立的太空运输业公司加入了 `ULA <http://en.wikipedia.org/wiki/United_Launch_Alliance>`_ ，主要业务集中在天地运输、地球轨道运输。
 
-  .. figure:: http://www.tscc.org/images/ULA%20Logo_Full%20Color_Text_withR.jpg
+  .. figure:: ./resources/ULALogo_FullColor_Text_withR.jpg
      :align: center
      :width: 500
      :alt: ULA_LOGO
@@ -209,8 +209,10 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 考虑到这些因素，近地太空市场可供开发的空间还是很有限的。截至 21 世纪 50 年代末期，在当时技术下有利可图的 200 余颗小行星几乎都已经“名花有主”了。
 
-.. figure:: http://www.ourprg.com/wp-content/uploads/2013/11/pia16610-640.jpg
+.. figure:: ./resources/pia16610-640.jpg
    :align: center
+
+   http://www.ourprg.com/wp-content/uploads/2013/11/pia16610-640.jpg
 
 .. index:: 泛火星思潮
 
@@ -221,8 +223,10 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 初期时，两种观点互不相让，而在产业化后期，第二种观点则被更多的地球人所认同，并称之为“泛火星思潮”，这种思潮呼吁打破太空商会对于太空商业开发的垄断，并呼吁人类应该尽早开始火星移民。
 
-.. figure:: http://www.space4case.inhetweb.nl/mmw/media/mars2003_2/marssphereNASA7.jpg
+.. figure:: resources/marssphereNASA7.jpg
    :align: center
+
+   http://www.space4case.inhetweb.nl/mmw/media/mars2003_2/marssphereNASA7.jpg
 
 .. index:: 联合行星
 .. index:: United Planet Institution
@@ -276,5 +280,8 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 
 2070 年 4 月 22 日，首批火星移民志愿者第 1 远征队的 15 人在伊希地平原的西北地区（16.181°N，84.624°E）着陆，人类新的篇章就此展开！
 
-.. figure:: http://www.space4case.inhetweb.nl/mmw/media/mars2005/schiaparelliNEW7000_20051114_high21final1024.jpg
+.. figure:: resources/schiaparelliNEW7000_20051114_high21final1024.jpg
    :align: center
+
+   http://www.space4case.inhetweb.nl/mmw/media/mars2005/schiaparelliNEW7000_20051114_high21final1024.jpg
+   

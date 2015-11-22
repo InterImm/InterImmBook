@@ -74,7 +74,7 @@
 
 Unisat 的重要成员 **星际通信公司（Interplanetary Communications Company）** 也在火星表面和绕火轨道设立研究中心。
 
-.. figure:: http://www.space4case.inhetweb.nl/mmw/media/mars2005/vallesmarineris7500_20051014_18final1024.jpg
+.. figure:: ./resources/vallesmarineris-final.jpg
    :align: center
 
 
@@ -143,7 +143,7 @@ IIA 研发部下属的 PNPT 对推进技术的发展做出了巨大的贡献。�
 .. figure:: ./resources/marsCities/marsCities.png
    :align: center
 
-   火星城市及旅游图。基于 `NASA MOLA <http://mola.gsfc.nasa.gov/images.html>`_ 地图制作。在 Google Mars 中导入 `此 KMZ 文件 <./resources/marsCities/marsCities.kmz>`_ ，可以观察火星城市具体位置。
+   火星城市及旅游图。基于 `NASA MOLA <http://mola.gsfc.nasa.gov/images.html>`_ 地图制作。在 Google Mars 中导入 `此 KMZ 文件 <https://github.com/InterImm/InterImmData/raw/master/opendata/MarsCities.kmz>`_ ，可以观察火星城市具体位置。
 
 .. index:: 伊希地城市圈
 .. index:: Isidis Metropolitan Area

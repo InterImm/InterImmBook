@@ -197,10 +197,10 @@ Nikolai Kibalchich 死后十年，德国工程师 Hermann Ganswindt 重新发现
    2. `Ion Thruster @ Wikipedia <https://en.wikipedia.org/wiki/Ion_thruster>`_
    3. 早在二十世纪初，NASA 曾经对整个离子推进做过评估
 
-      .. figure:: http://www.grc.nasa.gov/WWW/ion/future/images/futureapps.jpg
+      .. figure:: ./resources/futureapps.jpg
          :align: center
 
-         NASA 对推进技术的评估
+         NASA 对推进技术的评估。http://www.grc.nasa.gov/WWW/ion/future/images/futureapps.jpg
 
 
 
