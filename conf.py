@@ -37,7 +37,7 @@ extensions = [
     'sphinx.ext.mathjax',
 ]
 
-mathjax_path = 'https://cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+mathjax_path = 'https://cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
