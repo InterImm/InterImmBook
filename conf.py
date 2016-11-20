@@ -53,7 +53,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'星际移民之书'
-copyright = u'2014, Interplanetary Immigration Center'
+copyright = u'2017, Interplanetary Immigration Center'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
