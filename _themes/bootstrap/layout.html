@@ -43,7 +43,8 @@
       '_static/material/css/material.min.css',
       '_static/material/css/ripples.min.css',
       '_static/material/css/snackbar.min.css',
-      '_static/material/css/style.css'
+      '_static/material/css/style.css',
+      '_static/style.css'
   ] %}
 
 {% set script_files = script_files + [
@@ -105,6 +106,20 @@
 {%- if theme_canonical_url %}
 <link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html"/>
 {%- endif %}
+
+<!-- Toggle Environment Begin -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .admonition-title").show();
+        $(".toggle .admonition-title").click(function() {
+            $(this).parent().children().not(".admonition-title").toggle(400);
+            $(this).parent().children(".admonition-title").toggleClass("open");
+        })
+    });
+    </script>
+<!-- Toggle Environment End -->
+
 {% endblock %}
 
 {# Silence the sidebar's, relbar's #}
