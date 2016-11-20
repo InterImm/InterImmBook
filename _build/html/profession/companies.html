@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../_static/material/css/ripples.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/material/css/snackbar.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/material/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/style.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -49,6 +50,20 @@
 <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 <link rel="canonical" href="http://book.interimm.org/profession/companies.html"/>
+
+<!-- Toggle Environment Begin -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .admonition-title").show();
+        $(".toggle .admonition-title").click(function() {
+            $(this).parent().children().not(".admonition-title").toggle(400);
+            $(this).parent().children(".admonition-title").toggleClass("open");
+        })
+    });
+    </script>
+<!-- Toggle Environment End -->
+
 
   </head>
   <body role="document">
@@ -370,6 +385,15 @@
 </ul>
 <p class="last">为了共同开发亚轨道以外的太空旅游市场，当时亚轨道旅游市场的两大巨头——宇宙探险公司与维珍银河公司决定合并组成轨道旅游局。2046 年，SpaceX 旅游也宣布加入轨道旅游局。次年，轨道旅游局将总部搬至近地轨道的大型空间站。</p>
 </div>
+<div class="list admonition" id="starryspaceconstruction">
+<p class="first admonition-title">星夜太空建筑 - Starry Space Construction</p>
+<ul class="simple">
+<li>成立时间：2040 年</li>
+<li>成立总部：迪拜</li>
+<li>主要业务：太空建筑</li>
+</ul>
+<p class="last">公司创始人 Allen Gonzales 离开行星资源公司创立了 Starry Space Construction，并且立刻获取了巨额投资。</p>
+</div>
 <div class="list admonition" id="spacextourists">
 <p class="first admonition-title">太空探索旅游公司 - Space Exploration Tourists Corporation (SpaceX Tourists)</p>
 <ul class="simple">
@@ -388,8 +412,8 @@
 </ul>
 <p class="last">由原先 SpaceX 公司拆分而来。</p>
 </div>
-<div class="list admonition" id="id2">
-<span id="berlinpioneer"></span><p class="first admonition-title">柏林先锋</p>
+<div class="list admonition" id="berlinpioneer">
+<p class="first admonition-title">柏林先锋</p>
 <p class="last">柏林先锋，Berlin Pioneer，是一家专注与火星地球运输的生物审核的公司。这家公司在总部在柏林，但是在世界各地有多个办公室和研发中心。柏林先锋的创始人 Stefan Cline 在德国慕尼黑大学读书期间，设计了一套判断新物种对于现有生态影响的系统方案。之后火星移民的兴起，Stefan Cline 开始设计火星上生物基因改造的安全性问题。他提议在所有专门为火星设计的基因修改中，添加可以产生特定蛋白的基因，这样方便区分和检测这些火星专有生物。之后他成立了 Cline Genetics，这家公司后来更名 Berlin Pioneer，在之后的火星移民浪潮中，发展成为 22 世纪世界上最大的生物审核公司。同时该公司的很多专利与基因修改相关，这些专利为柏林先锋带来了巨额的收益。</p>
 </div>
 <div class="list admonition" id="umbrella">
@@ -509,7 +533,7 @@ var duoshuoQuery = {short_name:"interimm"};
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 May 04, 2016</span>  <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Nov 19, 2016</span>  <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
   <script>

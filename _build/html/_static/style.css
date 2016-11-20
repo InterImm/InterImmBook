@@ -18,3 +18,88 @@ hr.style-chap:after {
     padding: 0 0.25em;
     background: white;
 }
+
+/* Toggle Environment Begin */
+
+.toggle {
+    background: none repeat scroll 0 0 #e7f2fa;
+    padding: 1.5em !important;
+    line-height: 24px;
+    margin-bottom: 24px;
+    background-color: white !important;
+}
+
+.toggle .admonition-title {
+    display: block;
+    clear: both;
+    cursor: pointer;
+    font-size: 110% !important;
+}
+
+.toggle .admonition-title:after {
+    content: " ▼";
+}
+
+.toggle .admonition-title.open:after {
+    content: " ▲";
+}
+
+.toggle p:last-child {
+    margin-bottom: 0;
+}
+
+/* Toggle Environment End */
+
+/* Timeline Toggle Admonition Environment Begin */
+
+.timeline {
+    background: none repeat scroll 0 0 #e7f2fa;
+    padding: 1.5em !important;
+    line-height: 24px;
+    margin-bottom: 24px;
+    background-color: white !important;
+    border-left: none !important;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+.timeline .admonition-title {
+    display: none;
+    clear: both;
+    cursor: pointer;
+    font-size: 110% !important;
+}
+.timeline .admonition-title:after {
+    /*content: " ▼";*/
+}
+
+.timeline .admonition-title.open:after {
+    /*content: " ▲";*/
+}
+
+.timeline p:last-child {
+    margin-bottom: 0;
+}
+
+.timeline>ul {
+    list-style: square;
+    border-left: 3px solid black;
+    padding-left: 1em;
+    margin-top: 0em !important;
+}
+
+.event-date {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    color: #8c8c8c;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+
+/* Timeline Toggle Admonition Environment End */
