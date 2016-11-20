@@ -39,6 +39,20 @@ extensions = [
 
 mathjax_path = 'https://cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 
+# prolog included in the beginning of every rst file
+rst_prolog = """
+.. role:: strike
+   :class: strike
+.. role:: highlight-text
+   :class: highlight-text
+.. role:: eventdate
+   :class: event-date
+.. role:: eventbody
+   :class: event-body
+.. |nbsp| unicode:: 0xA0
+   :trim:
+"""
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

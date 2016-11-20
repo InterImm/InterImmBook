@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="_static/material/css/ripples.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/material/css/snackbar.min.css" type="text/css" />
     <link rel="stylesheet" href="_static/material/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
@@ -46,6 +47,20 @@
 <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 <link rel="canonical" href="http://book.interimm.org/mars.html"/>
+
+<!-- Toggle Environment Begin -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .admonition-title").show();
+        $(".toggle .admonition-title").click(function() {
+            $(this).parent().children().not(".admonition-title").toggle(400);
+            $(this).parent().children(".admonition-title").toggleClass("open");
+        })
+    });
+    </script>
+<!-- Toggle Environment End -->
+
 
   </head>
   <body role="document">
@@ -175,7 +190,7 @@ var duoshuoQuery = {short_name:"interimm"};
     </p>
     <p>
         <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2014, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 May 04, 2016</span>  <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+      <span class="btn btn-flat btn-xs disabled">最近更新 Nov 19, 2016</span>  <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
     </p>
   </div>
   <script>

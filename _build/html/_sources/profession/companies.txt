@@ -314,7 +314,16 @@
    为了共同开发亚轨道以外的太空旅游市场，当时亚轨道旅游市场的两大巨头——宇宙探险公司与维珍银河公司决定合并组成轨道旅游局。2046 年，SpaceX 旅游也宣布加入轨道旅游局。次年，轨道旅游局将总部搬至近地轨道的大型空间站。
 
 
+.. _starrySpaceConstruction:
 
+.. admonition:: 星夜太空建筑 - Starry Space Construction
+   :class: list
+
+   * 成立时间：2040 年
+   * 成立总部：迪拜
+   * 主要业务：太空建筑
+
+   公司创始人 Allen Gonzales 离开行星资源公司创立了 Starry Space Construction，并且立刻获取了巨额投资。
 
 
 .. _spacexTourists:
@@ -344,7 +353,6 @@
 
 .. admonition:: 柏林先锋
    :class: list
-   :name: berlinpioneer
 
    柏林先锋，Berlin Pioneer，是一家专注与火星地球运输的生物审核的公司。这家公司在总部在柏林，但是在世界各地有多个办公室和研发中心。柏林先锋的创始人 Stefan Cline 在德国慕尼黑大学读书期间，设计了一套判断新物种对于现有生态影响的系统方案。之后火星移民的兴起，Stefan Cline 开始设计火星上生物基因改造的安全性问题。他提议在所有专门为火星设计的基因修改中，添加可以产生特定蛋白的基因，这样方便区分和检测这些火星专有生物。之后他成立了 Cline Genetics，这家公司后来更名 Berlin Pioneer，在之后的火星移民浪潮中，发展成为 22 世纪世界上最大的生物审核公司。同时该公司的很多专利与基因修改相关，这些专利为柏林先锋带来了巨额的收益。
 
