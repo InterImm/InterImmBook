@@ -97,6 +97,7 @@
                     <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
                     <li class="divider"></li>
                     <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                    <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
                     <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
                 </ul>
             </li>
@@ -237,8 +238,37 @@ var duoshuoQuery = {short_name:"interimm"};
       
     </p>
     <p>
-        <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2016, Interplanetary Immigration Center</span>
-      <span class="btn btn-flat btn-xs disabled">最近更新 Nov 19, 2016</span>  <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+        <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2016, 星际移民中心</span>
+      <a href="http://book.interimm.org/changelog.html"><span class="btn btn-flat btn-xs disabled">最近更新 Nov 25, 2016</span></a>
+    <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+    <a href="#" data-toggle="modal" data-target="#newcomments"><span class="btn btn-flat btn-xs">最新评论&nbsp;<i class="fa fa-comment"></i></span></a>
+
+    <div class="modal" id="newcomments" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" style="text-align:center;">最新评论</h4>
+            </div>
+        <div class="modal-body">
+    <div>
+
+
+        <hr style="border:0;height:1px;bacground-image:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));">
+
+
+        <!-- 多说最新评论 start -->
+	      <div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70" style="text-align:left;"></div>
+        <!-- 多说最新评论 end -->
+
+
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        
+  </div>
+
     </p>
   </div>
   <script>
