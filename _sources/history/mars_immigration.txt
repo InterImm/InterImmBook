@@ -1,6 +1,22 @@
 火星移民
 =================================
 
+
+.. admonition:: 重要事件时间线
+   :class: timeline
+
+   * 2070 年 4 月，首个火星表面前哨站在伊希地建立。
+   * 2075 年，PNPT 并入 IIA.
+   * 2075 年，火星的燃料产业基本满足火星表面与绕火轨道上之间运输的燃料需求。
+   * 2080 年，轨道旅游局（OrbiTA）开始大规模投资火星殖民地的旅游开发。
+   * 2102 年 6 月，Unisat、ULA、OrbiTA 与 UPI 合并，保留 UPI 的名称。
+   * 22 世纪 20 年代，火星上第一个繁荣的城市圈在伊希地逐渐形成。
+   * 22 世纪 50 年代，以四、五、七号城为核心的亚马逊城市圈初步建立。
+   * 22 世纪 60 年代，子午线城市圈也就此形成。
+   
+
+
+
 .. _colconst:
 
 火星殖民地建设
@@ -143,7 +159,7 @@ IIA 研发部下属的 PNPT 对推进技术的发展做出了巨大的贡献。�
 .. figure:: ./resources/marsCities/marsCities.png
    :align: center
 
-   火星城市及旅游图。基于 `NASA MOLA <http://mola.gsfc.nasa.gov/images.html>`_ 地图制作。在 Google Mars 中导入 `此 KMZ 文件 <https://github.com/InterImm/InterImmData/raw/master/opendata/MarsCities.kmz>`_ ，可以观察火星城市具体位置。
+   火星城市及旅游图。基于 `NASA MOLA <http://mola.gsfc.nasa.gov/images.html>`_ 地图制作。可以在我们的`工具箱 <http://interimm.org/toolbox.html#mars-cities>`_中使用互动版火星地图。在 Google Mars 中导入 `此 KMZ 文件 <https://github.com/InterImm/InterImmData/raw/master/opendata/MarsCities.kmz>`_ ，可以观察火星城市具体位置。
 
 .. index:: 伊希地城市圈
 .. index:: Isidis Metropolitan Area
@@ -263,8 +279,8 @@ IIA 研发部下属的 PNPT 对推进技术的发展做出了巨大的贡献。�
 
 
 
-火星-地球检疫
--------------------
+火星-地球检疫以及火星疾控中心
+--------------------------------------
 
 早在火星城市建设初期，地球和火星联合建立了地球和火星之通行的检疫系统。这个系统中出去正常的官方检疫工作，还有商业化的审核公司的参与。
 
@@ -283,14 +299,31 @@ IIA 研发部下属的 PNPT 对推进技术的发展做出了巨大的贡献。�
 
 
 
+2207 年，伊希地城市圈建设过程中，由于人流量的增大，南河城爆发了新型的传染病。期间南河城的一些居民自发成立了临时疾控中心，最终疫情得以控制，然而后来的统计显示共有 348 人死于这场灾难。这类传染病后来被称为伊希地病。
+
+.. admonition:: Abbie Carter
+   :class: note
+
+   当时著名神经科学家 Abbie Carter 恰好在火星度假，她的发现了伊希地病毒展现出了一种集体行为：虽然在发病之前很多人都感染了病毒，但是几乎所有人都是在同一天发病的。这种集体行为后来成为了这类传染病研究的范本，同时也促进了火星疾病控制机构的成立。
+
+.. index:: ICDC
+.. index:: Isidis Centers for Disease Control and Prevention
+.. index:: 伊希地临时疾控中心
+
+.. index:: MCDC
+.. index:: Martian Centers for Disease Control and Prevention
+.. index:: 火星疾控中心
+
+.. index:: Martian Epidemic and Pandemic Control
+.. index:: MEPC
+
+伊希地临时疾控中心（ICDC: Isidis Centers for Disease Control and Prevention）在 2209 年改名为火星疾控中心（MCDC: Martian Centers for Disease Control and Prevention），并且设立 MEPC（Martian Epidemic and Pandemic Control），负责监控火星上的致病源，尤其是病原体的变异情况的追踪，并且实时公布。
+
+.. index:: MHO
+.. index:: Martian Health Organization
+.. index:: 火星健康组织
+
+2213 年，由火星疾控中心牵头的火星健康组织（MHO: Martian Health Organizaton）成立，火星疾控中心并入 MHO 成为其下属机构。
 
 
-.. 第一项大型行星工程
-.. ~~~~~~~~~~~~~~~~~~~~
 
-.. 火星殖民地的建设过程中，有一颗彗星（非周期）近距离飞过火星。UPI 经过建模计算，发现可以将彗星拆解，并使其坠入火星大气层，以此来作为火星生态改造的起点。幸运的是，彗星轨道与一颗小行星的轨道交叉，并且只需要对这颗小行星的轨道进行稍许调节，便可以是的彗星与小行星相撞。按照计划，小行星的轨道被逐渐改变，最终与彗星相撞，彗星解体，并由运输船投放至火星表面，形成许多湖泊。这是第一次大型行星工程的尝试。
-
-.. 多年之后，长期的改造建立起了火星初步的生态循环。此次改造的数据成为之后行星生态改造的一个重要参考。
-
-.. .. figure:: http://newswatch.nationalgeographic.com/files/2013/09/mars-comet-NASA.jpg
-..   :align: center
