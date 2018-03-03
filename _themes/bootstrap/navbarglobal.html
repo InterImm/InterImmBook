@@ -1,36 +1,48 @@
 <!-- Nav Bar at top -->
-<div class="navbar navbar-black" style="font-size:14px;">
+<div class="navbar navbar-black">
     <div class="navbar-header navbar-border-r">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
+        <a class="navbar-brand brand-style" href="javascript:void(0)"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav navbar-nav-black">
         <li class="divider-vertical divider-white"></li>
-
             <li class="active"><a href="http://book.interimm.org"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
-            <li><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
-            <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
-
+            <li><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星</a></li>
+            <!-- <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li> -->
+            <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 专栏</a></li>
+            <li><a href="http://interimm.org/hub"><i class="fa fa-building-o"></i>&nbsp; 企业</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-nav-black">
-
-        <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
-            <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
+        <!-- Switch on/off between the following two lines to activate/deactivate the calendar icon -->
+        <!-- <li><a href="#activities" style="color:orange;"><i class="fa fa-calendar"></i></a></li> -->
+        <li><a href="#activities" style="color:grey;" data-toggle="tooltip" data-placement="bottom" title="相关活动"><i class="fa fa-calendar"></i></a></li>
+        <!-- <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li> -->
+        <li><a href="http://weibo.com/iiaofficial" style="color:#5bc0de;" target="_blank" data-toggle="tooltip" data-placement="bottom" title="微博"> <i class="fa fa-weibo"></i></a></li>
+        <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i></a></li>
 
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i>&nbsp; 更多 <b class="caret"></b></a>
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i> 更多<b class="caret"></b></a>
                 <ul class="dropdown-menu black-bg">
-                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
-                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                   <li><a href="institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                   <li><a href="toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                   <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
+
+                   <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i>&nbsp;火星地图</a></li>
+                   <li><a href="http://cities.interimm.org/" style="color:orange;" ><i class="fa fa-map-signs"></i>&nbsp;火星城市</a></li>
+                   <li><a href="http://timeline.interimm.org"><i class="fa fa-clock-o"></i>&nbsp;时间线</a></li>
+
                     <li class="divider"></li>
-                    <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
-                    <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
-                    <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                    <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
+                    <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
                 </ul>
             </li>
         </ul>

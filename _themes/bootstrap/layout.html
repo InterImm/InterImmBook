@@ -1,102 +1,25 @@
-{% extends "basic/layout.html" %}
-
-{% set theme_css_files = [] %}
-{% if theme_bootstrap_version == "3" %}
-  {% set bootstrap_version, bootstrap_additional_css, navbar_version = "3.2.0", "theme", "" %}
-  {% set bs_span_prefix = "col-md-" %}
-{% else %}
-  {% set bootstrap_version, bootstrap_additional_css, navbar_version = "2.3.2", "responsive", "-2" %}
-  {% set bs_span_prefix = "span" %}
-{% endif %}
-
-{% if theme_bootswatch_theme %}
-  {# BS2 needs "bootstrap-responsive.css". BS3 doesn't. #}
-  {% if theme_bootstrap_version == "3" %}
-    {% set theme_css_files = theme_css_files + [
-        '_static/bootswatch-' + bootstrap_version + '/' + theme_bootswatch_theme + '/bootstrap.min.css',
-        '_static/bootstrap-sphinx.css'
-      ]
-    %}
-  {% else %}
-    {% set theme_css_files = theme_css_files + [
-        '_static/bootswatch-' + bootstrap_version + '/' + theme_bootswatch_theme + '/bootstrap.min.css',
-        '_static/bootstrap-' + bootstrap_version + '/css/bootstrap-' + bootstrap_additional_css + '.min.css',
-        '_static/bootstrap-sphinx.css'
-      ]
-    %}
-  {% endif %}
-{% else %}
-  {% set theme_css_files = theme_css_files + [
-      '_static/bootstrap-' + bootstrap_version + '/css/bootstrap.min.css',
-      '_static/bootstrap-' + bootstrap_version + '/css/bootstrap-' + bootstrap_additional_css + '.min.css',
-      '_static/bootstrap-sphinx.css'
-    ]
-  %}
-{% endif %}
-
-{% if not bootswatch_css_custom %}
-  {% set bootswatch_css_custom = [] %}
-{% endif %}
-
-{% set css_files = css_files + theme_css_files + bootswatch_css_custom + [
-      '_static/material/css/material-wfont.min.css',
-      '_static/material/css/material.min.css',
-      '_static/material/css/ripples.min.css',
-      '_static/material/css/snackbar.min.css',
-      '_static/material/css/style.css',
-      '_static/style.css'
-  ] %}
-
-{% set script_files = script_files + [
-    '_static/js/jquery-1.11.0.min.js',
-    '_static/js/jquery-fix.js',
-    '_static/bootstrap-' + bootstrap_version + '/js/bootstrap.min.js',
-    '_static/bootstrap-sphinx.js',
-    '_static/material/js/material.min.js',
-    '_static/material/js/ripples.min.js'
-  ]
-%}
-
-{%- set render_sidebar = (not embedded) and (not theme_nosidebar|tobool) and sidebars %}
-
-{%- set bs_content_width = render_sidebar and "9" or "12"%}
-
-{%- block doctype -%}
-<!DOCTYPE html>
-{%- endblock %}
-
-{# Sidebar: Rework into our Bootstrap nav section. #}
-{% macro navBar() %}
-{% include "navbarglobal.html" %}
-{% endmacro %}
-
-{% if theme_bootstrap_version == "3" %}
-  {%- macro bsidebar() %}
-      {%- if render_sidebar %}
-      <div class="{{ bs_span_prefix }}3">
-        <div id="sidebar" class="bs-sidenav well" role="complementary">
-          {%- for sidebartemplate in sidebars %}
-            {%- include sidebartemplate %}
-          {%- endfor %}
-        </div>
-      </div>
-      {%- endif %}
-  {%- endmacro %}
-{% else %}
-  {%- macro bsidebar() %}
-      {%- if render_sidebar %}
-      <div class="{{ bs_span_prefix }}3">
-        <div id="sidebar" class="bs-sidenav well" data-spy="affix">
-          {%- for sidebartemplate in sidebars %}
-            {%- include sidebartemplate %}
-          {%- endfor %}
-        </div>
-      </div>
-      {%- endif %}
-  {%- endmacro %}
-{% endif %}
-
-{%- block extrahead %}
+{% extends "basic/layout.html" %} {% set theme_css_files = [] %} {% if theme_bootstrap_version == "3" %} {% set bootstrap_version, bootstrap_additional_css, navbar_version = "3.2.0", "theme", "" %} {% set bs_span_prefix = "col-md-" %} {% else %} {% set
+bootstrap_version, bootstrap_additional_css, navbar_version = "2.3.2", "responsive", "-2" %} {% set bs_span_prefix = "span" %} {% endif %} {% if theme_bootswatch_theme %} {# BS2 needs "bootstrap-responsive.css". BS3 doesn't. #} {% if theme_bootstrap_version
+== "3" %} {% set theme_css_files = theme_css_files + [ '_static/bootswatch-' + bootstrap_version + '/' + theme_bootswatch_theme + '/bootstrap.min.css', '_static/bootstrap-sphinx.css' ] %} {% else %} {% set theme_css_files = theme_css_files + [ '_static/bootswatch-'
++ bootstrap_version + '/' + theme_bootswatch_theme + '/bootstrap.min.css', '_static/bootstrap-' + bootstrap_version + '/css/bootstrap-' + bootstrap_additional_css + '.min.css', '_static/bootstrap-sphinx.css' ] %} {% endif %} {% else %} {% set theme_css_files
+= theme_css_files + [ '_static/bootstrap-' + bootstrap_version + '/css/bootstrap.min.css', '_static/bootstrap-' + bootstrap_version + '/css/bootstrap-' + bootstrap_additional_css + '.min.css', '_static/bootstrap-sphinx.css' ] %} {% endif %} {% if not
+bootswatch_css_custom %} {% set bootswatch_css_custom = [] %} {% endif %} {% set css_files = css_files + theme_css_files + bootswatch_css_custom + [ '_static/material/css/material-wfont.min.css', '_static/material/css/material.min.css', '_static/material/css/ripples.min.css',
+'_static/material/css/snackbar.min.css', '_static/material/css/style.css', '_static/style.css' ] %} {% set script_files = script_files + [ '_static/js/jquery-1.11.0.min.js', '_static/js/jquery-fix.js', '_static/bootstrap-' + bootstrap_version + '/js/bootstrap.min.js',
+'_static/bootstrap-sphinx.js', '_static/material/js/material.min.js', '_static/material/js/ripples.min.js' ] %} {%- set render_sidebar = (not embedded) and (not theme_nosidebar|tobool) and sidebars %} {%- set bs_content_width = render_sidebar and "9"
+or "12"%} {%- block doctype -%}
+<!DOCTYPE html> {%- endblock %} {# Sidebar: Rework into our Bootstrap nav section. #} {% macro navBar() %} {% include "navbarglobal.html" %} {% endmacro %} {% if theme_bootstrap_version == "3" %} {%- macro bsidebar() %} {%- if render_sidebar %}
+<div class="{{ bs_span_prefix }}3">
+   <div id="sidebar" class="bs-sidenav well" role="complementary">
+      {%- for sidebartemplate in sidebars %} {%- include sidebartemplate %} {%- endfor %}
+   </div>
+</div>
+{%- endif %} {%- endmacro %} {% else %} {%- macro bsidebar() %} {%- if render_sidebar %}
+<div class="{{ bs_span_prefix }}3">
+   <div id="sidebar" class="bs-sidenav well" data-spy="affix">
+      {%- for sidebartemplate in sidebars %} {%- include sidebartemplate %} {%- endfor %}
+   </div>
+</div>
+{%- endif %} {%- endmacro %} {% endif %} {%- block extrahead %}
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -104,140 +27,151 @@
 <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 {%- if theme_canonical_url %}
-<link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html"/>
-{%- endif %}
+<link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html" /> {%- endif %}
 
 <!-- Toggle Environment Begin -->
-  <script type="text/javascript">
-    $(document).ready(function() {
-        $(".toggle > *").hide();
-        $(".toggle .admonition-title").show();
-        $(".toggle .admonition-title").click(function() {
-            $(this).parent().children().not(".admonition-title").toggle(400);
-            $(this).parent().children(".admonition-title").toggleClass("open");
-        })
-    });
-    </script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $(".toggle > *").hide();
+      $(".toggle .admonition-title").show();
+      $(".toggle .admonition-title").click(function() {
+         $(this).parent().children().not(".admonition-title").toggle(400);
+         $(this).parent().children(".admonition-title").toggleClass("open");
+      })
+   });
+</script>
 <!-- Toggle Environment End -->
 
-{% endblock %}
-
-{# Silence the sidebar's, relbar's #}
-{% block header %}{% endblock %}
-{% block relbar1 %}{% endblock %}
-{% block relbar2 %}{% endblock %}
-{% block sidebarsourcelink %}{% endblock %}
-
-{%- block content %}
-{{ navBar() }}
+{% endblock %} {# Silence the sidebar's, relbar's #} {% block header %}{% endblock %} {% block relbar1 %}{% endblock %} {% block relbar2 %}{% endblock %} {% block sidebarsourcelink %}{% endblock %} {%- block content %} {{ navBar() }}
 <div class="container">
-  <div class="row">
-    {%- block sidebar1 %}{{ bsidebar() }}{% endblock %}
-    <div class="{{ bs_span_prefix }}{{ bs_content_width }}">
-      {% include "breadcrumbs.html" %}
-      {% block body %}{% endblock %}
+   <div class="row">
+      {%- block sidebar1 %}{{ bsidebar() }}{% endblock %}
+      <div class="{{ bs_span_prefix }}{{ bs_content_width }}">
+         {% include "breadcrumbs.html" %} {% block body %}{% endblock %}
 
 
-<hr style="border: 0;height: 1px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
-
-      <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="{{ pagename }}" data-title="{{ title|striptags|e }}{{ titlesuffix }}" data-url="http://book.interimm.org/{{ pagename }}.html"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"interimm"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- 多说公共JS代码 end -->
+         <hr style="border: 0;height: 1px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
 
 
-    </div>
-    {% block sidebar2 %} {# possible location for sidebar #} {% endblock %}
-  </div>
+
+      </div>
+      {% block sidebar2 %} {# possible location for sidebar #} {% endblock %}
+   </div>
 
 
 
 
 
 </div>
-{%- endblock %}
-
-{%- block footer %}
+{%- endblock %} {%- block footer %}
 
 
 
 <footer class="footer" style="margin-top:1em">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#"><span class="btn btn-primary btn-flat btn-xs"> 回顶部</span></a>
-      {% if theme_source_link_position == "footer" %}
-        <br/>
-        {% include "sourcelink.html" %}
-      {% endif %}
-    </p>
-    <p>
-    {%- if show_copyright %}
-      {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}<br/>
-      {%- else %}
-        {% trans copyright=copyright|e %}<span class="btn btn-flat disabled btn-xs">&copy; Copyright {{ copyright }}</span>{% endtrans %}
-      {%- endif %}
-    {%- endif %}
-    {%- if last_updated %}
-      {% trans last_updated=last_updated|e %}<a href="{{ theme_canonical_url }}changelog.html"><span class="btn btn-flat btn-xs disabled">最近更新 {{ last_updated }}</span></a>{% endtrans %}  
-    {%- endif %}
-    <a href="{{ theme_canonical_url }}genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
-    <a href="{{ theme_canonical_url }}acknowledgement.html"><span class="btn btn-flat btn-info btn-xs">致谢</span></a>
-    {%- if show_sphinx %}
-      {% trans sphinx_version=sphinx_version|e %} <a href="http://sphinx.pocoo.org/" target="_blank"><span class="btn btn-flat btn-xs">使用Sphinx {{ sphinx_version }}.{% endtrans %} 生成</span></a>
-    {%- endif %}
-    <a href="#" data-toggle="modal" data-target="#newcomments"><span class="btn btn-flat btn-xs">最新评论&nbsp;<i class="fa fa-comment"></i></span></a>
+   <div class="container">
+      <p class="pull-right">
+         <a href="#"><span class="btn btn-primary btn-flat btn-xs"> 回顶部</span></a> {% if theme_source_link_position == "footer" %}
+         <br/> {% include "sourcelink.html" %} {% endif %}
+      </p>
+      <p>
+         {%- if show_copyright %} {%- if hasdoc('copyright') %} {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}<br/> {%- else %} {% trans copyright=copyright|e %}
+         <span
+            class="btn btn-flat disabled btn-xs">&copy; Copyright {{ copyright }}</span>{% endtrans %} {%- endif %} {%- endif %} {%- if last_updated %} {% trans last_updated=last_updated|e %}<a href="{{ theme_canonical_url }}changelog.html"><span class="btn btn-flat btn-xs disabled">最近更新 {{ last_updated }}</span></a>{%
+            endtrans %} {%- endif %}
+            <a href="{{ theme_canonical_url }}genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+            <a href="{{ theme_canonical_url }}acknowledgement.html"><span class="btn btn-flat btn-info btn-xs">致谢</span></a> {%- if show_sphinx %} {% trans sphinx_version=sphinx_version|e %} <a href="http://sphinx.pocoo.org/" target="_blank"><span class="btn btn-flat btn-xs">使用Sphinx {{ sphinx_version }}.{% endtrans %} 生成</span></a>            {%- endif %}
+            <a href="#" data-toggle="modal" data-target="#newcomments"><span class="btn btn-flat btn-xs">反馈&nbsp;<i class="fa fa-comment"></i></span></a>
 
-    <div class="modal" id="newcomments" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" style="text-align:center;">最新评论</h4>
+            <div class="modal" id="newcomments" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" style="text-align:center;">联系星际移民中心</h4>
+                     </div>
+                     <div class="modal-body">
+                        <div>
+
+
+                           <table class="table table-striped table-hover" style="margin-bottom:1em;">
+                              <thead>
+                                 <tr>
+                                    <th>方式</th>
+                                    <th>地址</th>
+                                    <th>事务</th>
+                                    <th>备注</th>
+                                 </tr>
+                              </thead>
+
+                              <tbody>
+                                 <tr>
+                                    <td>邮件</td>
+                                    <td><span class="pure-badge-inverse">admin <i class="fa fa-at"></i> interimm.org</span></td>
+                                    <td>综合事务</td>
+                                    <td></td>
+                                 </tr>
+
+
+
+                                 <tr>
+                                    <td>微博</td>
+                                    <td><a href="http://www.weibo.com/iiaofficial"><span class="pure-badge-warning"><i class="fa fa-at"></i>星际移民中心</span></a></td>
+                                    <td>一般事务</td>
+                                    <td></td>
+                                 </tr>
+
+                                 <tr>
+                                    <td>GitHub</td>
+                                    <td><a href="https://github.com/InterImm/InterImmBook/issues"><span class="pure-badge-info"><i class="fa fa-at"></i>InterImmBook</span></a></td>
+                                    <td>ISSUES</td>
+                                    <td></td>
+                                 </tr>
+                              </tbody>
+                           </table>
+
+                           <div class="alert alert-dismissable alert-info" style="text-align:center;">
+                              <label><strong><i class="fa fa-heart"></i>&nbsp;要加入星际移民中心？请将自己的相关专业能力发送邮件到</strong></label><br>
+                              <span class="pure-badge-inverse">admin <i class="fa fa-at"></i> interimm.org</span>
+                           </div>
+
+                           <div>
+
+
+                              <hr style="border:0;height:1px;bacground-image:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));">
+
+
+
+
+
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                              </div>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        <div class="modal-body">
-    <div>
 
+      </p>
+      </div>
+      <script>
+         (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+               (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+               m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        <hr style="border:0;height:1px;bacground-image:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));">
-
-
-        <!-- 多说最新评论 start -->
-	      <div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70" style="text-align:left;"></div>
-        <!-- 多说最新评论 end -->
-
-
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-            </div>
-        
-  </div>
-
-    </p>
-  </div>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50146153-3', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-
-  </script>
+         ga('create', 'UA-50146153-3', 'auto');
+         ga('require', 'displayfeatures');
+         ga('send', 'pageview');
+      </script>
 </footer>
 {%- endblock %}

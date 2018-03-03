@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh_CN">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>火星移民 &mdash; 星际移民之书 3.14 文档</title>
-    
+    <title>火星移民 &#8212; 星际移民之书 3.14 文档</title>
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
@@ -18,14 +15,14 @@
     <link rel="stylesheet" href="../_static/material/css/snackbar.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/material/css/style.css" type="text/css" />
     <link rel="stylesheet" href="../_static/style.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
         VERSION:     '3.14',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -39,8 +36,8 @@
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
     <script type="text/javascript" src="../_static/material/js/material.min.js"></script>
     <script type="text/javascript" src="../_static/material/js/ripples.min.js"></script>
-    <link rel="top" title="星际移民之书 3.14 文档" href="../index.html" />
-    <link rel="up" title="历史" href="index.html" />
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
     <link rel="next" title="月球开发" href="lunar.html" />
     <link rel="prev" title="起航" href="sail.html" />
 <meta charset='utf-8'>
@@ -49,76 +46,85 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
-<link rel="canonical" href="http://book.interimm.org/history/mars_immigration.html"/>
+<link rel="canonical" href="http://book.interimm.org/history/mars_immigration.html" />
 
 <!-- Toggle Environment Begin -->
-  <script type="text/javascript">
-    $(document).ready(function() {
-        $(".toggle > *").hide();
-        $(".toggle .admonition-title").show();
-        $(".toggle .admonition-title").click(function() {
-            $(this).parent().children().not(".admonition-title").toggle(400);
-            $(this).parent().children(".admonition-title").toggleClass("open");
-        })
-    });
-    </script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      $(".toggle > *").hide();
+      $(".toggle .admonition-title").show();
+      $(".toggle .admonition-title").click(function() {
+         $(this).parent().children().not(".admonition-title").toggle(400);
+         $(this).parent().children(".admonition-title").toggleClass("open");
+      })
+   });
+</script>
 <!-- Toggle Environment End -->
 
 
   </head>
-  <body role="document">
-
-<!-- Nav Bar at top -->
-<div class="navbar navbar-black" style="font-size:14px;">
+  <body>  <!-- Nav Bar at top -->
+<div class="navbar navbar-black">
     <div class="navbar-header navbar-border-r">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand brand-style" href="http://interimm.org"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
+        <a class="navbar-brand brand-style" href="javascript:void(0)"><i class="fa fa-home"></i> &nbsp; 星际移民中心</a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav navbar-nav-black">
         <li class="divider-vertical divider-white"></li>
-
             <li class="active"><a href="http://book.interimm.org"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
-            <li><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星档案</a></li>
-            <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
-
+            <li><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星</a></li>
+            <!-- <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li> -->
+            <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 专栏</a></li>
+            <li><a href="http://interimm.org/hub"><i class="fa fa-building-o"></i>&nbsp; 企业</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-nav-black">
-
-        <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
-            <li><a href="http://weibo.com/iiaofficial" target="_blank"> <i class="fa fa-weibo"></i>&nbsp; 微博</a></li>
+        <!-- Switch on/off between the following two lines to activate/deactivate the calendar icon -->
+        <!-- <li><a href="#activities" style="color:orange;"><i class="fa fa-calendar"></i></a></li> -->
+        <li><a href="#activities" style="color:grey;" data-toggle="tooltip" data-placement="bottom" title="相关活动"><i class="fa fa-calendar"></i></a></li>
+        <!-- <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li> -->
+        <li><a href="http://weibo.com/iiaofficial" style="color:#5bc0de;" target="_blank" data-toggle="tooltip" data-placement="bottom" title="微博"> <i class="fa fa-weibo"></i></a></li>
+        <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i></a></li>
 
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i>&nbsp; 更多 <b class="caret"></b></a>
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i> 更多<b class="caret"></b></a>
                 <ul class="dropdown-menu black-bg">
-                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
-                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                   <li><a href="institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                   <li><a href="toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                   <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
+
+                   <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i>&nbsp;火星地图</a></li>
+                   <li><a href="http://cities.interimm.org/" style="color:orange;" ><i class="fa fa-map-signs"></i>&nbsp;火星城市</a></li>
+                   <li><a href="http://timeline.interimm.org"><i class="fa fa-clock-o"></i>&nbsp;时间线</a></li>
+
                     <li class="divider"></li>
-                    <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
-                    <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
-                    <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+
+                    <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
+                    <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
                 </ul>
             </li>
         </ul>
     </div>
 </div>
 
-<!--  Nav Bar Top END -->
-
+<!--  Nav Bar Top END --> 
 <div class="container">
-  <div class="row">
-      <div class="col-md-3">
-        <div id="sidebar" class="bs-sidenav well" role="complementary"><div class="nav nav-pills nav-stacked">
+   <div class="row">
+<div class="col-md-3">
+   <div id="sidebar" class="bs-sidenav well" role="complementary"><div class="nav nav-pills nav-stacked">
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../interimm.html">星际移民中心</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../navigator/index.html">导览</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">历史</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="sail.html">起航</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">火星移民</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">火星移民</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lunar.html">月球开发</a></li>
 <li class="toctree-l2"><a class="reference internal" href="space_elevator.html">太空电梯</a></li>
 <li class="toctree-l2"><a class="reference internal" href="space_cities.html">太空城市</a></li>
@@ -136,10 +142,10 @@
 	<li><a href="https://github.com/InterImm/InterImmBook/issues" target="_blank">提交 BUG</a></li>
 </ul>
 </div>
-        </div>
-      </div>
-    <div class="col-md-9">
-      <div role="navigation" aria-label="breadcrumbs navigation">
+   </div>
+</div>
+      <div class="col-md-9">
+         <div role="navigation" aria-label="breadcrumbs navigation">
   <ul  class="breadcrumb" style="margin-bottom: 5px;margin-top:30px;">
     <li><a href="../index.html">星际移民之书</a> &raquo;</li>
       
@@ -154,13 +160,12 @@
           <a href="lunar.html" title=月球开发><span class="label label-info"><i class="fa fa-angle-right">&nbsp;</i></span></a>
         
         
-          <a href="../_sources/history/mars_immigration.txt" rel="nofollow" title="本页面的源代码"><span class="label label-default">&nbsp;<i class="fa fa-code"></i>&nbsp;</span></a>
+          <a href="../_sources/history/mars_immigration.rst.txt" rel="nofollow" title="本页面的源代码"><span class="label label-default">&nbsp;<i class="fa fa-code"></i>&nbsp;</span></a>
         
       </li>
   </ul>
   <hr/>
-</div>
-      
+</div> 
   <div class="section" id="id1">
 <h1>火星移民<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
 <div class="timeline admonition">
@@ -321,29 +326,13 @@
 
 
 
-<hr style="border: 0;height: 1px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
-
-      <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="history/mars_immigration" data-title="火星移民 &mdash; 星际移民之书 3.14 文档" data-url="http://book.interimm.org/history/mars_immigration.html"></div>
-<!-- 多说评论框 end -->
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"interimm"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0]
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- 多说公共JS代码 end -->
+         <hr style="border: 0;height: 1px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));">
 
 
-    </div>
-      
-  </div>
+
+      </div>
+        
+   </div>
 
 
 
@@ -354,57 +343,108 @@ var duoshuoQuery = {short_name:"interimm"};
 
 
 <footer class="footer" style="margin-top:1em">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#"><span class="btn btn-primary btn-flat btn-xs"> 回顶部</span></a>
-      
-    </p>
-    <p>
-        <span class="btn btn-flat disabled btn-xs">&copy; Copyright 2016, 星际移民中心</span>
-      <a href="http://book.interimm.org/changelog.html"><span class="btn btn-flat btn-xs disabled">最近更新 Dec 11, 2016</span></a>
-    <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
-    <a href="http://book.interimm.org/acknowledgement.html"><span class="btn btn-flat btn-info btn-xs">致谢</span></a>
-    <a href="#" data-toggle="modal" data-target="#newcomments"><span class="btn btn-flat btn-xs">最新评论&nbsp;<i class="fa fa-comment"></i></span></a>
+   <div class="container">
+      <p class="pull-right">
+         <a href="#"><span class="btn btn-primary btn-flat btn-xs"> 回顶部</span></a> 
+      </p>
+      <p> 
+         <span
+            class="btn btn-flat disabled btn-xs">&copy; Copyright 2016, 星际移民中心</span> <a href="http://book.interimm.org/changelog.html"><span class="btn btn-flat btn-xs disabled">最近更新 3月 03, 2018</span></a>
+            <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
+            <a href="http://book.interimm.org/acknowledgement.html"><span class="btn btn-flat btn-info btn-xs">致谢</span></a>
+            <a href="#" data-toggle="modal" data-target="#newcomments"><span class="btn btn-flat btn-xs">反馈&nbsp;<i class="fa fa-comment"></i></span></a>
 
-    <div class="modal" id="newcomments" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" style="text-align:center;">最新评论</h4>
+            <div class="modal" id="newcomments" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" style="text-align:center;">联系星际移民中心</h4>
+                     </div>
+                     <div class="modal-body">
+                        <div>
+
+
+                           <table class="table table-striped table-hover" style="margin-bottom:1em;">
+                              <thead>
+                                 <tr>
+                                    <th>方式</th>
+                                    <th>地址</th>
+                                    <th>事务</th>
+                                    <th>备注</th>
+                                 </tr>
+                              </thead>
+
+                              <tbody>
+                                 <tr>
+                                    <td>邮件</td>
+                                    <td><span class="pure-badge-inverse">admin <i class="fa fa-at"></i> interimm.org</span></td>
+                                    <td>综合事务</td>
+                                    <td></td>
+                                 </tr>
+
+
+
+                                 <tr>
+                                    <td>微博</td>
+                                    <td><a href="http://www.weibo.com/iiaofficial"><span class="pure-badge-warning"><i class="fa fa-at"></i>星际移民中心</span></a></td>
+                                    <td>一般事务</td>
+                                    <td></td>
+                                 </tr>
+
+                                 <tr>
+                                    <td>GitHub</td>
+                                    <td><a href="https://github.com/InterImm/InterImmBook/issues"><span class="pure-badge-info"><i class="fa fa-at"></i>InterImmBook</span></a></td>
+                                    <td>ISSUES</td>
+                                    <td></td>
+                                 </tr>
+                              </tbody>
+                           </table>
+
+                           <div class="alert alert-dismissable alert-info" style="text-align:center;">
+                              <label><strong><i class="fa fa-heart"></i>&nbsp;要加入星际移民中心？请将自己的相关专业能力发送邮件到</strong></label><br>
+                              <span class="pure-badge-inverse">admin <i class="fa fa-at"></i> interimm.org</span>
+                           </div>
+
+                           <div>
+
+
+                              <hr style="border:0;height:1px;bacground-image:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));">
+
+
+
+
+
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                              </div>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        <div class="modal-body">
-    <div>
 
+      </p>
+      </div>
+      <script>
+         (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+               (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+               m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-        <hr style="border:0;height:1px;bacground-image:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));">
-
-
-        <!-- 多说最新评论 start -->
-	      <div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70" style="text-align:left;"></div>
-        <!-- 多说最新评论 end -->
-
-
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-            </div>
-        
-  </div>
-
-    </p>
-  </div>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50146153-3', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-
-  </script>
+         ga('create', 'UA-50146153-3', 'auto');
+         ga('require', 'displayfeatures');
+         ga('send', 'pageview');
+      </script>
 </footer>
   </body>
 </html>
