@@ -1,6 +1,6 @@
 # 星际移民之书
 
-[![Build Status](https://travis-ci.org/InterImm/InterImmBook.svg)](https://travis-ci.org/InterImm/InterImmBook)
+[![CircleCI](https://circleci.com/gh/InterImm/InterImmBook/tree/master.svg?style=svg)](https://circleci.com/gh/InterImm/InterImmBook/tree/master)
 
 星际移民之书（[源代码](https://github.com/InterImm/InterImmBook)）是由[星际移民中心](http://interimm.org/)维护的一本开源书籍。这本书中主要包含了星际移民的历史和科技等相关信息。
 
