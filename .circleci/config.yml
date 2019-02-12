@@ -3,7 +3,7 @@ version: 2
 jobs:
   build-site:
     docker:
-      - image: alpine:3.8
+      - image: python:3.7
     steps:
       - checkout
       - run:
@@ -12,12 +12,6 @@ jobs:
       - run:
           name: Build docs
           command: make html
-      - run:
-          name: Copy CNAME
-          command: copy CNAME _build/html/CNAME
-      - run:
-          name: Copy nojekyll
-          command: copy .nojekyll _build/html/.nojekyll
       - persist_to_workspace:
           root: _build
           paths: html
