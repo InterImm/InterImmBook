@@ -12,7 +12,7 @@
 
 由于火星伊希地的三座城市（南河城、参宿城和天狼城）相距不远，因此可以在这三个城市中任何一个降落，然后通过地面或者空中交通抵达南河城。
 
-.. figure:: http://interimm.org/assets/images/marsCities.png
+.. figure:: http://interimm.org/assets/img/marsCities.png
    :align: center
 
    这是火星的地图。如有疑问请咨询本中心。`互动版地图在此 <http://interimm.org/mars-map/>`_。
