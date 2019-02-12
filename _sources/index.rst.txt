@@ -38,7 +38,7 @@
 
 本项目是一个开源项目，欢迎加入到项目中来。点击边栏菜单中的 `提交 BUG` 可以告诉我们书中的错别字、排版建议以及内容建议。
 
-本书使用 CC BY-SA 协议共享。
+本书使用 `CC BY-SA <https://creativecommons.org/licenses/by-sa/4.0/deed.zh>`_ 协议共享。
 
 .. image:: resources/cc_bysa.flat.guokr.32.png
    :align: center

@@ -1,7 +1,7 @@
 火星
 =================
 
-火星，是我们星际移民的第一站。那是一个幸运的时代，人们见证了星际移民的辉煌历史。然而，那也是一个不幸的时代，许多人为此付出了自己的自由甚至生命。
+火星，是我们星际移民的第一站。那是一个幸运的时代，人们见证了星际移民的辉煌历史。然而，那也是一个不幸的时代，许多人为此付出了自己的人生甚至生命。阅读并且了解火星是我们的必修课。
 
 
 
@@ -27,7 +27,7 @@
 2. 表面的高度差非常大，希腊平原（Hellas Planitia）的低处可以达到基准面以下 8200 米，而最高的奥林帕斯山（Olympus Mons）却高出基准面 21229 米，这样形成的两个极端的情况。 [1]_
 3. 侵蚀地形复杂，有很多陨石坑。
 4. 气压在火星最低处可以达超过地球标准大气压的百分之一，最高处却只有 30 帕（地球是 101325 帕）。
-5. 火星上也有经度纬度，维度的定义很容易，跟地球的方法一样。但是地球上的零度经线是由历史上习惯传承下来的：英国格林尼治天文台的子午线。火星上没有这样的天文台，火星零度经线的规定是采用的火星表面的一个很小的圆形特征（一个小小的陨石坑）作为零度经线的。
+5. 火星上也有经度纬度，维度的定义很容易，跟地球的方法一样。但是地球上的零度经线是由历史上习惯传承下来的：英国格林尼治天文台的子午线。火星上没有这样的天文台，火星零度经线的规定是采用的火星表面的一个很小的圆形特征（`艾里-0 <https://zh.wikipedia.org/wiki/%E8%89%BE%E9%87%8C-0>`_  陨石坑）作为零度经线的。后来星际移民局在艾里-0设置了地标，零度经线的确定有了地面标志，但是零度经线的确定一直是基于卫星定位系统的。
 
 
 .. [1] 火星没有海洋，所以不采用海平面的说法，而是使用一个重力平均出来的基准高度作为基准面。
@@ -46,7 +46,7 @@
 火星分区表
 ~~~~~~~~~~~~~~~~~
 
-`美国地质调查局 <http://zh.wikipedia.org/zh-cn/%E7%BE%8E%E5%9C%8B%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%A5%E5%B1%80>`_ （United States Geological Survey，即 USGS）把火星表面分成了 30 个区域，分区的方法是把 360 度的经线分为八份，并且以 0°、30°、65°纬线为界。
+`美国地质调查局 <http://zh.wikipedia.org/zh-cn/%E7%BE%8E%E5%9C%8B%E5%9C%B0%E8%B3%AA%E8%AA%BF%E6%9F%A5%E5%B1%80>`_ （United States Geological Survey，即 USGS）把火星表面分成了 30 个区域，分区的方法是把 360 度的经线分为八份，并且以 0°、30°、65°纬线为界。这种分区方法也常常被火星居民使用，因为可以方便大致定位火星上的不同区域。
 
 .. figure:: resources/USGSMarsSection.png
    :align: center
@@ -100,9 +100,9 @@
 火星气候与天气
 -----------------
 
-在进行行星生态改造前，火星的天气一直不是特别好，沙尘暴特别严重。
+在人类进行大规模行星生态改造前，火星的天气一直不是特别好，沙尘暴特别严重。
 
-火星轨道的偏心率是 0.09，要比地球轨道的偏心率的 0.02 大得多。这导致火星的气候的更加复杂。
+火星轨道的偏心率是 0.09，要比地球轨道的偏心率的 0.02 大得多，加上大气薄弱，一年内的温差。这导致火星的气候的更加复杂。
 
 .. _duststorm:
 
@@ -125,7 +125,8 @@
 火星天气预报
 ~~~~~~~~~~~~~~~~~
 
-在移民火星之前，NASA 就开始对火星进行天气预报了：`Mars Weather Reports <http://www.msss.com/msss_images/subject/weather_reports.html>`_ 。
+在移民火星之前，NASA 就开始对火星进行天气预报了：`Mars Weather Reports <http://www.msss.com/msss_images/subject/weather_reports.html>`_ 。在之后的开发过程中，星际移民局的星际运输中心已经与多家公司合作建立了完整的卫星气象系统 Martian Global Weather Task Force（MGWTF），结合高分辨率地面图像和图像处理，该系统可以对地面的天气状况进行实时检测和预测。2050 年，The Queryable Mars 公司接管了 MGWTF 的数据，整合了卫星图像建立了 Martian Global Query Database （MGQDB），通过对卫星图像的处理可以建立完整的火星表面物体和地形的数据库，并且利用卫星的历史数据建立类完整的了火星表面 3D 地形，并提供给公众免费使用。
+
 
 .. _atompressure:
 
@@ -143,7 +144,7 @@
 .. admonition:: 扩展阅读
    :class: note
 
-   * `Hargitai Henrik (2009). "Climate Zones of Mars". Lunar and Planetary Institute. Retrieved 2010-05-18. <http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1199.pdf>`_
+   * `Hargitai Henrik (2009). "Climate Zones of Mars". Lunar and Planetary Institute. <http://www.lpi.usra.edu/meetings/lpsc2010/pdf/1199.pdf>`_
 
 .. _marscalendar:
 

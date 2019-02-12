@@ -381,6 +381,18 @@
    由行星资源公司（ Planetary Resourses ）、SpaceX小行星公司（SpaceX Asteroids）、深空工业公司（ Deep Space Industry ）、近地小行星矿业公司（NEAs Mining）组合而成了联合小行星。联合小行星后来并入了联合行星（UPI）。
 
 
+.. _queryable_mars:
+
+.. admonition:: 火星查询 - The Queryable Mars
+   :class: list
+
+   * 成立时间：2050 年
+   * 公司总部：火星南河城
+   * 主要业务：火星地表物体数据库
+
+   The Queryable Mars 从星际移民局接管了 Martian Global Weather Task Force 的气象卫星，并且将其数据整合，利用算法实现了对火星表面物体的别，并且开放给公众使用。
+
+
 .. _benny:
 
 .. admonition:: 本尼公司 － The Benny Company

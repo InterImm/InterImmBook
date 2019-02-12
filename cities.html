@@ -2,34 +2,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh_CN">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>城市 - 已舍弃 &#8212; 星际移民之书 3.14 文档</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-3.2.0/css/bootstrap-theme.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
-    <link rel="stylesheet" href="_static/material/css/material-wfont.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/material/css/material.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/material/css/ripples.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/material/css/snackbar.min.css" type="text/css" />
-    <link rel="stylesheet" href="_static/material/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="_static/style.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '3.14',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/material/css/material-wfont.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/material/css/material.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/material/css/ripples.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/material/css/snackbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/material/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <script type="text/javascript" src="_static/translations.js"></script>
-    <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script async="async" type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
@@ -42,7 +35,7 @@
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://interimm.org/assets/css/font-awesome.all.min.css" rel="stylesheet">
 <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 <link rel="canonical" href="http://book.interimm.org/cities.html" />
 
@@ -60,8 +53,7 @@
 <!-- Toggle Environment End -->
 
 
-  </head>
-  <body>  <!-- Nav Bar at top -->
+  </head><body>  <!-- Nav Bar at top -->
 <div class="navbar navbar-black" style="font-size:14px;">
     <div class="navbar-header navbar-border-r">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
@@ -74,38 +66,54 @@
     <div class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav navbar-nav-black">
         <li class="divider-vertical divider-white"></li>
-            <li class="active"><a href="http://book.interimm.org"><i class="fa fa-archive"></i>&nbsp; 星际移民之书</a></li>
-            <li><a href="http://exoplanets.interimm.org"><i class="fa fa-globe"></i>&nbsp; 系外行星</a></li>
-            <!-- <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li> -->
-            <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 专栏</a></li>
-            <li><a href="http://interimm.org/hub"><i class="fa fa-building-o"></i>&nbsp; 企业</a></li>
+            <li class="dropdown">
+                <a href="http://interimm.org/archives"><i class="fa fa-archive"> </i>&nbsp; 档案馆 </a>
+                <ul class="dropdown-menu black-bg" role="menu" aria-labelledby="InterImmArchives">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://book.interimm.org"><i class="fa fa-paragraph"></i>&nbsp; 星际移民之书</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://exoplanets.interimm.org"><i class="fa fa-atlas"></i>&nbsp; 系外行星</a></li>
+                    <li><a role="presentation"><a role="menuitem" tabindex="-1" href="http://interimm.org/hub"><i class="fa fa-building"></i>&nbsp; 星际企业</a></li>
+                    <li class="divider"></li>
+                    <li><a href="http://interimm.org/archives" style="color:orange;"><i class="fa fa-archive"> </i>&nbsp; 更多 </a></li>
+                </ul>
+            </li>
+
+            <li><a href="http://planiversity.interimm.org/" target="_blank"><i class="fa fa-university"></i>&nbsp; 行星大学</a></li>
+
+
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-nav-black">
+
+        <li><a href="http://zhuanlan.zhihu.com/interimm" style="color:#5bc0de;" data-toggle="tooltip" data-placement="bottom" title="知乎专栏" target="_blank"><i class="fab fa-zhihu"></i></a></li>
+        <li><a href="http://weibo.com/iiaofficial" style="color:#eb7350;" target="_blank" data-toggle="tooltip" data-placement="bottom" title="微博"> <i class="fab fa-weibo"></i></a></li>
+        
+        <li class="divider-vertical divider-white"></li>
+
         <!-- Switch on/off between the following two lines to activate/deactivate the calendar icon -->
         <!-- <li><a href="#activities" style="color:orange;"><i class="fa fa-calendar"></i></a></li> -->
-        <li><a href="#activities" style="color:grey;" data-toggle="tooltip" data-placement="bottom" title="相关活动"><i class="fa fa-calendar"></i></a></li>
-        <!-- <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li> -->
-        <li><a href="http://weibo.com/iiaofficial" style="color:#5bc0de;" target="_blank" data-toggle="tooltip" data-placement="bottom" title="微博"> <i class="fa fa-weibo"></i></a></li>
-        <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i></a></li>
+        <li><a href="http://interimm.org/activities" style="color:grey;" data-toggle="tooltip" data-placement="bottom" title="相关活动"><i class="fa fa-calendar-check"></i></a></li>
+
+        <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图">
+            <i class="fa fa-map-marked-alt" aria-hidden="true"></i>
+        </a></li>
 
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i> 更多<b class="caret"></b></a>
+                <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-arrow-circle-o-down"></i> <i class="fas fa-th"></i><b class="caret"></b></a>
                 <ul class="dropdown-menu black-bg">
-                   <li><a href="institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
+                   <li><a href="http://interimm.org/institutes.html"><i class="fa fa-sitemap"></i>&nbsp;星际机构</a></li>
 
-                   <li><a href="toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
-                   <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock-o"></i>&nbsp;火星时钟</a></li>
+                   <li><a href="http://interimm.org/toolbox.html"><i class="fa fa-cogs"></i>&nbsp;工具箱</a></li>
+                   <li><a href="http://interimm.org/mars-clock"><i class="fa fa-clock"></i>&nbsp;火星时钟</a></li>
 
                    <li><a href="http://interimm.org/mars-map/" style="color:orange;" data-toggle="tooltip" data-placement="bottom" title="火星互动地图"><i class="fa fa-map"></i>&nbsp;火星地图</a></li>
                    <li><a href="http://cities.interimm.org/" style="color:orange;" ><i class="fa fa-map-signs"></i>&nbsp;火星城市</a></li>
-                   <li><a href="http://timeline.interimm.org"><i class="fa fa-clock-o"></i>&nbsp;时间线</a></li>
+                   <li><a href="http://timeline.interimm.org"><i class="fa fa-chart-bar"></i>&nbsp;时间线</a></li>
 
                     <li class="divider"></li>
 
-                    <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li>
+                    <!-- <li><a href="http://zhuanlan.zhihu.com/interimm" target="_blank"><i class="fa fa-newspaper-o"></i>&nbsp; 知乎专栏</a></li> -->
                     <li><a href="http://magazine.interimm.org"><i class="fa fa-compass"></i>&nbsp; 星海航纪</a></li>
-                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb-o"></i>&nbsp; 果壳网小组</a></li>
-                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fa fa-github"></i>&nbsp; GitHub</a></li>
+                    <li><a href="http://www.guokr.com/group/396/" target="_blank"><i class="fa fa-lightbulb"></i>&nbsp; 果壳网小组</a></li>
+                    <li><a href="http://github.com/InterImm" target="_blank"><i class="fab fa-github-alt"></i>&nbsp; GitHub</a></li>
                 </ul>
             </li>
         </ul>
@@ -180,7 +188,7 @@
       </p>
       <p> 
          <span
-            class="btn btn-flat disabled btn-xs">&copy; Copyright 2016, 星际移民中心</span> <a href="http://book.interimm.org/changelog.html"><span class="btn btn-flat btn-xs disabled">最近更新 3月 03, 2018</span></a>
+            class="btn btn-flat disabled btn-xs">&copy; Copyright 2019, 星际移民中心</span> <a href="http://book.interimm.org/changelog.html"><span class="btn btn-flat btn-xs disabled">最近更新 2月 12, 2019</span></a>
             <a href="http://book.interimm.org/genindex.html"><span class="btn btn-flat btn-success btn-xs">重要词条索引</span></a>
             <a href="http://book.interimm.org/acknowledgement.html"><span class="btn btn-flat btn-info btn-xs">致谢</span></a>
             <a href="#" data-toggle="modal" data-target="#newcomments"><span class="btn btn-flat btn-xs">反馈&nbsp;<i class="fa fa-comment"></i></span></a>
