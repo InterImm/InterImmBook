@@ -41,6 +41,30 @@
 
 火星美丽的自然景观数不胜数，高山、陨坑、河道、高原，千百种姿态，千百种美丽。
 
+
+绕火星轨道
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+火星旅游一般包含绕火轨道上的观景。从轨道上看，一眼就能分辨火星的标志性景观。首先映入眼帘的是水手峡谷（Valles Marineris）。这道峡谷长达 3000 千米，宽度在 600 千米，深度达到 8 千米。峡谷的西侧就是著名的诺克提斯迷宫（Noctis Labyrinthus），或者称作夜间的迷宫。之所以被称作迷宫，是因为这里的峡谷错综复杂，如同迷宫一般。再往西侧望去，可以看到高耸的塔尔西斯山的三个山峰。
+
+.. figure:: ./resources/mars/mars-globe-valles-marineris-enhanced-view.jpg
+   :align: center
+
+   从火星高空看，水手峡谷赫然横在火星北半球，就像火星的一道疤痕。Courtesy NASA/JPL-Caltech
+
+
+从水手峡谷往东，我们会看到谷底白色的希腊平原（Hellas Planitia）。希腊平原东西直径有 2300 千米，仅盆地本身就有 1800 千米的直径，整个盆地的深度也有七千米。
+
+.. figure:: ./resources/mars/from-valles-marineris-to-hellas.gif
+   :align: center
+
+   从水手峡谷到希腊平原。Courtesy NASA/JPL-Caltech
+
+火星南半球地势更高，也承载了更多的陨石坑。火星上密布的陨石坑一般是以去世的科学家或者科幻作家命名的，不能以在世的人的名字命名。而直径小于 60 千米的陨石坑是用地球上的城镇的名字命名的 [NameofCraters]_。
+
+.. [NameofCraters] https://en.wikipedia.org/wiki/List_of_craters_on_Mars
+
+
 .. _moncra:
 
 高山，峡谷，陨石坑
