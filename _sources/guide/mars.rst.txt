@@ -55,7 +55,7 @@
 
 从水手峡谷往东，我们会看到谷底白色的希腊平原（Hellas Planitia）。希腊平原东西直径有 2300 千米，仅盆地本身就有 1800 千米的直径，整个盆地的深度也有七千米。
 
-.. figure:: ./resources/mars/from-valles-marineris-to-hellas.gif
+.. figure:: ./resources/mars/from-valles-marineris-to-hellas-annotation.gif
    :align: center
 
    从水手峡谷到希腊平原。Courtesy NASA/JPL-Caltech
@@ -65,9 +65,9 @@
 .. [NameofCraters] https://en.wikipedia.org/wiki/List_of_craters_on_Mars
 
 
-.. _moncra:
+.. _marsmons:
 
-高山，峡谷，陨石坑
+高山
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -94,12 +94,68 @@
 .. figure:: ./resources/olympusT.jpg
    :align: center
 
-   奥林帕斯山和远处的塔尔西斯山，太阳已经升起，照亮了这四座山峰。（Credit: NASA，JPL）
+   奥林帕斯山和远处的塔尔西斯山，太阳已经升起，照亮了这四座山峰。Courtesy NASA/JPL-Caltech
+
+
+
+塔尔西斯山——三颗纽扣
+```````````````````````````````````````````````````````````````````
+
+
+塔尔西斯山由三座盾状火山组成，像三颗纽扣一样装饰在奥林帕斯山一侧。许多旅游者会站在这里，如果遥望女神一样，遥望远处的奥林帕斯山。
+
+.. figure:: ./resources/tharsis.jpg
+   :align: center
+
+   来自 `Wikipedia File:Tharsis Montes MOLA zoom 64.jpg <http://commons.wikimedia.org/wiki/File:Tharsis_Montes_MOLA_zoom_64.jpg>`_ 公共领域作品。Courtesy NASA/JPL-Caltech
 
 
 
 
 
+埃律西昂山
+```````````````````````````````````````````````````````````````````
+
+埃律西昂山是火星上埃律西昂（Elysium）区域的一座火山。埃律西昂（Elysium）是希腊神话中英雄死后灵魂前往的地方。
+
+埃律西昂山的东北方向有赫卡特斯山，东南方向有一座欧伯山。
+
+.. figure:: ./resources/mars/elysium-region.png
+   :align: center
+
+   埃律西昂区域。Credit: NASA/JPL
+
+
+埃律西昂山高达 14 千米，是一座巨大而扁平的盾状火山，仅仅火山口直径就达到 14 千米。
+
+.. figure:: ./resources/mars/elysium-flyby-dlr-de.gif
+   :align: center
+
+   飞跃埃律西昂山。`DLR CC-bY 3.0 <https://www.dlr.de/dlr/en/desktopdefault.aspx/tabid-10067/149_read-17/#infoCcBy30>`_ 
+
+   更多的关于埃律西昂山更多的图片，可以查看 `Kees Veenenbos 的埃律西昂山山脚 <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ 和 `Kees Veenenbos 的埃律西昂山上太阳升起 <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ 。
+
+
+佛勒格拉山
+```````````````````````````````````````````````````````````````````
+
+佛勒格拉山系（Phlegra Montes）位于埃律西昂山的东北。
+
+
+该山系长达 1,352.0 公里，甚为壮观。
+
+.. figure:: ./resources/mars/phlegra_montes_in_perspective.jpg
+   :align: center
+
+   从空中俯视佛勒格拉山。`ESA/DLR/FU Berlin (G. Neukum),CC BY-SA 3.0 IGO <https://en.wikipedia.org/wiki/Phlegra_Montes#/media/File:Phlegra_Montes_in_perspective_ESA233303.tiff>`_ 
+
+
+
+
+.. _marsmisc:
+
+峡谷
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 水手峡谷——火星的伤疤
@@ -132,6 +188,10 @@
 
 
 
+.. _marscrater:
+
+陨石坑
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 盖尔撞击坑（Gale Crater）——山上的山
 ```````````````````````````````````````````````````````````````````
@@ -156,39 +216,6 @@
 
 
 
-
-塔尔西斯山——三颗纽扣
-```````````````````````````````````````````````````````````````````
-
-
-塔尔西斯山由三座盾状火山组成，像三颗纽扣一样装饰在奥林帕斯山一侧。许多旅游者会站在这里，如果遥望女神一样，遥望远处的奥林帕斯山。
-
-.. figure:: ./resources/tharsis.jpg
-   :align: center
-
-   来自 `Wikipedia File:Tharsis Montes MOLA zoom 64.jpg <http://commons.wikimedia.org/wiki/File:Tharsis_Montes_MOLA_zoom_64.jpg>`_ 公共领域作品
-
-
-
-
-
-埃律西昂山
-```````````````````````````````````````````````````````````````````
-
-埃律西昂山在平坦的火星亚马逊平原上，是非常突兀的一座高山。
-
-
-.. figure:: ./resources/elysiumD.jpg
-   :align: center
-
-   来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_
-
-
-
-.. figure:: ./resources/elysiumT.jpg
-   :align: center
-
-   埃律西昂山上太阳升起。（来自： `Kees Veenenbos <http://www.space4case.com/mmw/pages/space4case/mars/mars-images-2005.php>`_ ）
 
 
 
