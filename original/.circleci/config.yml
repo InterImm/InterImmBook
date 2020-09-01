@@ -1,0 +1,49 @@
+version: 2
+    
+jobs:
+  build-site:
+    docker:
+      - image: python:3.7
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: pip install sphinx
+      - run:
+          name: Build docs
+          command: make html
+      - persist_to_workspace:
+          root: _build
+          paths: html
+  deploy-site:
+    docker:
+      - image: node:8.10.0
+    steps:
+      - checkout
+      - attach_workspace:
+          at: _build
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages@2.0.1
+            git config user.email "ci-build@interimm.org"
+            git config user.name "ci-build"
+      - add_ssh_keys:
+          fingerprints:
+            - "46:43:8b:22:b3:57:1f:09:9c:c7:e8:49:b9:e0:8a:c3"
+      - run:
+          name: Deploy docs to gh-pages branch
+          command: gh-pages --dotfiles --message "[skip ci] Updates" --dist _build/html
+          
+    
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build-site
+      - deploy-site:
+          requires:
+            - build-site
+          filters:
+            branches:
+              only: master

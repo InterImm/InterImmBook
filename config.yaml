@@ -1,0 +1,154 @@
+baseurl: "/" # Controls base URL
+languageCode: "cn" # Controls html lang attribute
+title: "《星际移民之书》" # Homepage title and page title suffix
+paginate: 12 # Number of posts to show before paginating
+theme: "interimm" # to use as default theme
+IsMultiLingual: true
+
+DefaultContentLanguage: "cn"
+
+enableRobotsTXT: true # Suggested, it generates a robots.txt
+googleAnalytics: "UA-50146153-3" # Optional, add tracking Id for analytics
+disqusShortname: "" # Optional, add Disqus shortname for comments
+# SectionPagesMenu: "main" # Enable menu system for lazy bloggers
+
+taxonomies:
+  category: categories
+  keyword: keywords
+
+menu:
+  main:
+    - name: more
+      weight: 1
+      identifier: more
+      url: "#"
+      children:
+        - name: 机构
+          url: /institutes/
+
+languages:
+  en:
+    title: InterImm
+    contentDir: content/en
+    params:
+      description: "by Interplanetary Immigration Agency"
+      splash: "/images/home/undraw_Taken_if77.svg"
+      home:
+        primary_button:
+          title: Read Now
+          link: /interimm
+      tags:
+        - "Developing Spacefaring Civilization"
+        - "Connecting Mars and Earth"
+      menu:
+        topleft:
+          - name: InterImm
+            url: http://interimm.org/
+          - name: Archives
+            url: /archives/
+            children:
+              - name: The Book of Interplanetary Civilization
+                url: http://book.interimm.org/
+              - name: The Book of Exoplanets
+                url: http://exoplanets.interimm.org/
+              - name: Space Yellow Page
+                url: http://interimm.org/hub/
+              - name: More
+                url: /en/archives
+          - name: Planetary University
+            url: http://planiversity.interimm.org/
+        topright:
+          - name:
+            icon: fa fa-calendar-check
+            url: "/en/activities"
+          - name:
+            url: http://interimm.org/mars-map/
+            icon: fa fa-map-marked-alt
+          - name:
+            icon: fas fa-th
+            url: "#"
+            children:
+              - name: Institutes
+                url: /en/institutes/
+              - name: Timeline
+                url: http://timeline.interimm.org/
+              - name: Magazine
+                url: http://magazine.interimm.org/
+
+      listings:
+        title: "Archives"
+      github: "interimm/hugo-interimm-template"
+      editURL: "https://github.com/InterImm/hugo-interimm-template/edit/master/content/"
+  cn:
+    contentDir: content/cn
+
+params:
+  theme_variant: "superhero" # possible value for the theme_variant `cerulean,cosmo,cyborg,darkly,flatly,journal,litera,lumen,lux,materia,minty,pulse,sandstone,simplex,slate,solar,spacelab,superhero,united,yeti`
+  description: "星际移民之书是由星际移民中心维护的一本关于人类太空文明历史的开源书籍，本书涵盖了了星际移民的历史、科技和人文等各个方面。"
+  splash: "/images/home/undraw_moonlight_5ksn.svg"
+  home:
+    primary_button:
+      title: 开始阅读
+      link: /interimm
+  tags:
+    - "历史"
+    - "科技"
+    - "人文"
+  menu:
+    topleft:
+      - name: 星际移民中心
+        url: http://interimm.org/
+      - name: 档案馆
+        url: /archives/
+        children:
+          - name: 星际移民之书
+            url: http://book.interimm.org/
+          - name: 系外行星文档
+            url: http://exoplanets.interimm.org/
+          - name: 太空企业
+            url: http://interimm.org/hub/
+          - name: 更多
+            url: /archives
+      - name: 行星大学
+        url: http://planiversity.interimm.org/
+    topright:
+      - name:
+        icon: fa fa-calendar-check
+        url: "/activities"
+      - name:
+        url: http://interimm.org/mars-map/
+        icon: fa fa-map-marked-alt
+      - name:
+        icon: fas fa-th
+        url: "#"
+        children:
+          - name: 机构
+            url: /institutes/
+          - name: 时间线
+            url: http://timeline.interimm.org/
+          - name: 星海航纪
+            url: http://magazine.interimm.org/
+
+  listings:
+    title: "档案馆"
+  powered_by: "love" # Optional, controls name display on footer
+  hide_author: false # Optional, set true to hide author name on posts
+  images: # Suggested, controls default OpenGraph images controls author name display on meta tag
+  github: "interimm" # Optional, to display link to github account in menu bar
+  twitter: "" # Optional, to display link to twitter account in menu bar
+  author: "LM"
+  editURL: "https://github.com/InterImm/interimm.github.io/edit/master/content/"
+
+
+outputFormats:
+  Data:
+    baseName: "data"
+    isPlainText: true
+    mediaType: "application/json"
+    notAlternative: true
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "Data"

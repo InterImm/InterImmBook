@@ -1,0 +1,14 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "menu" .}} {{end}}
+
+{{ define "main" }}
+
+{{ partial "home/hero.html" . }}
+<!-- {{ partial "home/news.html" . }} -->
+<!-- {{ partial "home/showcards.html" . }} -->
+<!-- {{ partial "home/topics.html" . }} -->
+<!-- {{ partial "home/support.html" . }} -->
+
+{{ end }}
+
+{{ define "footer" }} {{ partial "footer" .}} {{ end }}

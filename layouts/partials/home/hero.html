@@ -1,0 +1,42 @@
+<!-- Hero content: will be in the middle -->
+</section>
+<div class="hero is-primary">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <img src="{{ site.Params.splash }}">
+                </div>
+                <div class="column is-three-fifths">
+                    <h1 class="title is-2 is-spaced" style="text-transform: none;">
+                        {{ site.Title }}
+                    </h1>
+                    <div>
+                        <p class="is-small">
+                            {{ site.Params.description }}
+                        </p>
+                    </div>
+
+                    <div class="is-divider"
+                        style="border-top:.1rem dashed #dbdbdb57 !important;margin: 1rem 0 !important;"></div>
+
+                    <h2 class="subtitle is-4" style="text-transform: none;">
+                        <div class="tags is-centered">
+                            {{ range site.Params.tags }}
+                            <span class="tag is-info is-rounded">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                    </h2>
+                    <div class="is-divider"
+                        style="border-top:.1rem dashed #dbdbdb57 !important;margin: 1rem 0 !important;"></div>
+
+                    <div class="buttons is-centered">
+                        <a href="{{ site.Params.home.primary_button.link }}" class="button is-warning is-large">{{ site.Params.home.primary_button.title }} </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
