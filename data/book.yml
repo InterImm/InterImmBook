@@ -1,0 +1,22 @@
+cn:
+  title: "星际移民之书"
+  toc:
+    - title: 星际移民中心
+      icon: fa fa-paragraph
+      link: http://book.interimm.org/
+    - title: 导览
+      icon: fa fa-paragraph
+      link: navigator
+      toc:
+        - title: 火星
+          icon: fa fa-mars
+          link: mars
+
+
+en:
+  title: "The Book of Interplanetary Civilization"
+  toc:
+    - title: 星际移民之书
+      description: 人类建立太阳系文明的曲折历史以及所发展的科技
+      icon: fa fa-paragraph
+      link: http://book.interimm.org/
