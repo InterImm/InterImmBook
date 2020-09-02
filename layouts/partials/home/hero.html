@@ -23,7 +23,7 @@
                     <h2 class="subtitle is-4" style="text-transform: none;">
                         <div class="tags is-centered">
                             {{ range site.Params.tags }}
-                            <span class="tag is-info is-rounded">{{ . }}</span>
+                            <span class="tag is-warning">{{ . }}</span>
                             {{ end }}
                         </div>
                     </h2>
@@ -31,7 +31,7 @@
                         style="border-top:.1rem dashed #dbdbdb57 !important;margin: 1rem 0 !important;"></div>
 
                     <div class="buttons is-centered">
-                        <a href="{{ site.Params.home.primary_button.link }}" class="button is-warning is-large">{{ site.Params.home.primary_button.title }} </a>
+                        <a href="{{ site.Params.home.primary_button.link }}" class="button is-dark is-large">{{ site.Params.home.primary_button.title }} </a>
                     </div>
                 </div>
             </div>
