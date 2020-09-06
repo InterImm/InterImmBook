@@ -1,22 +1,61 @@
 cn:
-  title: "《星际移民之书》"
+  title: "《星际移民之书》章节"
   toc:
+    - title: 简介
+      icon: fas fa-sun
+      link: /intro
     - title: 星际移民中心
-      icon: fa fa-paragraph
-      link: http://book.interimm.org/
+      icon: fas fa-sun
+      link: /interimm
     - title: 导览
-      icon: fa fa-paragraph
-      link: navigator
+      icon: fas fa-sun
+      link: /navigator
       toc:
         - title: 火星
           icon: fa fa-mars
-          link: mars
-
+          link: /navigator/mars
+    - title: 历史
+      icon: fas fa-sun
+      link: /history
+      toc:
+        - title: 起航
+          icon: fas fa-rocket
+          link: /history/sail
+        - title: 火星移民
+          icon: fa fa-mars
+          link: /history/mars_immigration
+        - title: 太空电梯
+          icon: fa fa-mars
+          link: /history/space_elevator
+        - title: 太空城市
+          icon: fa fa-mars
+          link: /history/space_cities
+        - title: 火星地球化
+          icon: fa fa-mars
+          link: /history/terraformingmars
+        - title: 太阳系外围开发
+          icon: fa fa-mars
+          link: /history/outer_solar
+    - title: profession
+      icon: fas fa-sun
+      link: /profession
+    - title: tech
+      icon: fas fa-sun
+      link: /tech
+    - title: 指南
+      icon: fas fa-sun
+      link: /guide
+    - title: 致谢
+      icon: fas fa-sun
+      link: /acknowledgement
+    - title: 更新日志
+      icon: fas fa-sun
+      link: /changelog
 
 en:
   title: "The Book of Interplanetary Civilization"
   toc:
     - title: 星际移民之书
       description: 人类建立太阳系文明的曲折历史以及所发展的科技
-      icon: fa fa-paragraph
+      icon: fas fa-sun
       link: http://book.interimm.org/

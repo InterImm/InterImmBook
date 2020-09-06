@@ -36,7 +36,7 @@ languages:
       home:
         primary_button:
           title: Read Now
-          link: /interimm
+          link: /en/intro
       tags:
         - "Developing Spacefaring Civilization"
         - "Connecting Mars and Earth"
@@ -89,7 +89,7 @@ params:
   home:
     primary_button:
       title: 开始阅读
-      link: /interimm
+      link: /intro
   tags:
     - "历史"
     - "科技"

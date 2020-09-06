@@ -13,11 +13,10 @@ type: book
 ![](../assets/interimm/isidis-city-procyon.png)
 > 火星南河城主要建筑和路线图。中间的巨型建筑就是星际移民局总部所在。
 
-
 由于火星伊希地的三座城市（南河城、参宿城和天狼城）相距不远，因此可以在这三个城市中任何一个降落，然后通过地面或者空中交通抵达南河城。
 
+![这是火星的地图。如有疑问请咨询本中心。[互动版地图在此](http://interimm.org/mars-map/)。](../assets/interimm/mars-cities.png)
 
-![](../assets/interimm/mars-cities.png)
 > 这是火星的地图，如有疑问请咨询本中心。[互动版地图在此](http://interimm.org/mars-map/)。
 
 

@@ -2,3 +2,6 @@
 _build/*
 
 .vscode/*
+
+public/
+tmp/
