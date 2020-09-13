@@ -36,12 +36,32 @@ cn:
         - title: 太阳系外围开发
           icon: fa fa-mars
           link: /history/outer_solar
-    - title: profession
+    - title: 行业
       icon: fas fa-sun
       link: /profession
-    - title: tech
+      toc:
+        - title: 行业介绍
+          icon: fas fa-rocket
+          link: /profession/profession
+        - title: 公司列表
+          icon: fas fa-rocket
+          link: /profession/companies
+    - title: 科技
       icon: fas fa-sun
       link: /tech
+      toc:
+        - title: 推进技术
+          icon: fas fa-rocket
+          link: /tech/propulsion_tech
+        - title: 太空电梯
+          icon: fas fa-rocket
+          link: /tech/space_elevator
+        - title: 通信技术
+          icon: fas fa-rocket
+          link: /tech/communication_tech
+        - title: 移民产业
+          icon: fas fa-rocket
+          link: /tech/exoplanets
     - title: 指南
       icon: fas fa-sun
       link: /guide
