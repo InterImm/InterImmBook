@@ -25,16 +25,16 @@ cn:
           icon: fa fa-mars
           link: /history/mars_immigration
         - title: 太空电梯
-          icon: fa fa-mars
+          icon: fas fa-ellipsis-v
           link: /history/space_elevator
         - title: 太空城市
-          icon: fa fa-mars
+          icon: fas fa-monument
           link: /history/space_cities
         - title: 火星地球化
           icon: fa fa-mars
           link: /history/terraformingmars
         - title: 太阳系外围开发
-          icon: fa fa-mars
+          icon: far fa-sun
           link: /history/outer_solar
     - title: 行业
       icon: fas fa-sun
@@ -54,17 +54,24 @@ cn:
           icon: fas fa-rocket
           link: /tech/propulsion_tech
         - title: 太空电梯
-          icon: fas fa-rocket
+          icon: fas fa-ellipsis-v
           link: /tech/space_elevator
         - title: 通信技术
-          icon: fas fa-rocket
+          icon: fas fa-satellite-dish
           link: /tech/communication_tech
         - title: 移民产业
-          icon: fas fa-rocket
-          link: /tech/exoplanets
+          icon: fas fa-map-marker
+          link: /tech/immigration
     - title: 指南
       icon: fas fa-sun
       link: /guide
+      toc:
+        - title: 火星指南
+          icon: fa fa-mars
+          link: /guide/mars
+        - title: 土星系统指南
+          icon: fas fa-globe
+          link: /guide/saturnsys
     - title: 致谢
       icon: fas fa-sun
       link: /acknowledgement
