@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>科技 on 《星际移民之书》</title><link>/tech/</link><description>Recent content in 科技 on 《星际移民之书》</description><generator>Hugo -- gohugo.io</generator><language>cn</language><atom:link href="/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>太空电梯</title><link>/tech/space_elevator/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tech/space_elevator/</guid><description>太空电梯。来自 NASA，为公共领域作品。
+要实现太空电梯，其中一个方案是建造一个质心位于地球同步轨道的系统，该系统包括一条下垂到地面的缆绳，使得整个系统的重心与地面同步旋转，电梯就可以沿着缆绳向上移动，直达太空。
+太空电梯示意图。来自 wiki commons
+由于太空电梯可以大大降低运输成本，这对于火星的发展有着巨大的推进作用。</description></item><item><title>推进技术</title><link>/tech/propulsion_tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tech/propulsion_tech/</guid><description>火箭简史 Nikolai Kibalchich 是一个传奇的人物，二十四岁的他因为把一本禁书借给别人，被判监禁两个月，然而在这个正式审判之前，他已经在监狱里面待了三年了。从监狱出来之后，他加入了当时的民意党，成为了他们的首席&amp;quot;爆破专家&amp;rdquo;。然而他的人生依然是继续的悲剧，没过几年就因刺杀亚历山大二世被抓入监狱，等待绞刑。然而临刑前，他在监狱写下了使用炸药作为动力的火箭引擎推进载人飞船的研究，希望得到其它科学家的回复，因此这份研究被送到了警察局。一个月之后，在这个 1881 年美丽的春天，Nikolai 被执行绞刑。Nikolai 一直没有得到其它科学家的回复，因为当时的警察局将他的这份伟大的发明搁置一旁，直到 1917 年被 Nikolai Rynin 重新发现这份研究，并且发表了出来。
+月球上有一个以 Nikolai Kibalchich 名字命名的陨石坑，位于 3.0° N 146.5°W 也就是月球背面。来自 Google Earth Pro.
+Nikolai Kibalchich 死后十年，德国工程师 Hermann Ganswindt 重新发现了类似的点子。之后，也就是二十世纪初期，包括 Tsiolkovsky 和 Goddard 在内的多人建立起了火箭理论。
+Goddard 和他的液体火箭实验。来自维基百科：File:Goddard and Rocket.jpg
+行星际运输轨道 地火运输 霍曼轨道 霍曼转移轨道因为历史悠久，具有非常好的可靠性。然而由于运输周期较长，所以常常被成为太空海运，或者太空拖车。
+Hohmann Transfer
+在第一个火星前哨站建立之后，UPI 的大宗货物运输是通过霍曼转移轨道进行的。由于当时在这种运输方式上的经验比较丰富，此方式被使用了多年。后来被称为&amp;quot;太空海运&amp;rdquo;，由于运输周期长，被人戏称为&amp;quot;太空拖车&amp;rdquo;。
+运输器采用了大量的太空集装箱式的货仓设计，扩展方便。在 ULA 加入到火星殖民地建设中来之后，这部分逐渐完全转交给 ULA 负责。
+星际弹道捕获 弹道捕获的最早使用可以追溯到二十世纪人类发射的月球探测器 Hiten。通过这种方式到达环绕火星的轨道所需要的能量要比霍曼转移轨道的能量要低，然而也需要更长的时间。这种运输方式更加节省燃料，也就意味着同样的燃料可以运送更多的货物。在传统化学火箭时代，这种轨道是一种比霍曼转移轨道还要价格低廉，因此也长期存在。甚至在热核火箭和离子推进技术兴起的时代，这种运输轨道也被许多不知名的小机构继续使用。
+轨道在前期与霍曼转移类似，然而通过霍曼转移并非直接到达火星，而是到达火星轨道之内的某处，然后采用一个弹道捕获的轨道慢慢地与火星会和。
+弹道捕获的星际转移轨道。从地球出发，到达火星轨道之内的某处 $x_c$。参考 arXiv:1410.</description></item><item><title>移民产业</title><link>/tech/immigration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tech/immigration/</guid><description>行星分级 系外行星分级制度是为了方便将行星或卫星按照其人类生活移民的价值归类而设定的，主要考虑人在行星上生活的舒适程度。首先将行星在不同项目中进行分类，例如行星 X 在温度一项中，获得了 A 的评级；然后按照不同评级所对应的分数，计算 Planet GPA，并且采用四舍五入，例如在五分制中 4.5 分为 A 类（5 分），而 4.4 分却只能归到 B 类（4 分）。这是一种便于扩展的分类方法。
+作为一个简单的例子，我们考虑天体的表面温度、大气、水、表面重力和是否有固态表面几项，并且按照下表分级。
+分类标准 级别（得分） 温度 大气压 大气成分 水 表面重力 固态表面 不需要维生设备，就能舒适地生活 A(5) -10~30℃ 0.8atm~10atm 氧分压&amp;gt;0.16atm &amp;amp;&amp;amp; 无毒 有 0.5g~1.2g 有 不需要维生设备，能艰难地生活 B(4) -50-50℃ 0.7atm~50atm 氧分压&amp;gt;0.13atm&amp;amp;&amp;amp;无毒 无 0g~1.5g 无 需要维生设施，才能正常生活 C(3) -80-70℃ 0.4atm~70atm 氧分压&amp;gt;0.001atm&amp;amp;&amp;amp;无毒 无 0g~3g 无 需要复杂的维生设施，才能正常生活 D(2) -80-100℃ 0.001atm~1000atm 无氧气&amp;amp;&amp;amp;有其他无毒气体 无 0g~5g 无 无论如何都不能生活 E(1) (-273.</description></item><item><title>通信技术</title><link>/tech/communication_tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/tech/communication_tech/</guid><description>行星际通信 行星际通信在人类探索太阳系一开始的时候就是极为重要的一个分支。在火星移民开始之后，更加需要可靠高效的行星际通信系统。
+全球通信卫星网络 SpaceX 从 2018 年正式开始用微型卫星搭建地球的卫星网络，2019 年收购行星通信公司之后，对系统设计有了很多改进，到 2021 年便完成了全球卫星网络的搭建。
+几乎与此同时，星际通信公司开始设计和搭建火星的全球卫星网络。他们与 SpaceX 合作，星际通信公司初步的火星卫星网络与 SpaceX 的地球卫星网建立了连接。
+行星际通信中继 由于时常出现的太阳和其他行星的遮挡，行星际通信需要一个可靠的中继系统。星际通信公司首先建立起了太阳极轨道中继卫星。并且发展出了一套辅助中继卫星，例如行星间直接通信卫星等。
+太阳极轨道中继卫星系统。只需要三颗卫星即可到达全太阳系中继的目的。
+太阳帆技术逐渐成熟之后，新兴的 Home Range 通信（鸿雁通信）研发了一条非开普勒轨道的中继系统。第一个测试是地球-火星通信系统，采用太阳帆来让卫星维持在火星和地球上方的非开普勒轨道上。
+地球-火星非开普勒轨道中继卫星。来源：A Novel Interplanetary Communications Relay
+行星际通信网络 在行星际探索的过程中，很多行星和卫星都有了卫星中继系统，它们全部接入了原来的火星地球中继系统，整个行星际通信网络初具原形。</description></item></channel></rss>
