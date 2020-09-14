@@ -82,7 +82,6 @@ cn:
 en:
   title: "The Book of Interplanetary Civilization"
   toc:
-    - title: 星际移民之书
-      description: 人类建立太阳系文明的曲折历史以及所发展的科技
+    - title: Introduction
       icon: fas fa-sun
-      link: http://book.interimm.org/
+      link: /en/intro

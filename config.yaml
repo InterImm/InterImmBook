@@ -24,28 +24,28 @@ menu:
       url: "#"
       children:
         - name: 机构
-          url: /institutes/
+          url: http://interimm.org/institutes/
 
 languages:
   en:
-    title: InterImm
+    title: The InterImm Book
     contentDir: content/en
     params:
-      description: "by Interplanetary Immigration Agency"
-      splash: "/images/home/undraw_Taken_if77.svg"
+      description: "The Book of Interplanetary Immigration tells the history of human explorations of the solar system."
+      splash: "/images/home/undraw_moonlight_5ksn.svg"
       home:
         primary_button:
           title: Read Now
-          link: /en/intro
+          link: /intro
       tags:
-        - "Developing Spacefaring Civilization"
-        - "Connecting Mars and Earth"
+        - "History"
+        - "Technology"
       menu:
         topleft:
           - name: InterImm
             url: http://interimm.org/
           - name: Archives
-            url: /archives/
+            url: http://interimm.org/en/archives/
             children:
               - name: The Book of Interplanetary Civilization
                 url: http://book.interimm.org/
@@ -54,13 +54,13 @@ languages:
               - name: Space Yellow Page
                 url: http://interimm.org/hub/
               - name: More
-                url: /en/archives
+                url: http://interimm.org/en/archives
           - name: Planetary University
             url: http://planiversity.interimm.org/
         topright:
           - name:
             icon: fa fa-calendar-check
-            url: "/en/activities"
+            url: "http://interimm.org/en/activities"
           - name:
             url: http://interimm.org/mars-map/
             icon: fa fa-map-marked-alt
@@ -69,7 +69,7 @@ languages:
             url: "#"
             children:
               - name: Institutes
-                url: /en/institutes/
+                url: http://interimm.org/en/institutes/
               - name: Timeline
                 url: http://timeline.interimm.org/
               - name: Magazine
@@ -77,7 +77,7 @@ languages:
 
       listings:
         title: "Archives"
-      github: "interimm/hugo-interimm-template"
+      github: "interimm/InterImmBook"
       editURL: "https://github.com/InterImm/hugo-interimm-template/edit/master/content/"
   cn:
     contentDir: content/cn
@@ -99,7 +99,7 @@ params:
       - name: 星际移民中心
         url: http://interimm.org/
       - name: 档案馆
-        url: /archives/
+        url: http://interimm.org/archives/
         children:
           - name: 星际移民之书
             url: http://book.interimm.org/
@@ -108,13 +108,13 @@ params:
           - name: 太空企业
             url: http://interimm.org/hub/
           - name: 更多
-            url: /archives
+            url: http://interimm.org/archives
       - name: 行星大学
         url: http://planiversity.interimm.org/
     topright:
       - name:
         icon: fa fa-calendar-check
-        url: "/activities"
+        url: "http://interimm.org/activities"
       - name:
         url: http://interimm.org/mars-map/
         icon: fa fa-map-marked-alt
@@ -123,7 +123,7 @@ params:
         url: "#"
         children:
           - name: 机构
-            url: /institutes/
+            url: http://interimm.org/institutes/
           - name: 时间线
             url: http://timeline.interimm.org/
           - name: 星海航纪
@@ -134,10 +134,10 @@ params:
   powered_by: "love" # Optional, controls name display on footer
   hide_author: false # Optional, set true to hide author name on posts
   images: # Suggested, controls default OpenGraph images controls author name display on meta tag
-  github: "interimm" # Optional, to display link to github account in menu bar
+  github: "interimm/InterImmBook" # Optional, to display link to github account in menu bar
   twitter: "" # Optional, to display link to twitter account in menu bar
   author: "LM"
-  editURL: "https://github.com/InterImm/interimm.github.io/edit/master/content/"
+  editURL: "https://github.com/InterImm/InterImmBook/edit/master/content/"
 
 
 outputFormats:
