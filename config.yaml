@@ -136,7 +136,7 @@ params:
   images: # Suggested, controls default OpenGraph images controls author name display on meta tag
   github: "interimm/InterImmBook" # Optional, to display link to github account in menu bar
   twitter: "" # Optional, to display link to twitter account in menu bar
-  author: "LM"
+  author: "InterImm"
   editURL: "https://github.com/InterImm/InterImmBook/edit/master/content/"
 
 
