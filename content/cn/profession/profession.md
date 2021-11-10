@@ -341,6 +341,11 @@ L3、L4、L5 点，其余的监测站分布在一些资源丰富、货运量大�
 >
 > 太空音乐史上并没有出现新的大型的唱片公司。在职业音乐领域，依旧是太空时代之前的几家公司主导流行音乐的发展。但是他们却受到不少独立音乐人的冲击。
 
+
+> [**μ'sic**](https://interimm.org/hub/companies/company-xkayp14rmqy1r2igwmwxkaypk2v5nc1u/)（[企业数据库链接](https://interimm.org/hub/companies/company-xkayp14rmqy1r2igwmwxkaypk2v5nc1u/)）
+>
+> 建立于火星殖民早期。其音乐人以曲风多样著称，是音乐界“火星朋克”派的中坚力量。曾为知名音乐游戏_Shyrens_提供大量曲目。
+
 ## 其他
 
 
