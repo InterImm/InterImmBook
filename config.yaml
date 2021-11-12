@@ -138,6 +138,7 @@ params:
   twitter: "" # Optional, to display link to twitter account in menu bar
   author: "InterImm"
   editURL: "https://github.com/InterImm/InterImmBook/edit/master/content/"
+  feedback: "https://github.com/InterImm/InterImmBook/issues"
 
 
 outputFormats:
