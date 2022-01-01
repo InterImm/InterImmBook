@@ -11,6 +11,3 @@ type: book
 
 这份指南就要为大家解决这样的问题。
 
-::: {.toctree}
-mars.rst saturnsys.rst
-:::
