@@ -69,6 +69,8 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 在为期 300 余天的火星探索活动中的大多数时间里，宇航员是在生命保障舱内度过的。他们在舱内完成了众多实验，包括测试了植物、微生物在火星环境下的生长情况，火星大气中二氧化碳转化成氧气的实验，火星土壤中的金属冶炼实验等等。由于宇航服储氧量的限制，舱外活动时，宇航员只能前往离着陆点较近的地方，一般的舱外活动时间在六小时左右，宇航员将选择并采集火星表面的岩石样品，并将其带回地球供科学家分析。
 
+{{< figure src="../assets/Default_Explorers_walking_on_Mars_with_a_Mars_base_in_the_dist_2_8a6af3a9-170e-4560-9804-f96895058de6_1.jpg" caption="火星探索场景">}}
+
 2028 年 5 月 19 日，在完成所有预定任务后，宇航员乘坐上升器离开火星表面，与停泊在绕火轨道上的飞船进行对接。航天员进入飞船后，抛掉上升器，飞船再次点火飞向地球。2029 年 2 月 8 日，载有宇航员的着陆舱成功降落在地球表面，"赤风"载人登火计划取得成功。
 
 ## 小行星开发热潮
@@ -87,17 +89,28 @@ ExoMars 任务是由欧空局（ESA）与俄罗斯联邦航天局（Roscosmos）
 
 -   **太空运输业（Space Transportation
     Industry）**：从早期的太空发射业发展起来，逐步发展为天地运输（地球→低轨道）、地球轨道运输（低轨道→高轨道、地球轨道→月球）、行星际运输（地球轨道→小行星/火星）等；
+
+    ![Ships](../assets/sail/Default_Spaceship_docking_onto_a_space_station_on_Low_Earth_Or_2_d6869707-68aa-42e9-b7f5-113aca8aab00_1.jpg)
 -   **太空通信业（Space Communication
     Industry）**：从早期的卫星产业发展起来，逐步发展为地球通信（地球→卫星→地球）、地月通信（地球→卫星→月球）、行星际通信（地球→卫星→小行星/火星）等；
+
+    ![Poster](../assets/sail/DreamShaper_v7_Satellite_communications_between_Earth_and_Mars_0.jpg)
 -   **太空旅游业（Space Tourist
     Industry）**：从早期的亚轨道旅游发展起来，逐步发展为亚轨道旅游、轨道旅游、月球旅游等；
+
+    ![Space hotel](../assets/sail/Default_A_space_hotel_in_the_space_The_exterior_color_is_silve_0_2e2b265b-779f-48d0-8258-fd2265b17437_1.jpg)
 -   **太空能源业（Space Energy Industry）**：21 世纪 20
     年代发展起来的新兴产业，早期主要为在轨卫星、探测器提供燃料补给，后来扩展到小行星燃料生产；
+
+    ![mining](../assets/sail/DreamShaper_v7_A_solar_furnace_close_to_an_asteroid_1.jpg)
 -   **太空采矿业（Space Mining
     Industry）**：和太空能源业同时建立起来的新兴产业，以小行星开发为基础，主要包括矿石的开采、冶炼，涵盖了铁、镍、钴、铂族金属、半导体元素等等；
+
+    ![space mining](../assets/sail/DreamShaper_v7_A_small_mining_robot_in_the_space_It_is_mining_1.jpg)
 -   **太空制造业（Space Manufacturing
     Industry）**：以太空能源业和太空采矿业为基础，主要进行微重力条件下的产品制造。小行星表面、地球轨道、月球表面均建有太空工厂，生产的产品大多用于太空中基础设施的建立，少量产品将被运回地球。
 
+    ![space factory](../assets/sail/DreamShaper_v7_A_rocket_fuel_factory_in_space_There_are_small_0.jpg)
 
 ### 太空商业联合会的建成
 
@@ -178,12 +191,14 @@ L1、L2、L4、L5 点附近的空间。虽然近地太空中的资源数不胜�
 
 初期时，两种观点互不相让，而在产业化后期，第二种观点则被更多的地球人所认同，并称之为"泛火星思潮"，这种思潮呼吁打破太空商会对于太空商业开发的垄断，并呼吁人类应该尽早开始火星移民。
 
-
+{{< figure src="../assets/sail/pan-mars-artist-imaginary-mars-terraform.png" caption="德国泛火星思潮艺术家 Emma Abke 的画作：Das Wochenende. 画作对于未来的火星探索充满了期待。" >}}
 
 
 ### 联合行星（United Planet Institution）的成立
 
 近地太空市场开发殆尽再加上"泛火星思潮"的蔓延，使得太空商会不得不把目光投向红色星球，否则，商会的资金来源、声望地位都会受到不利的影响。2060 年，UAI（联合小行星）公布了未来的发展蓝图，宣布将把商会的开发领域拓展到火星，在火星上建成首个人类殖民地，并发展相关的火星产业。同年，UAI宣布更名为 UPI（United Planet Institution，联合行星），并声称火星移民计划已进入准备阶段。
+
+{{< figure src="../assets/sail/Default_A_big_asteroid_floating_in_the_space_1_d73ad71f-98d2-4023-901e-39dc33e614c8_0.png" caption="UPI 拥有的众多小行星中的一颗，代号 Codeina. " >}}
 
 即使是已经坐拥 100 余颗小行星的 UPI，在火星移民的问题上，也不敢莽撞行事。由于太空商会在地球上的声誉普遍较差，即使UPI利用自身政治影响力，通过一些"隐藏手段"获得了几个联合国常任理事国的支持，UPI 也不易让普通民众相信其所描绘的"火星移民蓝图"，因而一度陷入了信任危机。
 
@@ -221,5 +236,7 @@ IIA 首先将一个电磁投射器运送到火星轨道，用于接收地球投�
 ### 火星移民登陆
 
 2070 年 4 月 22 日，首批火星移民志愿者第 1 远征队的 15 人在伊希地平原的西北地区（16.181°N，84.624°E）着陆，人类新的篇章就此展开！
+
+{{< figure src="../assets/sail/iia-mars-outpost.png" caption="火星前哨站发展到后期，已经是一个多功能巨无霸，它不仅仅提供基本的生活需求，还因为一些研究机构的投入，成为了一个早期重要的火星研究设施。" >}}
 
 <!-- ![<http://www.space4case.inhetweb.nl/mmw/media/mars2005/schiaparelliNEW7000_20051114_high21final1024.jpg>](resources/schiaparelliNEW7000_20051114_high21final1024.jpg){.align-center} -->

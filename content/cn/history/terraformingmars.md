@@ -24,6 +24,7 @@ type: book
 
 2125 年，在伊希地城市圈正式建成两年后，行星大学（Planetary University）在南河城成立。行星大学的第一批教授主要就是由当年从地球引进的火星研究者组成的。在之后的几十年里，行星大学也成为了火星地球化改造的主要研究场所。而相比之下，地球上的相关研究却逐渐沉寂。
 
+{{< figure src="../assets/terraformingmars/early-stage-local-experiments-of-mars-terraforming.png" caption="早期的局部火星地球化实验" >}}
 
 <!-- Planetary Gaia Association -->
 

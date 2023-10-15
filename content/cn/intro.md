@@ -6,6 +6,7 @@ tags:
 type: book
 ---
 
+![](../assets/intro/DreamShaper_v7_Mars_foundation_with_a_lot_of_buildings_and_bas_0.jpg)
 
 星际移民之书（ [源代码](https://github.com/InterImm/InterImmBook) ）是由
 [星际移民中心](http://interimm.org/)

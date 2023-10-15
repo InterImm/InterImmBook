@@ -43,6 +43,9 @@ type: book
 
 由于不满行星资源公司的管理，Space Tech Life 的创始人 Allen Gonzales 离开行星资源，于 2040 年完成行星资源公司的 200 米直径空间站建设之后，创立了 Starry Space Construction. 他们设计了一个直径达到 2000 米，并且采用了双层结构的太空城市，星夜城。星夜城第一层直径为 1500 米，但是这一层并不是一个完整的圆筒，而是由三个六分之一圆筒的平台组成。整个空间站采用六组辐条结构，其中三组穿过第一层平台。星夜城的施工时期是 2042 年到 2046 年。
 
+{{< figure src="../assets/space_cities/DreamShaper_v7_Interior_of_a_space_station_1.jpg" caption="星夜城的房间设计是非常舒适的。例如图中是 A 类房间的客厅。" >}}
+
 > [**方舟建材**](https://interimm.org/hub/companies/company-nsxua6xhr52zns53sbdv5e69orrn80z5/)（[企业数据库链接](https://interimm.org/hub/companies/company-nsxua6xhr52zns53sbdv5e69orrn80z5/)）
 >
 > 星夜城是著名建筑企业方舟建材的总部所在地。方舟建材是 Rebirth Initiative 下属 3D 打印及建筑机构。其注重于研究利用3D打印技术，并以打印的方式制造建筑所需的结构材料，用拼接的方式对其进行组装以达到快速而高质地完成建筑的目的。这种模块化建筑的技术在星际移民的早期建设中起过很大作用。
+> {{< figure src="../assets/space_cities/Default_Design_a_digital_image_that_represents_the_headquarter_0_b1281715-5e11-480d-9a6d-c2f9f09a8a1e_1.jpg" caption="方舟建材在火星的总部" >}}
