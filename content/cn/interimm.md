@@ -22,4 +22,8 @@ type: book
 
 抵达星际移民局总部之后，在任意一个自动问询处都可以呼叫到自动导航车，自动导航车会带您到达建筑内任何目的地。
 
+![](../assets/interimm/PhotoReal_After_arriving_at_the_Interplanetary_Immigration_Cen_0.jpg)
+
 另外，可以在南河城的联合运输站乘坐列车二号线，在“星际移民中心站”下车，在车站出口处便会看到多种语言的“星际移民中心”的标识。您同样可以使用此处的自动导航车。如果是在工作日，也可以在出口处的咨询台询问，星际移民中心的工作人员会提供帮助。
+
+![](../assets/interimm/DreamShaper_v7_Futuristic_tram_station_with_a_train_parked_The_1.jpg)

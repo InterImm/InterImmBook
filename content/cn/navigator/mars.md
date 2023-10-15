@@ -80,6 +80,8 @@ Global Surveyor, 简称 MGS）的数据被绘制成了火星的完整的地形�
 在之后的开发过程中，星际移民局的星际运输中心已经与多家公司合作建立了完整的卫星气象系统 Martian Global Weather Task Force（MGWTF），结合高分辨率地面图像和图像处理，该系统可以对地面的天气状况进行实时检测和预测。2050 年，The Queryable Mars 公司接管了 MGWTF 的数据，整合了卫星图像建立了 Martian Global Query Database（MGQDB），通过对卫星图像的处理可以建立完整的火星表面物体和地形的数据库，并且利用卫星的历史数据建立类完整的了火星表面
 3D 地形，并提供给公众免费使用。
 
+![](../assets/mars/DreamShaper_v7_Mars_weather_report_poster_0.jpg)
+
 ### 火星气压
 
 火星的原来的气压也比较低，基本上在 1000Pa 左右，不适合人类居住。
