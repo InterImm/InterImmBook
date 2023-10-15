@@ -60,6 +60,8 @@ type: book
 次年，其他商业联合会包括联合发射同盟（ULA）、宇宙通信卫星组织（Unisat）以及新兴的推进技术发展组织（Promotion of New Propulsion Technology，简称PNPT）也迅速加入到火星殖民地的建设中来。到 2075
 年，ULA、Unisat 和 PNPT 提供的围绕火星的大型飞船及空间设施曾经一度达到十二艘。这些空间设施有着各自的使命，从能源供给到太空运输，从机械维修到生命保障，他们组成了整个火星殖民地坚实的后备保障。随着火星殖民地逐渐完善，很多大型设施从轨道转移到了火星表面。
 
+{{< figure src="../assets/mars_immigration/Default_Space_station_of_Mars_2_eac86804-c17d-4da4-bb8f-40aa162961e2_1.jpg" caption="Unisat 的综合空间站 Till 号。" >}}
+
 值得一提的是，Unisat 提供的包括气象卫星、定位系统和遥感卫星等在内的卫星系统为火星表面殖民地的建设提供了各种便利。
 
 
@@ -78,6 +80,8 @@ type: book
 
 由于太阳能电站可以迅速搭建起来，并且成本很低，火星殖民地建设的早期大量使用太阳能。第一个建立起来的是太空太阳能电站"太阳神一号"，除了为轨道上的飞船提供能源补充，也能无线传输给地面使用。第二个太阳能电站，也就是第一个地面电站，在地面殖民地安顿下来之后就开始施工并在短短几天内完成。
 
+{{< figure src="../assets/mars_immigration/DreamShaper_v7_A_lot_of_solar_panels_on_the_surface_of_Mars_0.jpg" >}}
+
 火星春秋季的沙尘暴严重影响太阳能电站的效率，IIA 决定建立风电站和核电站。到 2080 年为止，火星殖民地的能源供给就已经形成了以核电为核心，风能和太阳能辅助的能源体系。
 
 ### 绕火轨道
@@ -88,14 +92,19 @@ type: book
 
 火星殖民地的第一个地面加工厂是燃料工厂，该工厂在第一批火星开拓者到来之前就已经开始运行了。在前哨站建立以后，燃料工厂被扩建，2075 年已经能够基本满足火星表面与绕火轨道上之间运输的燃料需求。
 
+{{< figure src="../assets/mars_immigration/DreamShaper_v7_fuel_factory_on_Mars_1.jpg" caption="火星燃料工厂" >}}
+
 利用 UPI 的小行星矿场运来的液氢，结合火星大气中的二氧化碳，燃料工厂可以生产甲烷、氧气以及醇类。液体燃料除了少部分给地面运输车辆作为燃料之外，大部分用于火星表面和轨道之间的运输。随着地面设施的完善，地面矿场开始投入使用，由于原料和能源的限制，矿业只是为火星殖民地的建设所服务。
 
 配合大型电站、燃料工厂、空气工厂和水工厂，其他的后备生活设施也建立起来。大型温室建立之后，火星地面殖民地能够容纳的人员越来越多，建设步伐也极大地加快了，甚至很快建立起了运输、采矿、冶炼、化工和制造的工业链。主要的材料来源从初期的小行星矿场，转变为殖民地的工厂。很多机械的制造，包括建筑
 3D 打印机，也实现了独立生产。
 
+{{< figure src="../assets/mars_immigration/DreamShaper_v7_Robots_3D_printing_buildings_on_Mars_2.jpg" caption="UPI 的火星 3D 打印机器人管理站。" >}}
+
 2080 年，轨道旅游局（OrbiTA）也开始大规模投资火星殖民地的旅游开发，并开始优化火星的天地运输系统。
 
 原本只关注地球上的产业的一些重工业公司，也开始往火星投资。配合地球运输来的机器人核心模块，火星殖民地组装了多架工业机器人，从材料运输到更加大型的建筑 3D 打印，机器人大大加快了建设的步伐。
+
 
 ### 科学探索
 
@@ -104,6 +113,8 @@ type: book
 绕火轨道上的空间站也逐步扩展为研究人员基地。由于很多推进器测试都选择了地球到火星的轨道，部分推进器研究机构都往火星空间站派驻了研究人员。UPI 的推进技术研究中心甚至在绕火轨道设立了单独的空间站，为其研究人员提供生活和研究的空间。
 
 Unisat 的重要成员 **星际通信公司（Interplanetary Communications Company）** 也在火星表面和绕火轨道设立研究中心。
+
+{{< figure src="../assets/mars_immigration/Default_A_cuttingedge_science_space_station_orbiting_the_myste_2_210757b9-15aa-4b10-b7ae-a7e19779d382_0.png" caption="Interplanetary Communications Company 的绕火轨道研究中心。该空间站也同时是火星重要的轨道物资海关之一。" >}}
 
 <!-- ![](../assets/vallesmarineris-final.jpg) -->
 
@@ -165,6 +176,8 @@ IIA 研发部下属的 PNPT 对推进技术的发展做出了巨大的贡献。�
 ### 伊希地城市圈
 
 自 2070 年第一个火星殖民地在伊希地平原建立后，随着殖民地规模的不断扩大，到 22 世纪初逐渐发展到了地球上一座中等城市的规模，并被火星和地球上的人们称为"伊希地一号城"，简称一号城。
+
+{{< figure src="../assets/mars_immigration/Default_City_map_on_Mars_0_2b6b0efe-acc8-4bb6-ab85-ba111113456e_1.jpg" caption="伊希地一号城早期施工俯瞰照片" >}}
 
 相比 IIA 当初提出的火星移民规划，一号城的建成速度和建成规模都远超预期。不过，在 22 世纪初的火星移民热潮时期，地球上的移民需求逐渐攀升，一号城已经无法继续应对逐渐涌入的移民人潮。因此，二号城、三号城的建设计划呼之欲出。
 
@@ -266,7 +279,7 @@ Atlantis City -->
 > [**稻芽**](https://interimm.org/hub/companies/company-0aes8jx90la8u8w9x4h10aes8jxunf1w/) ([企业数据库链接](https://interimm.org/hub/companies/company-0aes8jx90la8u8w9x4h10aes8jxunf1w/))
 >
 > 稻芽是一家成立于端点城的火星农业企业。于伊希地和希腊平原建有数座太空农场，种植引进的或经改良的农作物并销往最近的火星城市。火星地球化工程开始后，其业务重心转向各太空城市。生物科学领域，其培育了大量改良作物以使其在太空环境下仍能高质高产生长。
-
+> {{< figure src="../assets/mars_immigration/Default_Vertical_farming_on_Mars_shelves_with_plants_advanced_2_c2c154cd-d06d-4323-a353-fe9ec9610d18_1.jpg" caption="稻芽是火星主要的农业产品提供商。这是稻芽的一处农场的内部场景。" >}}
 
 川陀城和端点城之间有着非常密切的合作，不仅仅在资源互惠上，在经济上甚至人口流动上，两个城市一开始就表现的非常友好。2168 年，两个城市决定开放更多的互惠资源，形成希腊城市圈。
 
@@ -285,7 +298,7 @@ Atlantis City -->
 > [**柏林先锋**](https://interimm.org/hub/companies/company-1487137522588/)（[企业数据库链接](https://interimm.org/hub/companies/company-1487137522588/)）
 >
 > 柏林先锋，Berlin Pioneer，是一家专注与火星地球运输的生物审核的公司。这家公司在总部在柏林，但是在世界各地有多个办公室和研发中心。柏林先锋的创始人 Stefan Cline 在德国慕尼黑大学读书期间，设计了一套判断新物种对于现有生态影响的系统方案。之后火星移民的兴起，Stefan Cline 开始设计火星上生物基因改造的安全性问题。他提议在所有专门为火星设计的基因修改中，添加可以产生特定蛋白的基因，这样方便区分和检测这些火星专有生物。之后他成立了 Cline Genetics，这家公司后来更名 Berlin Pioneer，在之后的火星移民浪潮中，发展成为 22 世纪世界上最大的生物审核公司。同时该公司的很多专利与基因修改相关，这些专利为柏林先锋带来了巨额的收益。
-
+> {{< figure src="../assets/mars_immigration/berlin_pioneer_alchemyrefiner_alchemymagic_2_9bf7711e-93d6-4c7a-a0ed-18caad9e1adf_0.jpg" caption="Berlin Pioneer 在柏林的总部。">}}
 
 2207 年，伊希地城市圈建设过程中，由于人流量的增大，南河城爆发了新型的传染病。期间南河城的一些居民自发成立了临时疾控中心，最终疫情得以控制，然而后来的统计显示共有 348 人死于这场灾难。这类传染病后来被称为伊希地病。
 
