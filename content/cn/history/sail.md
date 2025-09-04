@@ -127,7 +127,7 @@ LEO、GEO、月球轨道、小行星轨道，还是月球表面、小行星表�
     Organization，简称 Unisat）**：由国际通信卫星组织（[Intelsat](http://en.wikipedia.org/wiki/Intelsat)）、国际海事卫星组织（[Inmarsat](http://en.wikipedia.org/wiki/Inmarsat)）、欧洲通信卫星组织（[Eutelsat](http://en.wikipedia.org/wiki/Eutelsat) ）、亚洲卫星公司（[AsiaSat](http://en.wikipedia.org/wiki/AsiaSat)）逐渐合并而成，业务囊括了整个太空通信业，并且几乎垄断了地球通信市场。
 
 -   **联合小行星（United Asteroid Institution，简称
-    UAI）**：由行星资源公司（ [Planetary Resourses](http://www.planetaryresources.com) ）、SpaceX小行星公司（SpaceX Asteroids）、深空工业公司（ [Deep Space Industry](https://deepspaceindustries.com-en.com）、近地小行星矿业公司（NEAs Mining）组合而成，后来又合并了一些新成立的太空采矿公司，基本垄断了小行星采矿、小行星燃料生产、小行星产品制造市场。
+    UAI）**：由行星资源公司（ [Planetary Resourses](http://www.planetaryresources.com) ）、SpaceX小行星公司（SpaceX Asteroids）、深空工业公司（ [Deep Space Industry](https://deepspaceindustries.com-en.com)、近地小行星矿业公司（NEAs Mining）组合而成，后来又合并了一些新成立的太空采矿公司，基本垄断了小行星采矿、小行星燃料生产、小行星产品制造市场。
 
 -   **轨道旅游局（Orbital Travel Agency，简称
     OrbiTA）**：由维珍银河公司（ [Virgin Galactic](http://en.wikipedia.org/wiki/Virgin_Galactic)）、宇宙探险公司（宇宙探険株式会社）、SpaceX旅游（SpaceX
