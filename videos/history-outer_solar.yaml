@@ -1,0 +1,12 @@
+# Intro film for 历史 · 太阳系外围开发 (content/cn/history/outer_solar.md). Render: see videos/README.md.
+title: "星际移民之书 · 太阳系外围开发"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 历史", title: "外太阳系", subtitle: "泰坦与木星、土星的卫星", caption: "人类的目光越过小行星带。"}
+  - {type: timeline, caption: "从飞掠到着陆，再到深海探测。", events: [{date: "1979", label: "先驱者 11 号"}, {date: "2005", label: "惠更斯号着陆"}, {date: "2028", label: "TiME"}, {date: "2035", label: "克拉肯号"}]}
+  - {type: journey, origin: "火星", destination: "土星", distance: "霍曼轨道 约 13 年", caption: "用霍曼转移轨道从火星飞往土星，大约需要 13 个地球年。"}
+  - {type: place, name: "视界城", detail: "火纵线公司成立", year: "2158", caption: "2158 年，火纵线公司在视界城成立，后来推出了平价的外太阳系旅游。"}
+  - {type: grid, items: ["泰坦", "卡里斯托", "盖尼米得", "欧罗巴"], shape: circle, label: "开发中的卫星", caption: "泰坦的大气和水，滋养了火星的地球化。"}
+  - {type: end, title: "外太阳系", lines: ["星际移民之书", "book.interimm.org"]}

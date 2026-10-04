@@ -1,0 +1,9 @@
+# Intro film for 导览 (content/cn/navigator/_index.md). Render: see videos/README.md.
+title: "星际移民之书 · 导览"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "导览", subtitle: "我们居住的地方", caption: "这一章介绍我们的居住地点。"}
+  - {type: place, name: "火星", detail: "星际移民的第一站", caption: "从火星开始。"}
+  - {type: end, title: "导览", lines: ["星际移民之书", "book.interimm.org"]}

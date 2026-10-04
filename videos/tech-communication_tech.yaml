@@ -1,0 +1,10 @@
+# Intro film for 科技 · 通信技术 (content/cn/tech/communication_tech.md). Render: see videos/README.md.
+title: "星际移民之书 · 通信技术"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 科技", title: "通信技术", subtitle: "连接行星的网络", caption: "火星移民离不开可靠的行星际通信。"}
+  - {type: journey, origin: "地球", destination: "火星", via: ["中继卫星"], distance: "行星际中继", caption: "太阳和行星时常遮挡信号，需要中继卫星转发。"}
+  - {type: stages, caption: "从行星卫星网络，到中继，再到行星际通信网络。", steps: [{title: "全球卫星网络"}, {title: "太阳极轨中继"}, {title: "太阳帆中继"}, {title: "行星际网络"}]}
+  - {type: end, title: "通信技术", lines: ["星际移民之书", "book.interimm.org"]}

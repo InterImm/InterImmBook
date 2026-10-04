@@ -1,0 +1,11 @@
+# Intro film for 星际移民中心 (content/cn/interimm.md). Render: see videos/README.md.
+title: "星际移民之书 · 星际移民中心"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "星际移民中心", subtitle: "怎样到达总部", caption: "星际移民中心的总部接待处设在火星。"}
+  - {type: journey, origin: "地球", destination: "火星", caption: "如果您在地球，请先乘坐航线到达火星。"}
+  - {type: place, name: "南河城", detail: "星际移民局总部在城市中心", nearby: ["参宿城", "天狼城"], caption: "伊希地三城相距不远，可在任一城降落，再前往南河城。"}
+  - {type: stages, caption: "也可乘列车二号线，在“星际移民中心站”下车。", steps: [{title: "联合运输站"}, {title: "列车二号线"}, {title: "星际移民中心站"}]}
+  - {type: end, title: "欢迎", lines: ["星际移民之书", "book.interimm.org"]}

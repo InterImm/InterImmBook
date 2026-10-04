@@ -1,0 +1,11 @@
+# Intro film for 历史 · 太空城市 (content/cn/history/space_cities.md). Render: see videos/README.md.
+title: "星际移民之书 · 太空城市"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 历史", title: "太空城市", subtitle: "从空间站到城市", caption: "太空工业让太空城市成为可能。"}
+  - {type: timeline, caption: "二十年间，空间站越造越大。", events: [{date: "2028", label: "日光城一号"}, {date: "2034", label: "20 米环形站"}, {date: "2038", label: "200 米旋转站"}, {date: "2040", label: "瀑布城"}, {date: "2042", label: "星夜城"}]}
+  - {type: compare, mode: before-after, caption: "第一座太空城市瀑布城直径 1000 米，第二座星夜城达到 2000 米。", left: {title: "瀑布城", value: 1000, suffix: " m"}, right: {title: "星夜城", value: 2000, suffix: " m"}}
+  - {type: grid, items: ["3D 打印", "太阳能板", "太空生产"], shape: circle, label: "建造周期大大缩短", caption: "3D 打印、大型太阳能板和太空生产能力，缩短了建造周期。"}
+  - {type: end, title: "太空城市", lines: ["星际移民之书", "book.interimm.org"]}

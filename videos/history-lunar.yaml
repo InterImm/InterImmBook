@@ -1,0 +1,10 @@
+# Intro film for 历史 · 月球 (content/cn/history/lunar.md). Render: see videos/README.md.
+title: "星际移民之书 · 月球"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 历史", title: "月球", subtitle: "离地球最近的开发", caption: "月球比火星近得多，大规模开发却起步较晚。"}
+  - {type: timeline, caption: "从试验居住点，到第一个旅游中心。", events: [{date: "2026", label: "试验居住点"}, {date: "2029", label: "第二居住点"}, {date: "2032", label: "科研基地"}, {date: "2039", label: "虹湾采矿"}, {date: "2042", label: "旅游中心"}]}
+  - {type: place, name: "虹湾", detail: "第一个月球资源开采基地", year: "2039", caption: "2039 年，虹湾建起第一个月球资源开采基地，开采钛铁矿。"}
+  - {type: end, title: "月球", lines: ["星际移民之书", "book.interimm.org"]}

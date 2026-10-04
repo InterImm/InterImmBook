@@ -30,7 +30,7 @@ languages:
       home:
         primary_button:
           title: Read Now
-          link: /intro
+          link: /interimm
       tags:
         - "History"
         - "Technology"

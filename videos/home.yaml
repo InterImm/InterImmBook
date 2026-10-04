@@ -1,0 +1,11 @@
+# Intro film for the book's home page. Render: see videos/README.md.
+title: "星际移民之书"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民中心 · 档案馆", title: "星际移民之书", subtitle: "人类太空文明的历史", caption: "一本关于星际移民的历史、科技与人文的开源书。"}
+  - {type: journey, origin: "地球", destination: "火星", via: ["近地轨道"], distance: "第一站", caption: "从地球出发，火星是星际移民的第一站。"}
+  - {type: timeline, highlight: 3, caption: "两百年间，从首次登火到火星城市。", events: [{date: "2027", label: "首次登火"}, {date: "2062", label: "星际移民局"}, {date: "2070", label: "首批移民"}, {date: "2123", label: "南河城"}, {date: "2200", label: "十一座城市"}]}
+  - {type: grid, items: ["导览", "历史", "行业", "科技", "指南"], shape: square, label: "五个部分", caption: "全书分为导览、历史、行业、科技和指南。"}
+  - {type: end, title: "开始阅读", lines: ["星际移民之书", "book.interimm.org"]}

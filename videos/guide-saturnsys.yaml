@@ -1,0 +1,11 @@
+# Intro film for 指南 · 土星系统指南 (content/cn/guide/saturnsys.md). Render: see videos/README.md.
+title: "星际移民之书 · 土星系统指南"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 指南", title: "土星系统", subtitle: "光环与卫星", caption: "巨大的光环，环绕着这颗美丽的气态行星。"}
+  - {type: counter, value: 13800, unit: "千米", label: "北极六边形的边长", caption: "土星北极的云层形成六边形，一条边长 13800 千米。"}
+  - {type: place, name: "泰坦", detail: "真实的中土世界", nearby: ["末日之山", "米斯林山脉"], caption: "泰坦的山多以托尔金的中土世界命名，游客多乘飞艇观光。"}
+  - {type: place, name: "恩克拉多斯", detail: "冰层下的海洋", caption: "土卫二南极的冰粒喷泉，一直延伸到太空。"}
+  - {type: end, title: "土星系统", lines: ["星际移民之书", "book.interimm.org"]}

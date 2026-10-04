@@ -1,0 +1,9 @@
+# Intro film for 历史 (content/cn/history/_index.md). Render: see videos/README.md.
+title: "星际移民之书 · 历史"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "历史", subtitle: "星际移民并非一蹴而就", caption: "血与泪，悲与喜，星际移民有着一段悠久的历史。"}
+  - {type: timeline, caption: "从首次登火，到火星地球化。", events: [{date: "2021", label: "起航"}, {date: "2040", label: "太空城市"}, {date: "2070", label: "火星移民"}, {date: "2158", label: "太空电梯"}, {date: "2219", label: "火星地球化"}]}
+  - {type: end, title: "历史", lines: ["星际移民之书", "book.interimm.org"]}
