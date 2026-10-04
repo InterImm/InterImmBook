@@ -28,11 +28,11 @@
 {{- end }}
 <!-- Shared InterImm look (colours, fonts, header, footer), served by interimm.org. See
      https://github.com/InterImm/interimm.github.io/blob/hugo/kit/README.md -->
-<link rel="stylesheet" href="https://interimm.org/kit/interimm.css">
+<link rel="stylesheet" href="https://interimm.org/kit/interimm.css?v=20261004">
 {{- with resources.Get "css/book.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{- end }}
-<script src="https://interimm.org/kit/interimm.js" defer></script>
+<script src="https://interimm.org/kit/interimm.js?v=20261004" defer></script>
 {{- if strings.Contains .RawContent "$$" }}
 <script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['$$', '$$']] } };</script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" defer></script>
