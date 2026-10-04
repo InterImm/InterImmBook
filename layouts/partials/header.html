@@ -1,7 +1,7 @@
 {{- /* Filled in by interimm.js with the live interimm.org menu; this markup is the fallback. */ -}}
 {{- $cn := site.Sites.Default.Home.Permalink -}}
 {{- $en := "" }}{{ range site.Sites }}{{ if eq .Language.Lang "en" }}{{ $en = .Home.Permalink }}{{ end }}{{ end -}}
-<header class="site-header" data-interimm-header data-lang="{{ site.Language.Lang }}" data-current="archives-book" data-lang-cn="{{ $cn }}" data-lang-en="{{ $en }}">
+<header class="site-header" data-interimm-header data-no-signal data-toolkit data-lang="{{ site.Language.Lang }}" data-current="archives-book" data-lang-cn="{{ $cn }}" data-lang-en="{{ $en }}">
   <div class="wrap header-inner">
     <a class="brand" href="{{ if eq site.Language.Lang "cn" }}https://interimm.org/{{ else }}https://interimm.org/en/{{ end }}">
       <img class="brand-mark" src="https://interimm.org/assets/ico/favicon-96x96.png" alt="" width="36" height="36">
@@ -10,3 +10,7 @@
     <nav id="site-nav" class="site-nav" aria-label="Menu"><ul class="nav-list nav-tools"></ul></nav>
   </div>
 </header>
+{{- /* The kit copies these links into its toolkit panel (the floating button). */ -}}
+{{- with index site.Data.book site.Language.Lang }}
+<nav hidden data-toolkit-links data-toolkit-title="{{ i18n "contents" }}">{{ range .toc }}<a href="{{ .link }}">{{ .title }}</a>{{ end }}</nav>
+{{- end }}
