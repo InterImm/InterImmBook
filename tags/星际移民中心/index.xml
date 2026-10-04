@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>星际移民中心 on 《星际移民之书》</title><link>https://book.interimm.org/tags/%E6%98%9F%E9%99%85%E7%A7%BB%E6%B0%91%E4%B8%AD%E5%BF%83/</link><description>Recent content in 星际移民中心 on 《星际移民之书》</description><generator>Hugo</generator><language>cn</language><atom:link href="https://book.interimm.org/tags/%E6%98%9F%E9%99%85%E7%A7%BB%E6%B0%91%E4%B8%AD%E5%BF%83/index.xml" rel="self" type="application/rss+xml"/><item><title>星际移民中心</title><link>https://book.interimm.org/interimm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/interimm/</guid><description>&lt;p>星际移民中心的总部接待处目前设置在火星，坐落在星际移民局的巨型建筑内。&lt;/p>
+&lt;p>如果您目前位于地球，需要乘坐相应航线到达火星，然后选择合适的交通方式到达南河城，星际移民局总部就在南河城的中心。&lt;/p>
+&lt;p>&lt;img src="../assets/interimm/isidis-city-procyon.png">&lt;/p>
+&lt;blockquote>
+&lt;p>火星南河城主要建筑和路线图。中间的巨型建筑就是星际移民局总部所在。&lt;/p>
+&lt;/blockquote>
+&lt;p>由于火星伊希地的三座城市（南河城、参宿城和天狼城）相距不远，因此可以在这三个城市中任何一个降落，然后通过地面或者空中交通抵达南河城。&lt;/p>
+&lt;p>&lt;img alt="这是火星的地图。如有疑问请咨询本中心。&lt;a href=\"http://interimm.org/mars-map/\">互动版地图在此&lt;/a>。" src="../assets/interimm/mars-cities.png">&lt;/p>
+&lt;blockquote>
+&lt;p>这是火星的地图，如有疑问请咨询本中心。&lt;a href="http://interimm.org/mars-map/">互动版地图在此&lt;/a>。&lt;/p>
+&lt;/blockquote>
+&lt;p>抵达星际移民局总部之后，在任意一个自动问询处都可以呼叫到自动导航车，自动导航车会带您到达建筑内任何目的地。&lt;/p>
+&lt;p>&lt;img src="../assets/interimm/PhotoReal_After_arriving_at_the_Interplanetary_Immigration_Cen_0.jpg">&lt;/p>
+&lt;p>另外，可以在南河城的联合运输站乘坐列车二号线，在“星际移民中心站”下车，在车站出口处便会看到多种语言的“星际移民中心”的标识。您同样可以使用此处的自动导航车。如果是在工作日，也可以在出口处的咨询台询问，星际移民中心的工作人员会提供帮助。&lt;/p>
+&lt;p>&lt;img src="../assets/interimm/DreamShaper_v7_Futuristic_tram_station_with_a_train_parked_The_1.jpg">&lt;/p></description></item><item><title>星际移民之书</title><link>https://book.interimm.org/intro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/intro/</guid><description>&lt;p>&lt;img src="../assets/intro/DreamShaper_v7_Mars_foundation_with_a_lot_of_buildings_and_bas_0.jpg">&lt;/p>
+&lt;p>星际移民之书（ &lt;a href="https://github.com/InterImm/InterImmBook">源代码&lt;/a> ）是由
+&lt;a href="http://interimm.org/">星际移民中心&lt;/a>
+维护的一本开源书籍。这本书中主要包含了星际移民的历史、科技和人文等相关信息。&lt;/p>
+&lt;h2 id="共同协作与内容协议">共同协作与内容协议&lt;/h2>
+&lt;p>本项目是一个开源项目，欢迎加入到项目中来。可以在&lt;a href="https://github.com/InterImm/InterImmBook/issues"> GitHub Issues 提交
+BUG&lt;/a> 可以告诉我们书中的错别字、排版建议以及内容建议。&lt;/p>
+&lt;p>本书使用 &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC
+BY-SA&lt;/a>
+协议共享。&lt;/p>
+&lt;figure>&lt;img src="../assets/intro/cc_bysa.flat.guokr.32.png">
+&lt;/figure></description></item><item><title>星际移民之书更新日志</title><link>https://book.interimm.org/changelog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/changelog/</guid><description>&lt;ul>
+&lt;li>2026-10-04
+&lt;ul>
+&lt;li>改用与星际移民中心网站一致的版式，支持浅色和深色；&lt;/li>
+&lt;li>每一章开头加入一段包豪斯风格的短片。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>2020-09-13
+&lt;ul>
+&lt;li>使用全站统一的 Hugo 主题来呈现&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>2016-12-10
+&lt;ul>
+&lt;li>添加火星疾控中心的历史；&lt;/li>
+&lt;li>在火星移民历史页面开始添加简要的历史时间线；&lt;/li>
+&lt;li>添加致谢页面。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>2016-11-25
+&lt;ul>
+&lt;li>在页面底部增加全站最新评论按钮；&lt;/li>
+&lt;li>把版权信息从 Interplanetary Immigration Center 改为星际移民中心；&lt;/li>
+&lt;li>增加最近更新日志页面。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>星际移民之书致谢</title><link>https://book.interimm.org/acknowledgement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/acknowledgement/</guid><description>&lt;p>《星际移民之书》是很多作者共同协作完成的。在此列出贡献者：&lt;/p>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/ProtossProbe">Probe&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/emptymalei">章鱼喵&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/syrte">舟放之&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/unionx">帝归&lt;/a>&lt;/li>
+&lt;li>Mickey (EasyNight 成员)&lt;/li>
+&lt;li>冬智 (EasyNight 成员)&lt;/li>
+&lt;li>&lt;a href="https://github.com/AdvantageJoccy">Advantage Joccy&lt;/a>&lt;/li>
+&lt;li>光子（小地球旅行工作人员）&lt;/li>
+&lt;li>&lt;a href="https://github.com/LostAbaddon">LostAbaddon&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>火星移民</title><link>https://book.interimm.org/history/mars_immigration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/history/mars_immigration/</guid><description>&lt;blockquote>
+&lt;p>重要事件时间线&lt;/p>
+&lt;ul>
+&lt;li>2070 年 4 月，首个火星表面前哨站在伊希地建立。&lt;/li>
+&lt;li>2075 年，PNPT 并入 IIA.&lt;/li>
+&lt;li>2075 年，火星的燃料产业基本满足火星表面与绕火轨道上之间运输的燃料需求。&lt;/li>
+&lt;li>2080 年，轨道旅游局（OrbiTA）开始大规模投资火星殖民地的旅游开发。&lt;/li>
+&lt;li>2102 年 6 月，Unisat、ULA、OrbiTA 与 UPI 合并，保留 UPI 的名称。&lt;/li>
+&lt;li>22 世纪 20 年代，火星上第一个繁荣的城市圈在伊希地逐渐形成。&lt;/li>
+&lt;li>22 世纪 50 年代，以四、五、七号城为核心的亚马逊城市圈初步建立。&lt;/li>
+&lt;li>22 世纪 60 年代，子午线城市圈此形成。&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="火星殖民地建设">火星殖民地建设&lt;/h2>
+&lt;p>火星殖民地的建设并不是单纯的火星地面的发展，而是火星表面、绕火轨道、小行星产业和地球太空产业的共同进步，从某种意义上说，这是各大太空商业联合会合作的成果。在早期的建设中，小行星产业、太空运输业和火星的建设几乎完美地协调发展，特别是太空运输业的发展，使得火星殖民地的建设有了极强的后备保障。&lt;/p>
+&lt;h3 id="建设初期">建设初期&lt;/h3>
+&lt;p>2070 年 4 月，联合行星（UPI，前联合小行星，即 UAI）的首个火星表面前哨站在伊希地建立之后，基础设施并不完善，地面的生活基本上只能满足最低生活需求。这些先驱们在恶劣的环境中努力建设着殖民地，他们的壮举，成就了之后火星的繁荣。&lt;/p>
+&lt;p>次年，其他商业联合会包括联合发射同盟（ULA）、宇宙通信卫星组织（Unisat）以及新兴的推进技术发展组织（Promotion of New Propulsion Technology，简称PNPT）也迅速加入到火星殖民地的建设中来。到 2075
+年，ULA、Unisat 和 PNPT 提供的围绕火星的大型飞船及空间设施曾经一度达到十二艘。这些空间设施有着各自的使命，从能源供给到太空运输，从机械维修到生命保障，他们组成了整个火星殖民地坚实的后备保障。随着火星殖民地逐渐完善，很多大型设施从轨道转移到了火星表面。&lt;/p>
+&lt;figure>&lt;img src="../assets/mars_immigration/Default_Space_station_of_Mars_2_eac86804-c17d-4da4-bb8f-40aa162961e2_1.jpg"
+ alt="Unisat 的综合空间站 Till 号。">&lt;figcaption>
+ &lt;p>Unisat 的综合空间站 Till 号。&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;p>值得一提的是，Unisat 提供的包括气象卫星、定位系统和遥感卫星等在内的卫星系统为火星表面殖民地的建设提供了各种便利。&lt;/p>
+&lt;h3 id="地火运输">地火运输&lt;/h3>
+&lt;p>地球和火星之间的物资运输曾经一度成为整个火星开放计划中耗资最大的部分，这也曾经是 IIA 的研发部门投入精力最多的一个问题。2075 年，PNPT 正式并入 IIA，之后的 20 年内，太空运输业的发展达到巅峰时期。&lt;/p></description></item></channel></rss>

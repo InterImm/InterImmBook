@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>行星分级 on 《星际移民之书》</title><link>https://book.interimm.org/tags/%E8%A1%8C%E6%98%9F%E5%88%86%E7%BA%A7/</link><description>Recent content in 行星分级 on 《星际移民之书》</description><generator>Hugo</generator><language>cn</language><atom:link href="https://book.interimm.org/tags/%E8%A1%8C%E6%98%9F%E5%88%86%E7%BA%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>移民产业</title><link>https://book.interimm.org/tech/immigration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/tech/immigration/</guid><description>&lt;h2 id="行星分级">行星分级&lt;/h2>
+&lt;p>系外行星分级制度是为了方便将行星或卫星按照其人类生活移民的价值归类而设定的，主要考虑人在行星上生活的舒适程度。首先将行星在不同项目中进行分类，例如行星 X 在温度一项中，获得了 A 的评级；然后按照不同评级所对应的分数，计算 Planet GPA，并且采用四舍五入，例如在五分制中 4.5 分为 A 类（5 分），而 4.4 分却只能归到 B 类（4 分）。这是一种便于扩展的分类方法。&lt;/p>
+&lt;p>作为一个简单的例子，我们考虑天体的表面温度、大气、水、表面重力和是否有固态表面几项，并且按照下表分级。&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">分类标准&lt;/th>
+ &lt;th style="text-align: left">级别（得分）&lt;/th>
+ &lt;th style="text-align: left">温度&lt;/th>
+ &lt;th style="text-align: left">大气压&lt;/th>
+ &lt;th style="text-align: left">大气成分&lt;/th>
+ &lt;th style="text-align: left">水&lt;/th>
+ &lt;th style="text-align: left">表面重力&lt;/th>
+ &lt;th style="text-align: left">固态表面&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">不需要维生设备，就能舒适地生活&lt;/td>
+ &lt;td style="text-align: left">A(5)&lt;/td>
+ &lt;td style="text-align: left">-10~30℃&lt;/td>
+ &lt;td style="text-align: left">0.8atm~10atm&lt;/td>
+ &lt;td style="text-align: left">氧分压&amp;gt;0.16atm &amp;amp;&amp;amp; 无毒&lt;/td>
+ &lt;td style="text-align: left">有&lt;/td>
+ &lt;td style="text-align: left">0.5g~1.2g&lt;/td>
+ &lt;td style="text-align: left">有&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">不需要维生设备，能艰难地生活&lt;/td>
+ &lt;td style="text-align: left">B(4)&lt;/td>
+ &lt;td style="text-align: left">-50-50℃&lt;/td>
+ &lt;td style="text-align: left">0.7atm~50atm&lt;/td>
+ &lt;td style="text-align: left">氧分压&amp;gt;0.13atm&amp;amp;&amp;amp;无毒&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;td style="text-align: left">0g~1.5g&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">需要维生设施，才能正常生活&lt;/td>
+ &lt;td style="text-align: left">C(3)&lt;/td>
+ &lt;td style="text-align: left">-80-70℃&lt;/td>
+ &lt;td style="text-align: left">0.4atm~70atm&lt;/td>
+ &lt;td style="text-align: left">氧分压&amp;gt;0.001atm&amp;amp;&amp;amp;无毒&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;td style="text-align: left">0g~3g&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">需要复杂的维生设施，才能正常生活&lt;/td>
+ &lt;td style="text-align: left">D(2)&lt;/td>
+ &lt;td style="text-align: left">-80-100℃&lt;/td>
+ &lt;td style="text-align: left">0.001atm~1000atm&lt;/td>
+ &lt;td style="text-align: left">无氧气&amp;amp;&amp;amp;有其他无毒气体&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;td style="text-align: left">0g~5g&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">无论如何都不能生活&lt;/td>
+ &lt;td style="text-align: left">E(1)&lt;/td>
+ &lt;td style="text-align: left">(-273.15, -80]℃ 或 [100, 无穷)℃&lt;/td>
+ &lt;td style="text-align: left">0~+Infinity&lt;/td>
+ &lt;td style="text-align: left">有有害气体&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;td style="text-align: left">&amp;gt;5g&lt;/td>
+ &lt;td style="text-align: left">无&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>有几点注意事项：&lt;/p></description></item></channel></rss>

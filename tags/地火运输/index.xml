@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>地火运输 on 《星际移民之书》</title><link>https://book.interimm.org/tags/%E5%9C%B0%E7%81%AB%E8%BF%90%E8%BE%93/</link><description>Recent content in 地火运输 on 《星际移民之书》</description><generator>Hugo</generator><language>cn</language><atom:link href="https://book.interimm.org/tags/%E5%9C%B0%E7%81%AB%E8%BF%90%E8%BE%93/index.xml" rel="self" type="application/rss+xml"/><item><title>推进技术</title><link>https://book.interimm.org/tech/propulsion_tech/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/tech/propulsion_tech/</guid><description>&lt;h2 id="火箭简史">火箭简史&lt;/h2>
+&lt;p>Nikolai Kibalchich 是一个传奇的人物，二十四岁的他因为把一本禁书借给别人，被判监禁两个月，然而在这个正式审判之前，他已经在监狱里面待了三年了。从监狱出来之后，他加入了当时的民意党，成为了他们的首席&amp;quot;爆破专家&amp;quot;。然而他的人生依然是继续的悲剧，没过几年就因刺杀亚历山大二世被抓入监狱，等待绞刑。然而临刑前，他在监狱写下了使用炸药作为动力的火箭引擎推进载人飞船的研究，希望得到其它科学家的回复，因此这份研究被送到了警察局。一个月之后，在这个 1881 年美丽的春天，Nikolai 被执行绞刑。Nikolai 一直没有得到其它科学家的回复，因为当时的警察局将他的这份伟大的发明搁置一旁，直到 1917 年被 Nikolai Rynin 重新发现这份研究，并且发表了出来。&lt;/p>
+&lt;figure>&lt;img src="../assets/propulsion_tech/kibalchichCrater.jpg"
+ alt="月球上有一个以 Nikolai Kibalchich 名字命名的陨石坑，位于 3.0° N 146.5°W 也就是月球背面。来自 Google Earth Pro.">&lt;figcaption>
+ &lt;p>月球上有一个以 Nikolai Kibalchich 名字命名的陨石坑，位于 3.0° N 146.5°W 也就是月球背面。来自 Google Earth Pro.&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;p>Nikolai Kibalchich 死后十年，德国工程师 Hermann Ganswindt 重新发现了类似的点子。之后，也就是二十世纪初期，包括 Tsiolkovsky 和 Goddard 在内的多人建立起了火箭理论。&lt;/p>
+&lt;figure>&lt;img src="../assets/propulsion_tech/Goddard_and_Rocket.jpg"
+ alt="Goddard 和他的液体火箭实验。来自维基百科：File:Goddard and Rocket.jpg">&lt;figcaption>
+ &lt;p>Goddard 和他的液体火箭实验。来自维基百科：File:Goddard and Rocket.jpg&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;h2 id="行星际运输轨道">行星际运输轨道&lt;/h2>
+&lt;h3 id="地火运输">地火运输&lt;/h3>
+&lt;h4 id="霍曼轨道">霍曼轨道&lt;/h4>
+&lt;p>霍曼转移轨道因为历史悠久，具有非常好的可靠性。然而由于运输周期较长，所以常常被成为太空海运，或者太空拖车。&lt;/p>
+&lt;figure>&lt;img src="../assets/propulsion_tech/hohmannSystem.png"
+ alt="Hohmann Transfer">&lt;figcaption>
+ &lt;p>Hohmann Transfer&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;p>在第一个火星前哨站建立之后，UPI 的大宗货物运输是通过霍曼转移轨道进行的。由于当时在这种运输方式上的经验比较丰富，此方式被使用了多年。后来被称为&amp;quot;太空海运&amp;quot;，由于运输周期长，被人戏称为&amp;quot;太空拖车&amp;quot;。&lt;/p>
+&lt;p>运输器采用了大量的太空集装箱式的货仓设计，扩展方便。在 ULA 加入到火星殖民地建设中来之后，这部分逐渐完全转交给 ULA 负责。&lt;/p>
+&lt;h4 id="星际弹道捕获">星际弹道捕获&lt;/h4>
+&lt;p>弹道捕获的最早使用可以追溯到二十世纪人类发射的月球探测器 &lt;a href="https://en.wikipedia.org/wiki/Low-energy_transfer#History">Hiten&lt;/a>。通过这种方式到达环绕火星的轨道所需要的能量要比霍曼转移轨道的能量要低，然而也需要更长的时间。这种运输方式更加节省燃料，也就意味着同样的燃料可以运送更多的货物。在传统化学火箭时代，这种轨道是一种比霍曼转移轨道还要价格低廉，因此也长期存在。甚至在热核火箭和离子推进技术兴起的时代，这种运输轨道也被许多不知名的小机构继续使用。&lt;/p></description></item><item><title>火星移民</title><link>https://book.interimm.org/history/mars_immigration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://book.interimm.org/history/mars_immigration/</guid><description>&lt;blockquote>
+&lt;p>重要事件时间线&lt;/p>
+&lt;ul>
+&lt;li>2070 年 4 月，首个火星表面前哨站在伊希地建立。&lt;/li>
+&lt;li>2075 年，PNPT 并入 IIA.&lt;/li>
+&lt;li>2075 年，火星的燃料产业基本满足火星表面与绕火轨道上之间运输的燃料需求。&lt;/li>
+&lt;li>2080 年，轨道旅游局（OrbiTA）开始大规模投资火星殖民地的旅游开发。&lt;/li>
+&lt;li>2102 年 6 月，Unisat、ULA、OrbiTA 与 UPI 合并，保留 UPI 的名称。&lt;/li>
+&lt;li>22 世纪 20 年代，火星上第一个繁荣的城市圈在伊希地逐渐形成。&lt;/li>
+&lt;li>22 世纪 50 年代，以四、五、七号城为核心的亚马逊城市圈初步建立。&lt;/li>
+&lt;li>22 世纪 60 年代，子午线城市圈此形成。&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="火星殖民地建设">火星殖民地建设&lt;/h2>
+&lt;p>火星殖民地的建设并不是单纯的火星地面的发展，而是火星表面、绕火轨道、小行星产业和地球太空产业的共同进步，从某种意义上说，这是各大太空商业联合会合作的成果。在早期的建设中，小行星产业、太空运输业和火星的建设几乎完美地协调发展，特别是太空运输业的发展，使得火星殖民地的建设有了极强的后备保障。&lt;/p>
+&lt;h3 id="建设初期">建设初期&lt;/h3>
+&lt;p>2070 年 4 月，联合行星（UPI，前联合小行星，即 UAI）的首个火星表面前哨站在伊希地建立之后，基础设施并不完善，地面的生活基本上只能满足最低生活需求。这些先驱们在恶劣的环境中努力建设着殖民地，他们的壮举，成就了之后火星的繁荣。&lt;/p>
+&lt;p>次年，其他商业联合会包括联合发射同盟（ULA）、宇宙通信卫星组织（Unisat）以及新兴的推进技术发展组织（Promotion of New Propulsion Technology，简称PNPT）也迅速加入到火星殖民地的建设中来。到 2075
+年，ULA、Unisat 和 PNPT 提供的围绕火星的大型飞船及空间设施曾经一度达到十二艘。这些空间设施有着各自的使命，从能源供给到太空运输，从机械维修到生命保障，他们组成了整个火星殖民地坚实的后备保障。随着火星殖民地逐渐完善，很多大型设施从轨道转移到了火星表面。&lt;/p>
+&lt;figure>&lt;img src="../assets/mars_immigration/Default_Space_station_of_Mars_2_eac86804-c17d-4da4-bb8f-40aa162961e2_1.jpg"
+ alt="Unisat 的综合空间站 Till 号。">&lt;figcaption>
+ &lt;p>Unisat 的综合空间站 Till 号。&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;p>值得一提的是，Unisat 提供的包括气象卫星、定位系统和遥感卫星等在内的卫星系统为火星表面殖民地的建设提供了各种便利。&lt;/p>
+&lt;h3 id="地火运输">地火运输&lt;/h3>
+&lt;p>地球和火星之间的物资运输曾经一度成为整个火星开放计划中耗资最大的部分，这也曾经是 IIA 的研发部门投入精力最多的一个问题。2075 年，PNPT 正式并入 IIA，之后的 20 年内，太空运输业的发展达到巅峰时期。&lt;/p></description></item></channel></rss>
