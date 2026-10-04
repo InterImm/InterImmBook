@@ -1,0 +1,11 @@
+{{- /* Filled in by interimm.js with the live interimm.org menu; this markup is the fallback. */ -}}
+{{- $cn := site.Sites.Default.Home.Permalink -}}
+{{- $en := "" }}{{ range site.Sites }}{{ if eq .Language.Lang "en" }}{{ $en = .Home.Permalink }}{{ end }}{{ end -}}
+<header class="site-header" data-interimm-header data-lang="{{ site.Language.Lang }}" data-current="archives-book" data-lang-cn="{{ $cn }}" data-lang-en="{{ $en }}">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ if eq site.Language.Lang "cn" }}https://interimm.org/{{ else }}https://interimm.org/en/{{ end }}">
+      <img class="brand-mark" src="https://interimm.org/assets/ico/favicon-96x96.png" alt="" width="36" height="36">
+      <span class="brand-name">{{ i18n "org" }}</span>
+    </a>
+  </div>
+</header>

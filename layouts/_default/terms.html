@@ -1,0 +1,8 @@
+{{ define "main" }}
+<header class="page-hero"><div class="wrap"><p class="crumbs kicker"><a href="{{ "/" | relLangURL }}">{{ site.Title }}</a></p><h1>{{ .Title }}</h1></div></header>
+<div class="wrap section-pages-wrap">
+  <ul class="chips term-cloud">
+    {{- range .Data.Terms.ByCount }}<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} · {{ .Count }}</a></li>{{ end }}
+  </ul>
+</div>
+{{ end }}

@@ -1,0 +1,9 @@
+{{- with partial "video.html" . }}
+<figure class="intro-video">
+  <video autoplay muted loop playsinline preload="metadata" poster="{{ .poster }}" aria-label="{{ i18n "video" }}">
+    {{- with .webm }}<source src="{{ . }}" type="video/webm">{{ end }}
+    <source src="{{ .mp4 }}" type="video/mp4">
+  </video>
+  <figcaption><button class="video-toggle" type="button" data-video-toggle aria-pressed="false">{{ i18n "pause" }}</button></figcaption>
+</figure>
+{{- end }}

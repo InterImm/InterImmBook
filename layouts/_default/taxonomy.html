@@ -1,0 +1,8 @@
+{{ define "main" }}
+<header class="page-hero"><div class="wrap"><p class="crumbs kicker"><a href="{{ "/" | relLangURL }}">{{ site.Title }}</a> / {{ .Data.Plural }}</p><h1>{{ .Title }}</h1></div></header>
+<div class="wrap">
+  <ol class="section-pages">
+    {{- range .Pages }}<li><a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+  </ol>
+</div>
+{{ end }}

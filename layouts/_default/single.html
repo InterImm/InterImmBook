@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{- $book := index site.Data.book site.Language.Lang -}}
+{{- $here := strings.TrimSuffix "/" .RelPermalink -}}
+{{- $chapter := "" -}}
+{{- with $book }}{{ range .toc }}{{ $c := . }}{{ range .toc }}{{ if eq .link $here }}{{ $chapter = $c }}{{ end }}{{ end }}{{ end }}{{ end -}}
+<header class="page-hero book-hero">
+  <div class="wrap">
+    <p class="crumbs kicker"><a href="{{ "/" | relLangURL }}">{{ site.Title | replaceRE "[《》]" "" }}</a>{{ with $chapter }} / <a href="{{ .link }}">{{ .title }}</a>{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p class="lede">{{ . }}</p>{{ end }}
+    {{- with .Params.tags }}
+    <ul class="chips">{{ range first 8 . }}<li>{{ . }}</li>{{ end }}</ul>
+    {{- end }}
+  </div>
+</header>
+<div class="wrap doc-grid book-grid">
+  <aside class="doc-side book-side">
+    {{- partial "chapters.html" . }}
+  </aside>
+  <article class="doc-main book-main">
+    {{- partial "intro-video.html" . }}
+    <div class="prose book-prose">
+      {{ .Content }}
+    </div>
+    {{- if .IsSection }}{{ with .Pages }}
+    <ol class="section-pages">
+      {{- range . }}
+      <li><a class="card-link" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Summary | plainify | truncate 90 }}<p>{{ . }}</p>{{ end }}</li>
+      {{- end }}
+    </ol>
+    {{- end }}{{ end }}
+    {{- partial "pager.html" . }}
+    <p class="edit-links mono">
+      <a href="{{ site.Params.editURL }}{{ with .File }}{{ .Path }}{{ end }}">{{ i18n "edit" }}</a>
+      <a href="{{ site.Params.feedback }}">{{ i18n "feedback" }}</a>
+    </p>
+  </article>
+</div>
+{{ end }}

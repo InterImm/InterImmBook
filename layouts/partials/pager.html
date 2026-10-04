@@ -1,0 +1,17 @@
+{{- /* Previous and next page in book order (data/book.yml). Expects the page. */ -}}
+{{- $book := index site.Data.book site.Language.Lang -}}
+{{- $here := strings.TrimSuffix "/" .RelPermalink -}}
+{{- $flat := slice -}}
+{{- with $book }}{{ range .toc }}{{ $flat = $flat | append (dict "title" .title "link" .link) }}{{ range .toc }}{{ $flat = $flat | append (dict "title" .title "link" .link) }}{{ end }}{{ end }}{{ end -}}
+{{- $at := -1 -}}
+{{- range $i, $p := $flat }}{{ if eq $p.link $here }}{{ $at = $i }}{{ end }}{{ end -}}
+{{- if ge $at 0 }}
+<nav class="pager" aria-label="{{ i18n "pager" }}">
+  {{- if gt $at 0 }}{{ with index $flat (sub $at 1) }}
+  <a class="pager-prev" href="{{ .link }}"><span class="kicker">← {{ i18n "prev" }}</span>{{ .title }}</a>
+  {{- end }}{{ else }}<span></span>{{ end }}
+  {{- if lt (add $at 1) (len $flat) }}{{ with index $flat (add $at 1) }}
+  <a class="pager-next" href="{{ .link }}"><span class="kicker">{{ i18n "next" }} →</span>{{ .title }}</a>
+  {{- end }}{{ end }}
+</nav>
+{{- end }}
