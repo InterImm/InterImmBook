@@ -1,0 +1,9 @@
+# Intro film for 更新日志 (content/cn/changelog.md). Render: see videos/README.md.
+title: "星际移民之书 · 更新日志"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "更新日志", subtitle: "这本书的变化", caption: "这本书一直在更新。"}
+  - {type: timeline, highlight: 4, caption: "从添加致谢和时间线，到今天的新版式。", events: [{date: "2016.11", label: "更新日志"}, {date: "2016.12", label: "致谢页面"}, {date: "2020.09", label: "统一主题"}, {date: "2026.10", label: "新版式与短片"}]}
+  - {type: end, title: "更新日志", lines: ["星际移民之书", "book.interimm.org"]}

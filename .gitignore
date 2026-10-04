@@ -5,3 +5,5 @@ _build/*
 
 public/
 tmp/
+resources/_gen/
+.hugo_build.lock

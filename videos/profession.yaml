@@ -1,0 +1,9 @@
+# Intro film for 行业 (content/cn/profession/_index.md). Render: see videos/README.md.
+title: "星际移民之书 · 行业"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "行业", subtitle: "太空时代的工作", caption: "太空产业兴起，工作分工发生了巨大变化。"}
+  - {type: grid, items: ["行业介绍", "公司列表"], shape: square, caption: "这一章介绍新的行业和太空企业。"}
+  - {type: end, title: "行业", lines: ["星际移民之书", "book.interimm.org"]}

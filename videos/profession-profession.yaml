@@ -1,0 +1,10 @@
+# Intro film for 行业 · 行业介绍 (content/cn/profession/profession.md). Render: see videos/README.md.
+title: "星际移民之书 · 行业介绍"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 行业", title: "行业介绍", subtitle: "火星移民带来的新职业", caption: "火星移民兴起，许多新的行业应运而生。"}
+  - {type: grid, shape: person, label: "太空工程师", caption: "飞船驾驶员、检修员、引航员、重型机械操作员、太空打印工程师……", items: ["驾驶员", "检修员", "引航员", "机械操作", "太空打印", "轨道规划"]}
+  - {type: grid, shape: person, label: "还有更多", caption: "太空垃圾清扫、太空救援，还有飞船驾驶教练和太空健身教练。", items: ["垃圾清扫", "太空救援", "驾驶教练", "健身教练"]}
+  - {type: end, title: "行业介绍", lines: ["星际移民之书", "book.interimm.org"]}

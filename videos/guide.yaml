@@ -1,0 +1,9 @@
+# Intro film for 指南 (content/cn/guide/_index.md). Render: see videos/README.md.
+title: "星际移民之书 · 指南"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "指南", subtitle: "第一次去别的星球", caption: "火星上怎么算日期？有哪些好去处？"}
+  - {type: grid, items: ["火星指南", "土星系统指南"], shape: circle, caption: "这份指南为你解答这些问题。"}
+  - {type: end, title: "指南", lines: ["星际移民之书", "book.interimm.org"]}

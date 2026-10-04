@@ -1,0 +1,9 @@
+# Intro film for 行业 · 公司列表 (content/cn/profession/companies.md). Render: see videos/README.md.
+title: "星际移民之书 · 公司列表"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 行业", title: "公司列表", subtitle: "2200 年以前的太空企业", caption: "这里记录太阳系内成立的主要公司和组织。"}
+  - {type: merge, count: 4, unit: "商会", result: "UPI", year: "2102", caption: "比如 2102 年，四大太空商会合并为联合行星 UPI。"}
+  - {type: end, title: "公司列表", lines: ["星际移民之书", "interimm.org/hub"]}

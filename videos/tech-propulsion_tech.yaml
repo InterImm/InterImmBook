@@ -1,0 +1,12 @@
+# Intro film for 科技 · 推进技术 (content/cn/tech/propulsion_tech.md). Render: see videos/README.md.
+title: "星际移民之书 · 推进技术"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 科技", title: "推进技术", subtitle: "怎样从地球去火星", caption: "去火星，先要选一条路，再选一台引擎。"}
+  - {type: journey, origin: "地球", destination: "火星", distance: "霍曼轨道 约 259 天", caption: "最省燃料的霍曼转移轨道，单程大约要飞 259 天。"}
+  - {type: stages, caption: "书中介绍了五种地火运输轨道，各有快慢与代价。", steps: [{title: "霍曼轨道"}, {title: "弹道捕获"}, {title: "快速合点"}, {title: "星际弹射"}, {title: "持续推进"}]}
+  - {type: timeline, caption: "核动力火箭的设想由来已久。", events: [{date: "1958", label: "猎户座计划"}, {date: "1973", label: "代达罗斯计划"}, {date: "1993", label: "美杜莎"}, {date: "2060 年代", label: "电磁投射"}]}
+  - {type: grid, items: ["离子火箭", "核脉冲火箭", "热核火箭"], shape: circle, label: "行星际引擎", caption: "三类行星际引擎：离子、核脉冲与热核火箭。"}
+  - {type: end, title: "推进技术", lines: ["星际移民之书", "book.interimm.org"]}

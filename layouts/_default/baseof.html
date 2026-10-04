@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ if eq site.Language.Lang "cn" }}zh-CN{{ else }}en{{ end }}">
+<head>
+  {{- partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ i18n "skip" }}</a>
+  {{- partial "header.html" . }}
+  <main id="main">
+    {{- block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer" data-interimm-footer>
+    <div class="wrap">
+      <p class="footer-legal"><span>© {{ now.Year }} {{ site.Params.author }} · CC BY-SA 4.0</span><span class="footer-legal-links"><a href="https://github.com/{{ site.Params.github }}">GitHub</a><a href="#main">↑</a></span></p>
+    </div>
+  </footer>
+  <script>
+  // Intro films loop silently; a button pauses them, and they stay still for visitors who ask for less motion.
+  document.querySelectorAll('.intro-video').forEach(function (fig) {
+    var v = fig.querySelector('video'), b = fig.querySelector('[data-video-toggle]');
+    var still = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var sync = function () { b.textContent = v.paused ? b.dataset.play : b.dataset.pause; b.setAttribute('aria-pressed', String(v.paused)); };
+    b.dataset.play = '{{ i18n "play" }}'; b.dataset.pause = '{{ i18n "pause" }}';
+    if (still) { v.removeAttribute('autoplay'); v.pause(); }
+    b.addEventListener('click', function () { if (v.paused) v.play(); else v.pause(); });
+    v.addEventListener('play', sync); v.addEventListener('pause', sync); sync();
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{{- /* The page's intro video, if one is in static/videos/: named after the page path,
+       e.g. /history/sail/ -> videos/history-sail.{mp4,webm,jpg}. Returns a dict or nothing. */ -}}
+{{- $slug := strings.Trim .RelPermalink "/" | replaceRE "^en/?" "" | replaceRE "/" "-" -}}
+{{- if .IsHome }}{{ $slug = "home" }}{{ end -}}
+{{- if eq site.Language.Lang "en" }}{{ $slug = printf "en-%s" $slug }}{{ end -}}
+{{- $base := printf "videos/%s" $slug -}}
+{{- $out := false -}}
+{{- if fileExists (printf "static/%s.mp4" $base) -}}
+{{- $out = dict "mp4" (printf "/%s.mp4" $base) "poster" (printf "/%s.jpg" $base) "webm" (cond (fileExists (printf "static/%s.webm" $base)) (printf "/%s.webm" $base) "") -}}
+{{- end -}}
+{{- return $out -}}

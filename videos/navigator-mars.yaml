@@ -1,0 +1,12 @@
+# Intro film for 导览 · 火星 (content/cn/navigator/mars.md). Render: see videos/README.md.
+title: "星际移民之书 · 火星"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 导览", title: "火星", subtitle: "地理、气候与历法", caption: "火星，是星际移民的第一站。"}
+  - {type: compare, caption: "火星平均半径 3389.5 千米，约为地球的 53%。", left: {title: "地球", value: 6371, suffix: " km"}, right: {title: "火星", value: 3389.5, decimals: 1, suffix: " km"}}
+  - {type: counter, value: 0.376, decimals: 3, suffix: "g", label: "表面重力", caption: "火星表面重力只有 0.376g，不到地球的一半。"}
+  - {type: compare, mode: versus, caption: "最低的希腊平原与最高的奥林帕斯山，落差近 30 千米。", left: {title: "希腊平原", value: -8200, suffix: " m"}, right: {title: "奥林帕斯山", value: 21229, suffix: " m"}}
+  - {type: counter, value: 24, unit: "个火星月", label: "火星历", caption: "火星历一年分为二十四个月，常用二十四节气命名。"}
+  - {type: end, title: "火星", lines: ["星际移民之书", "book.interimm.org"]}

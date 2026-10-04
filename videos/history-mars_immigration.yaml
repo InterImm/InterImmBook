@@ -1,0 +1,13 @@
+# Intro film for 历史 · 火星移民 (content/cn/history/mars_immigration.md). Render: see videos/README.md.
+title: "星际移民之书 · 火星移民"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 历史", title: "火星移民", subtitle: "从一座前哨站到十一座城市", caption: "火星殖民地的一百三十年。"}
+  - {type: place, name: "伊希地平原", detail: "首个火星前哨站", coordinates: "16.18°N, 84.62°E", year: "2070", caption: "2070 年 4 月，首批 15 名移民在伊希地着陆，建起第一座前哨站。"}
+  - {type: stages, current: 1, caption: "星际移民局的构想：前哨站、基地、城市，三步建成殖民地。", steps: [{title: "前哨站"}, {title: "基地"}, {title: "城市"}]}
+  - {type: merge, count: 4, unit: "商会", result: "UPI", year: "2102", caption: "2102 年，四大太空商会合并为联合行星，殖民地投入大增。"}
+  - {type: counter, value: 11, unit: "座城市", label: "截至 2200 年", caption: "到 2200 年，火星上已有 11 座城市。"}
+  - {type: grid, items: ["伊希地", "亚马逊", "子午线", "希腊"], shape: house, label: "四大城市圈", caption: "相邻的城市互惠互利，连成四个城市圈。"}
+  - {type: end, title: "火星移民", lines: ["星际移民之书", "book.interimm.org"]}

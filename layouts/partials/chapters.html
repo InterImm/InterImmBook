@@ -1,0 +1,24 @@
+{{- /* The book's table of contents from data/book.yml, with the current page marked. Expects the page. */ -}}
+{{- $page := . -}}
+{{- $book := index site.Data.book site.Language.Lang -}}
+{{- $here := strings.TrimSuffix "/" .RelPermalink -}}
+{{- with $book }}
+<nav class="chapters" aria-label="{{ .title }}">
+  <p class="kicker">{{ i18n "contents" }}</p>
+  <ol class="chapter-list">
+    {{- range $i, $c := .toc }}
+    {{- $open := or (eq $here $c.link) (hasPrefix $here (printf "%s/" $c.link)) }}
+    <li{{ if $open }} class="is-open"{{ end }}>
+      <a href="{{ $c.link }}"{{ if eq $here $c.link }} aria-current="page"{{ end }}><span class="chapter-no">{{ printf "%02d" (add $i 1) }}</span>{{ $c.title }}</a>
+      {{- with $c.toc }}
+      <ol>
+        {{- range . }}
+        <li><a href="{{ .link }}"{{ if eq $here .link }} aria-current="page"{{ end }}>{{ .title }}</a></li>
+        {{- end }}
+      </ol>
+      {{- end }}
+    </li>
+    {{- end }}
+  </ol>
+</nav>
+{{- end }}

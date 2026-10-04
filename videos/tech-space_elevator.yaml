@@ -1,0 +1,10 @@
+# Intro film for 科技 · 太空电梯 (content/cn/tech/space_elevator.md). Render: see videos/README.md.
+title: "星际移民之书 · 太空电梯"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 科技", title: "太空电梯", subtitle: "沿着缆绳上太空", caption: "一条从地面直达太空的缆绳。"}
+  - {type: stages, caption: "系统质心在同步轨道上，缆绳垂到地面，电梯沿缆绳向上。", steps: [{title: "地面站"}, {title: "缆绳"}, {title: "同步轨道"}]}
+  - {type: quote, text: "大大降低运输成本", marks: false, caption: "太空电梯大大降低运输成本，推动了火星的发展。"}
+  - {type: end, title: "太空电梯", lines: ["星际移民之书", "book.interimm.org"]}

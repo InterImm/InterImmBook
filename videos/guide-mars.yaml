@@ -1,0 +1,11 @@
+# Intro film for 指南 · 火星指南 (content/cn/guide/mars.md). Render: see videos/README.md.
+title: "星际移民之书 · 火星指南"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 指南", title: "火星指南", subtitle: "火星的风景", caption: "高山、峡谷、陨坑，火星的景点数不胜数。"}
+  - {type: place, name: "水手峡谷", detail: "长 3000 千米，深 8 千米", caption: "从轨道上，第一眼看到的是火星的伤疤：水手峡谷。"}
+  - {type: ranking, label: "火星的高山", suffix: " km", caption: "奥林帕斯山是火星最高峰，埃律西昂山也高达 14 千米。", items: [{label: "奥林帕斯山", value: 21}, {label: "埃律西昂山", value: 14}]}
+  - {type: grid, items: ["奥林帕斯山", "塔尔西斯山", "埃律西昂山", "佛勒格拉山", "水手峡谷", "盖尔撞击坑"], shape: house, label: "必去之地", caption: "还有像三颗纽扣的塔尔西斯山，和山上有山的盖尔撞击坑。"}
+  - {type: end, title: "火星指南", lines: ["星际移民之书", "book.interimm.org"]}

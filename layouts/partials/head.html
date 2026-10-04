@@ -1,0 +1,39 @@
+{{- $title := site.Title -}}
+{{- if not .IsHome }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end -}}
+{{- $description := .Description | default (.Summary | plainify | truncate 160) | default site.Params.description -}}
+<meta charset="utf-8">
+<script>document.documentElement.classList.add("js");(function(m){if(m)document.documentElement.dataset.theme=m[1]})(document.cookie.match(/(?:^|; )interimm-theme=(light|dark)/))</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#131315" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f5f1" media="(prefers-color-scheme: light)">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ site.Params.author }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- with partial "video.html" . }}
+<meta property="og:image" content="{{ .poster | absURL }}">
+<meta property="og:video" content="{{ .mp4 | absURL }}">
+{{- end }}
+<link rel="icon" href="https://interimm.org/assets/ico/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" href="https://interimm.org/assets/ico/favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://interimm.org/assets/ico/apple-touch-icon.png">
+{{- range .AlternativeOutputFormats }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
+{{- end }}
+<!-- Shared InterImm look (colours, fonts, header, footer), served by interimm.org. See
+     https://github.com/InterImm/interimm.github.io/blob/hugo/kit/README.md -->
+<link rel="stylesheet" href="https://interimm.org/kit/interimm.css">
+{{- with resources.Get "css/book.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{- end }}
+<script src="https://interimm.org/kit/interimm.js" defer></script>
+{{- if strings.Contains .RawContent "$$" }}
+<script>window.MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['$$', '$$']] } };</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" defer></script>
+{{- end }}

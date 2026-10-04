@@ -1,0 +1,11 @@
+# Intro film for 历史 · 太空电梯 (content/cn/history/space_elevator.md). Render: see videos/README.md.
+title: "星际移民之书 · 太空电梯"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 历史", title: "太空电梯", subtitle: "火星的天梯", caption: "太空电梯的建设可谓一波三折。"}
+  - {type: place, name: "视界城", detail: "第一架火星太空电梯", year: "2158", caption: "2158 年，地表与太空之间的运输成了瓶颈，第一架火星太空电梯应运而生。"}
+  - {type: counter, value: 3, unit: "年", label: "第二架电梯", caption: "有了经验，第二架太空电梯只用三年就建成，服务伊希地城市圈。"}
+  - {type: timeline, caption: "地球化启动后，2230 到 2234 年间又建起两架。", events: [{date: "2158", label: "第一架"}, {date: "2230", label: "地球化启动后"}, {date: "2234", label: "共四架"}]}
+  - {type: end, title: "太空电梯", lines: ["星际移民之书", "book.interimm.org"]}

@@ -1,0 +1,12 @@
+# Intro film for 历史 · 火星地球化 (content/cn/history/terraformingmars.md). Render: see videos/README.md.
+title: "星际移民之书 · 火星地球化"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 历史", title: "火星地球化", subtitle: "火星家园计划", caption: "让火星的空气可以呼吸。"}
+  - {type: place, name: "行星大学", detail: "南河城", year: "2125", caption: "2125 年，行星大学在南河城成立，地球化研究有了自己的家。"}
+  - {type: stages, caption: "“火星家园”计划分三期：大气改造、植被建立、生态多样化。", steps: [{title: "大气改造"}, {title: "植被建立"}, {title: "生态多样化"}]}
+  - {type: journey, origin: "泰坦", destination: "火星", distance: "大气与水", caption: "补充火星大气的气体，主要来自土卫六泰坦。"}
+  - {type: timeline, highlight: 1, caption: "第一期工程断断续续进行了近 160 年。", events: [{date: "2219", label: "一期启动"}, {date: "2422", label: "生态补全"}, {date: "2462", label: "空气近乎达标"}]}
+  - {type: end, title: "火星地球化", lines: ["星际移民之书", "book.interimm.org"]}

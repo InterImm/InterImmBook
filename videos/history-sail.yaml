@@ -1,0 +1,13 @@
+# Intro film for 历史 · 起航 (content/cn/history/sail.md). Render: see videos/README.md.
+title: "星际移民之书 · 起航"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书 · 历史", title: "起航", subtitle: "从赤风计划到星际移民局", caption: "人类走向火星的第一段路。"}
+  - {type: merge, count: 27, unit: "国", result: "赤风", year: "2021", caption: "2021 年，27 个国家联合启动首个载人登火计划“赤风”。"}
+  - {type: journey, origin: "近地轨道", destination: "火星", distance: "500 吨飞船", year: "2027", caption: "六次发射，在近地轨道组装出一艘近 500 吨的飞船，飞向红色星球。"}
+  - {type: place, name: "阿蒙蒂斯区", detail: "乌托邦平原边缘", coordinates: "23.27°N, 109.08°E", year: "2027", caption: "2027 年 7 月 23 日，人类的脚印第一次印在火星上。"}
+  - {type: grid, items: ["运输", "通信", "旅游", "能源", "采矿", "制造"], shape: circle, label: "太空产业化", caption: "此后三十年，各国转向近地太空，六大太空产业兴起。"}
+  - {type: timeline, highlight: 5, caption: "近地市场开发殆尽，“泛火星思潮”蔓延，目光重新投向火星。", events: [{date: "2021", label: "赤风计划"}, {date: "2027", label: "首次登火"}, {date: "2060", label: "联合行星"}, {date: "2062", label: "星际移民局"}, {date: "2070", label: "首批移民"}]}
+  - {type: end, title: "起航", lines: ["星际移民之书", "book.interimm.org"]}

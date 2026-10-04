@@ -1,0 +1,9 @@
+# Intro film for 科技 (content/cn/tech/_index.md). Render: see videos/README.md.
+title: "星际移民之书 · 科技"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "科技", subtitle: "星际移民的技术", caption: "这一部分讲述星际移民的相关科技。"}
+  - {type: grid, items: ["推进技术", "太空电梯", "通信技术", "移民产业"], shape: circle, caption: "推进、太空电梯、通信，以及判断哪里适合移民。"}
+  - {type: end, title: "科技", lines: ["星际移民之书", "book.interimm.org"]}

@@ -1,0 +1,9 @@
+# Intro film for 致谢 (content/cn/acknowledgement.md). Render: see videos/README.md.
+title: "星际移民之书 · 致谢"
+languages: [zh]
+aspect: "16:9"
+theme: bauhaus
+scenes:
+  - {type: title, kicker: "星际移民之书", title: "致谢", subtitle: "共同写成的书", caption: "这本书由很多作者共同完成。"}
+  - {type: counter, value: 9, unit: "位贡献者", caption: "感谢每一位贡献者。"}
+  - {type: end, title: "谢谢", lines: ["星际移民之书", "book.interimm.org"]}

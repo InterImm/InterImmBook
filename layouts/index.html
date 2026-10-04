@@ -1,14 +1,36 @@
-{{ define "title"}} {{ .Site.Title}} {{end}}
-{{ define "header"}} {{ partial "menu" .}} {{end}}
-
 {{ define "main" }}
-
-{{ partial "home/hero.html" . }}
-<!-- {{ partial "home/news.html" . }} -->
-<!-- {{ partial "home/showcards.html" . }} -->
-<!-- {{ partial "home/topics.html" . }} -->
-<!-- {{ partial "home/support.html" . }} -->
-
+{{- $book := index site.Data.book site.Language.Lang -}}
+<header class="page-hero book-home">
+  <div class="wrap">
+    <p class="kicker">{{ i18n "kicker" }}</p>
+    <h1>{{ site.Title | replaceRE "[《》]" "" }}</h1>
+    <p class="lede">{{ site.Params.description }}</p>
+    {{- with site.Params.tags }}<ul class="chips">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+    <p class="hero-actions">
+      <a class="btn btn-primary btn-lg" href="{{ site.Params.home.primary_button.link | relLangURL }}">{{ site.Params.home.primary_button.title }} <span>→</span></a>
+      <a class="btn btn-ghost btn-lg" href="https://github.com/{{ site.Params.github }}">GitHub</a>
+    </p>
+  </div>
+</header>
+{{- partial "intro-video.html" . }}
+{{- with $book }}
+<section class="section">
+  <div class="wrap doc-grid">
+    <div class="doc-side"><p class="kicker">{{ i18n "contents" }}</p></div>
+    <ol class="doc-main toc-index">
+      {{- range $i, $c := .toc }}
+      <li>
+        <span class="chapter-no mono">{{ printf "%02d" (add $i 1) }}</span>
+        <div>
+          <h2><a class="card-link" href="{{ $c.link }}">{{ $c.title }}</a></h2>
+          {{- with $c.toc }}
+          <ul class="chips">{{ range . }}<li><a href="{{ .link }}">{{ .title }}</a></li>{{ end }}</ul>
+          {{- end }}
+        </div>
+      </li>
+      {{- end }}
+    </ol>
+  </div>
+</section>
+{{- end }}
 {{ end }}
-
-{{ define "footer" }} {{ partial "footer" .}} {{ end }}
